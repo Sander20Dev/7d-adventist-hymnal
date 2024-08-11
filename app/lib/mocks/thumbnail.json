@@ -1,0 +1,508 @@
+[
+  {
+    "from": 1,
+    "to": 21,
+    "textColor": "black",
+    "src": "thumbnail-1",
+    "orientation": {
+      "x": -1,
+      "y": -1
+    },
+    "icon": "group"
+  },
+  {
+    "from": 22,
+    "to": 34,
+    "textColor": "black",
+    "src": "thumbnail-2",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "group"
+  },
+  {
+    "from": 35,
+    "to": 45,
+    "textColor": "white",
+    "src": "thumbnail-3",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "group"
+  },
+  {
+    "from": 46,
+    "to": 47,
+    "textColor": "black",
+    "src": "thumbnail-4",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "group"
+  },
+  {
+    "from": 48,
+    "to": 52,
+    "textColor": "black",
+    "src": "thumbnail-5",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "group"
+  },
+  {
+    "from": 53,
+    "to": 59,
+    "textColor": "black",
+    "src": "thumbnail-6",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "ray-light"
+  },
+  {
+    "from": 60,
+    "to": 77,
+    "textColor": "black",
+    "src": "thumbnail-7",
+    "orientation": {
+      "x": 1,
+      "y": 1
+    },
+    "icon": "ray-light"
+  },
+  {
+    "from": 78,
+    "to": 92,
+    "textColor": "white",
+    "src": "thumbnail-8",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 93,
+    "to": 102,
+    "textColor": "black",
+    "src": "thumbnail-9",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 103,
+    "to": 106,
+    "textColor": "black",
+    "src": "thumbnail-10",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 107,
+    "to": 126,
+    "textColor": "black",
+    "src": "thumbnail-11",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 127,
+    "to": 157,
+    "textColor": "black",
+    "src": "thumbnail-12",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 158,
+    "to": 189,
+    "textColor": "white",
+    "src": "thumbnail-13",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "cross"
+  },
+  {
+    "from": 190,
+    "to": 203,
+    "textColor": "black",
+    "src": "thumbnail-14",
+    "orientation": {
+      "x": -1,
+      "y": 1
+    },
+    "icon": "flame"
+  },
+  {
+    "from": 204,
+    "to": 208,
+    "textColor": "black",
+    "src": "thumbnail-15",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "bible"
+  },
+  {
+    "from": 209,
+    "to": 237,
+    "textColor": "black",
+    "src": "thumbnail-16",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 238,
+    "to": 244,
+    "textColor": "white",
+    "src": "thumbnail-17",
+    "orientation": {
+      "x": 1,
+      "y": -1
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 245,
+    "to": 283,
+    "textColor": "white",
+    "src": "thumbnail-18",
+    "orientation": {
+      "x": 1,
+      "y": 1
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 284,
+    "to": 310,
+    "textColor": "black",
+    "src": "thumbnail-19",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 311,
+    "to": 315,
+    "textColor": "white",
+    "src": "thumbnail-20",
+    "orientation": {
+      "x": 1,
+      "y": 1
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 316,
+    "to": 344,
+    "textColor": "black",
+    "src": "thumbnail-21",
+    "orientation": {
+      "x": 1,
+      "y": -1
+    },
+    "icon": "trumpet"
+  },
+  {
+    "from": 345,
+    "to": 364,
+    "textColor": "black",
+    "src": "thumbnail-22",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 365,
+    "to": 372,
+    "textColor": "black",
+    "src": "thumbnail-23",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 373,
+    "to": 390,
+    "textColor": "black",
+    "src": "thumbnail-24",
+    "orientation": {
+      "x": -1,
+      "y": 0
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 391,
+    "to": 438,
+    "textColor": "black",
+    "src": "thumbnail-25",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 439,
+    "to": 465,
+    "textColor": "white",
+    "src": "thumbnail-26",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 466,
+    "to": 473,
+    "textColor": "black",
+    "src": "thumbnail-27",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 474,
+    "to": 486,
+    "textColor": "black",
+    "src": "thumbnail-28",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 487,
+    "to": 490,
+    "textColor": "black",
+    "src": "thumbnail-29",
+    "orientation": {
+      "x": 0,
+      "y": 1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 491,
+    "to": 504,
+    "textColor": "black",
+    "src": "thumbnail-30",
+    "orientation": {
+      "x": -1,
+      "y": 1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 505,
+    "to": 520,
+    "textColor": "black",
+    "src": "thumbnail-31",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 521,
+    "to": 525,
+    "textColor": "black",
+    "src": "thumbnail-32",
+    "orientation": {
+      "x": 1,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 526,
+    "to": 527,
+    "textColor": "black",
+    "src": "thumbnail-33",
+    "orientation": {
+      "x": 1,
+      "y": -1
+    },
+    "icon": "cross-heard"
+  },
+  {
+    "from": 528,
+    "to": 533,
+    "textColor": "white",
+    "src": "thumbnail-34",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "church"
+  },
+  {
+    "from": 534,
+    "to": 534,
+    "textColor": "black",
+    "src": "thumbnail-35",
+    "orientation": {
+      "x": -1,
+      "y": 0
+    },
+    "icon": "church"
+  },
+  {
+    "from": 535,
+    "to": 550,
+    "textColor": "black",
+    "src": "thumbnail-36",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "church"
+  },
+  {
+    "from": 551,
+    "to": 578,
+    "textColor": "black",
+    "src": "thumbnail-37",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "church"
+  },
+  {
+    "from": 579,
+    "to": 580,
+    "textColor": "white",
+    "src": "thumbnail-38",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "church"
+  },
+  {
+    "from": 581,
+    "to": 586,
+    "textColor": "black",
+    "src": "thumbnail-39",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "church"
+  },
+  {
+    "from": 587,
+    "to": 587,
+    "textColor": "black",
+    "src": "thumbnail-40",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "church"
+  },
+  {
+    "from": 588,
+    "to": 588,
+    "textColor": "white",
+    "src": "thumbnail-41",
+    "orientation": {
+      "x": 1,
+      "y": 0
+    },
+    "icon": "church"
+  },
+  {
+    "from": 589,
+    "to": 589,
+    "textColor": "black",
+    "src": "thumbnail-42",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "home-heard"
+  },
+  {
+    "from": 590,
+    "to": 596,
+    "textColor": "black",
+    "src": "thumbnail-43",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "home-heard"
+  },
+  {
+    "from": 597,
+    "to": 597,
+    "textColor": "black",
+    "src": "thumbnail-44",
+    "orientation": {
+      "x": 0,
+      "y": 0
+    },
+    "icon": "home-heard"
+  },
+  {
+    "from": 598,
+    "to": 607,
+    "textColor": "black",
+    "src": "thumbnail-45",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "home-heard"
+  },
+  {
+    "from": 608,
+    "to": 613,
+    "textColor": "black",
+    "src": "thumbnail-46",
+    "orientation": {
+      "x": 0,
+      "y": -1
+    },
+    "icon": "home-heard"
+  }
+]
