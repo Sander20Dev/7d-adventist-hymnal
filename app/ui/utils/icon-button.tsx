@@ -11,11 +11,14 @@ export default function IconButton({
 }: IconButtonProps) {
   return (
     <button
+      type='button'
       className={clsx(
         'flex gap-2 rounded-full p-4 transition outline-none',
         {
           'bg-gray-200 hover:bg-gray-300':
-            className == null || !className.includes('bg-'),
+            className == null ||
+            !className.startsWith('bg-') ||
+            !className.includes(' bg-'),
         },
         className
       )}
