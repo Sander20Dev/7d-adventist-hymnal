@@ -4,6 +4,7 @@ import { getMinTime } from '@/app/lib/hymn/time'
 import { Hymn, Lyric, TextColor, Thumbnail } from '@/app/lib/types'
 import {
   IconMaximize,
+  IconMinimize,
   IconPlayerPause,
   IconPlayerPlay,
   IconPlayerTrackNext,
@@ -15,6 +16,10 @@ import {
 } from '@tabler/icons-react'
 import clsx from 'clsx'
 import { useEffect, useRef, useState } from 'react'
+
+const numbers = Array(10)
+  .fill(0)
+  .map((_, i) => i.toString())
 
 export default function LyricsScreen({
   lyrics,
@@ -38,6 +43,7 @@ export default function LyricsScreen({
   const [muted, setMuted] = useState(false)
   const [volume, setVolume] = useState(100)
   const [time, setTime] = useState(0)
+  const [fullscreen, setFullscreen] = useState(false)
 
   useEffect(() => {
     const isPlayed = () => setPlayed(!audio.current.paused)
@@ -45,6 +51,10 @@ export default function LyricsScreen({
     audio.current.addEventListener('pause', isPlayed)
     const getTime = () => setTime(audio.current.currentTime)
     audio.current.addEventListener('timeupdate', getTime)
+
+    document.addEventListener('fullscreenchange', () => {
+      setFullscreen(document.fullscreenElement != null)
+    })
 
     audio.current.load()
   }, [])
@@ -55,14 +65,32 @@ export default function LyricsScreen({
   useEffect(() => {
     audio.current.volume = volume / 100
   }, [volume])
+  useEffect(() => {
+    console.log(time)
+    if (hymn.steps == null) return
+    const step = hymn.steps.findIndex(
+      (t, i, arr) => t <= time && time < (arr[i + 1] ?? Infinity)
+    )
+    console.log(step)
+    if (step < 0) return
+
+    setIndex(step - 1)
+  }, [time])
+
+  const refreshIndex = (index: number) => {
+    if (hymn.steps == null) return
+    audio.current.currentTime = hymn.steps[index]
+  }
 
   const handlePrev = () => {
     if (index < 0) return
     setIndex(index - 1)
+    refreshIndex(index)
   }
   const handleNext = () => {
     if (index + 1 > lyrics.length) return
     setIndex(index + 1)
+    refreshIndex(index + 2)
   }
 
   const handlePlay = () => {
@@ -74,6 +102,14 @@ export default function LyricsScreen({
   }
   const handleMute = () => {
     setMuted(!muted)
+  }
+
+  const handleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen()
+    } else if (document.exitFullscreen) {
+      document.exitFullscreen()
+    }
   }
 
   window.onkeydown = (ev) => {
@@ -96,12 +132,22 @@ export default function LyricsScreen({
         setVolume(Math.max(volume - 10, 0))
       }
     }
+    if (ev.key.toLowerCase() === 'm') {
+      handleMute()
+    }
+    if (ev.key.toLowerCase() === 'f') {
+      handleFullscreen()
+    }
+    if (numbers.includes(ev.key)) {
+      const num = +ev.key
+      audio.current.currentTime = audio.current.duration * num * 0.1
+    }
   }
 
   return (
     <div className='h-screen grid'>
       <div
-        className='h-screen max-h-screen flex flex-row'
+        className='h-screen max-h-screen flex flex-row transition'
         style={{ transform: `translateX(-${(index + 1) * 100}vw)` }}>
         <TitleScreen hymn={hymn} textColor={thumbnail.textColor} />
         {lyrics.map((lyric, i) => (
@@ -184,8 +230,8 @@ export default function LyricsScreen({
                 ? '--:--'
                 : getMinTime(audio.current.duration)}
             </span>
-            <button>
-              <IconMaximize />
+            <button onClick={handleFullscreen} className='ml-2'>
+              {fullscreen ? <IconMinimize /> : <IconMaximize />}
             </button>
           </section>
         </section>
