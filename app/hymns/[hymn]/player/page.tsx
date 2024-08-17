@@ -25,7 +25,7 @@ export default function HymnPage({
   return (
     <main
       className={clsx(
-        'bg-gray-50 h-screen overflow-hidden bg-no-repeat bg-cover',
+        'bg-gray-50 h-dvh overflow-hidden bg-no-repeat bg-cover',
         {
           'bg-center':
             thumbnail.orientation.x === 0 && thumbnail.orientation.y === 0,

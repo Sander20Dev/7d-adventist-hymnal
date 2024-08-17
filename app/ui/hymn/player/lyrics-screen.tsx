@@ -1,8 +1,6 @@
 'use client'
 
 import { getMinTime } from '@/app/lib/hymn/time'
-import { getMutedStorage, setMutedStorage } from '@/app/lib/storage/muted'
-import { getVolumeStorage, setVolumeStorage } from '@/app/lib/storage/volume'
 import { Hymn, Lyric, TextColor, Thumbnail } from '@/app/lib/types'
 import {
   IconExclamationCircle,
@@ -18,13 +16,9 @@ import {
   IconVolumeOff,
 } from '@tabler/icons-react'
 import clsx from 'clsx'
-import { useEffect, useRef, useState } from 'react'
 import Back from '../back'
 import ThumbnailIcons from '../../icons'
-
-const numbers = Array(10)
-  .fill(0)
-  .map((_, i) => i.toString())
+import { useAudio } from '@/app/lib/hymn/player/audio'
 
 export default function LyricsScreen({
   lyrics,
@@ -35,148 +29,33 @@ export default function LyricsScreen({
   hymn: Hymn
   thumbnail: Thumbnail
 }) {
-  const [index, setIndex] = useState(-1)
-  const audio = useRef(
-    new Audio(
-      'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
-        hymn.number +
-        '.mp3'
-    )
-  )
+  const {
+    audio,
+    loaded,
 
-  const [played, setPlayed] = useState(false)
-  const [muted, setMuted] = useState(getMutedStorage)
-  const [volume, setVolume] = useState(getVolumeStorage)
-  const [time, setTime] = useState(0)
-  const [fullscreen, setFullscreen] = useState(false)
-  const [loaded, setLoaded] = useState(false)
+    fullscreen,
+    index,
+    muted,
+    played,
+    visible,
+    time,
+    volume,
 
-  const [visible, setVisible] = useState(true)
-  const timer = useRef<number | null>(null)
+    handleFullscreen,
+    handleMute,
+    handleVolume,
+    handleNext,
+    handlePlay,
+    handlePrev,
+    handleMobileVisible,
 
-  useEffect(() => {
-    const isPlayed = () => setPlayed(!audio.current.paused)
-    audio.current.addEventListener('play', isPlayed)
-    audio.current.addEventListener('pause', isPlayed)
-    const getTime = () => setTime(audio.current.currentTime)
-    audio.current.addEventListener('timeupdate', getTime)
+    handleMobilePlay,
 
-    audio.current.addEventListener('loadeddata', () => setLoaded(true))
-
-    document.addEventListener('fullscreenchange', () => {
-      setFullscreen(document.fullscreenElement != null)
-    })
-
-    audio.current.load()
-  }, [])
-
-  useEffect(() => {
-    audio.current.muted = muted
-    setMutedStorage(muted)
-  }, [muted])
-  useEffect(() => {
-    audio.current.volume = volume / 100
-    setVolumeStorage(volume)
-  }, [volume])
-  useEffect(() => {
-    if (hymn.steps == null) return
-    const step = hymn.steps.findIndex(
-      (t, i, arr) => t <= time && time < (arr[i + 1] ?? Infinity)
-    )
-
-    if (step < 0) return
-
-    setIndex(step - 1)
-  }, [time])
-
-  const refreshIndex = (index: number) => {
-    if (hymn.steps == null) return
-    audio.current.currentTime = hymn.steps[index]
-  }
-
-  const handlePrev = () => {
-    if (index < 0) return
-    setIndex(index - 1)
-    refreshIndex(index)
-  }
-  const handleNext = () => {
-    if (index + 1 > lyrics.length) return
-    setIndex(index + 1)
-    refreshIndex(index + 2)
-  }
-
-  const handlePlay = () => {
-    if (audio.current.paused) {
-      audio.current.play()
-    } else {
-      audio.current.pause()
-    }
-  }
-  const handleMute = () => {
-    setMuted(!muted)
-  }
-
-  const handleFullscreen = () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen()
-    } else if (document.exitFullscreen) {
-      document.exitFullscreen()
-    }
-  }
-
-  window.onkeydown = (ev) => {
-    if (ev.key === 'ArrowLeft') {
-      handlePrev()
-    }
-    if (ev.key === 'ArrowRight') {
-      handleNext()
-    }
-    if (ev.key === ' ') {
-      handlePlay()
-    }
-    if (ev.key === 'ArrowUp') {
-      if (volume < 100) {
-        setVolume(Math.min(volume + 10, 100))
-      }
-    }
-    if (ev.key === 'ArrowDown') {
-      if (volume > 1) {
-        setVolume(Math.max(volume - 10, 0))
-      }
-    }
-    if (ev.key.toLowerCase() === 'm') {
-      handleMute()
-    }
-    if (ev.key.toLowerCase() === 'f') {
-      handleFullscreen()
-    }
-    if (numbers.includes(ev.key)) {
-      const num = +ev.key
-      audio.current.currentTime = audio.current.duration * num * 0.1
-    }
-
-    handleVisible()
-  }
-
-  const handleVisible = () => {
-    if (timer.current != null) {
-      window.clearTimeout(timer.current)
-      timer.current = null
-    }
-
-    setVisible(true)
-
-    if (!audio.current.paused) {
-      timer.current = window.setTimeout(() => {
-        setVisible(false)
-      }, 2000)
-    }
-  }
-
-  window.onmousemove = handleVisible
+    mobile,
+  } = useAudio(hymn, lyrics)
 
   return (
-    <div className='h-screen grid'>
+    <div className='h-dvh grid select-none'>
       <Back
         href={'/hymns/' + hymn.number}
         className={clsx('transition', {
@@ -184,7 +63,9 @@ export default function LyricsScreen({
         })}
       />
       <div
-        className='h-screen max-h-screen flex flex-row transition'
+        onClick={handleMobileVisible}
+        onDoubleClick={handleMobilePlay}
+        className='h-dvh max-h-dvh flex flex-row transition'
         style={{ transform: `translateX(-${(index + 1) * 100}vw)` }}>
         <TitleScreen hymn={hymn} textColor={thumbnail.textColor} />
         {lyrics.map((lyric, i) => (
@@ -282,26 +163,30 @@ export default function LyricsScreen({
               <button onClick={handleNext}>
                 <IconPlayerTrackNext />
               </button>
-              <button onClick={handleMute} className='ml-2'>
-                {muted ? (
-                  <IconVolumeOff />
-                ) : volume > 50 ? (
-                  <IconVolume />
-                ) : volume > 0 ? (
-                  <IconVolume2 />
-                ) : (
-                  <IconVolume3 />
-                )}
-              </button>
-              <input
-                type='range'
-                step={1}
-                min={0}
-                max={100}
-                onChange={(ev) => setVolume(+ev.target.value)}
-                value={volume}
-                className='w-full max-w-32'
-              />
+              {!mobile && (
+                <>
+                  <button onClick={handleMute} className='ml-2'>
+                    {muted ? (
+                      <IconVolumeOff />
+                    ) : volume > 50 ? (
+                      <IconVolume />
+                    ) : volume > 0 ? (
+                      <IconVolume2 />
+                    ) : (
+                      <IconVolume3 />
+                    )}
+                  </button>
+                  <input
+                    type='range'
+                    step={1}
+                    min={0}
+                    max={100}
+                    onChange={handleVolume}
+                    value={volume}
+                    className='w-full max-w-32'
+                  />
+                </>
+              )}
             </section>
             <section>
               <span className='text-nowrap'>
@@ -330,8 +215,9 @@ function TitleScreen({
 }) {
   return (
     <Screen textColor={textColor}>
-      <h1>
-        {hymn.number} | {hymn.title}
+      <h1 className='flex justify-center w-fit'>
+        <p className='w-fit border-r-4 pr-2 border-current'>{hymn.number}</p>
+        <p className='w-fit text-start pl-2'>{hymn.title}</p>
       </h1>
     </Screen>
   )
@@ -343,7 +229,7 @@ interface ScreenProps {
 
 function Screen({ textColor, children }: React.PropsWithChildren<ScreenProps>) {
   return (
-    <section className='flex flex-col justify-center items-center w-screen h-full'>
+    <section className='flex flex-col justify-center items-center w-screen h-full p-4'>
       <div
         className={clsx(
           'bg-backdrop p-xl sm:p-2xl md:p-3xl rounded-md text-center',
