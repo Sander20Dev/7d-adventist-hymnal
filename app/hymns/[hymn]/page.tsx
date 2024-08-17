@@ -21,7 +21,7 @@ export default function HymnPage({
 
   return (
     <main className='bg-gray-50 min-h-screen'>
-      <Back number={hymn.number} />
+      <Back />
       <Header hymn={hymn} />
       <Lyrics hymn={hymn} />
       <Footer hymn={hymn} />
