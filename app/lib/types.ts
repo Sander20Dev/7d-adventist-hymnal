@@ -24,7 +24,7 @@ export interface Thumbnail {
   textColor: TextColor
   src: string
   orientation: Orientation
-  icon: string
+  icon: ThumbnailIcon
 }
 
 export interface Orientation {
@@ -35,4 +35,22 @@ export interface Orientation {
 export enum TextColor {
   Black = 'black',
   White = 'white',
+}
+
+export enum ThumbnailIcon {
+  Group = 'group',
+  RayLight = 'ray-light',
+  Cross = 'cross',
+  Flame = 'flame',
+  Bible = 'bible',
+  Trumpet = 'trumpet',
+  CrossHeard = 'cross-heard',
+  Church = 'church',
+  HomeHeard = 'home-heard',
+}
+
+export enum Storage {
+  Volume = 'player.volume',
+  Muted = 'player.mute',
+  LastHymns = 'player.last_hymns',
 }

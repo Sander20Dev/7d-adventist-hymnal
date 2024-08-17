@@ -1,4 +1,5 @@
 import { hymns } from '@/app/lib/hymns'
+import { numberParser } from '@/app/lib/parsers/number'
 import Back from '@/app/ui/hymn/back'
 import Footer from '@/app/ui/hymn/footer'
 import Header from '@/app/ui/hymn/header'
@@ -12,9 +13,8 @@ export default function HymnPage({
   searchParams: {}
 }) {
   if (typeof rawHymnNumber !== 'string') notFound()
-  const number = +rawHymnNumber
-  if (isNaN(number)) notFound()
-  if (rawHymnNumber !== number.toString()) notFound()
+  const number = numberParser(rawHymnNumber)
+  if (number == null) notFound()
 
   const hymn = hymns[number - 1]
   if (hymn == null) notFound()

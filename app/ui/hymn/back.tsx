@@ -1,17 +1,24 @@
 'use client'
 
 import { IconChevronLeft } from '@tabler/icons-react'
-import IconButton from '../utils/icon-button'
-import { useRouter } from 'next/navigation'
+import clsx from 'clsx'
+import Link from 'next/link'
 
-export default function Back({ number }: { number: number }) {
-  const router = useRouter()
-
+export default function Back({
+  className,
+  href,
+}: {
+  className?: string
+  href?: string
+}) {
   return (
-    <IconButton
-      className='fixed top-2 left-2 p-2 bg-gray-50 hover:bg-gray-100 border bg-backdrop border-gray-200'
-      onClick={() => router.back()}>
+    <Link
+      href={href ?? '/'}
+      className={clsx(
+        'flex gap-2 rounded-full transition outline-none fixed top-2 left-2 z-20 p-2 bg-gray-50 hover:bg-opacity-75 border bg-backdrop border-gray-200',
+        className
+      )}>
       <IconChevronLeft />
-    </IconButton>
+    </Link>
   )
 }

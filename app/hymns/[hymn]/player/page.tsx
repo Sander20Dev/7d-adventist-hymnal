@@ -1,5 +1,6 @@
 import { prepareLyrics } from '@/app/lib/hymn/player/lyrics'
 import { hymns } from '@/app/lib/hymns'
+import { numberParser } from '@/app/lib/parsers/number'
 import { getThumbnail } from '@/app/lib/thumbnail'
 import { TextColor } from '@/app/lib/types'
 import LyricsScreen from '@/app/ui/hymn/player/lyrics-screen'
@@ -13,9 +14,9 @@ export default function HymnPage({
   searchParams: {}
 }) {
   if (typeof rawHymnNumber !== 'string') notFound()
-  const number = +rawHymnNumber
-  if (isNaN(number)) notFound()
-  if (rawHymnNumber !== number.toString()) notFound()
+
+  const number = numberParser(rawHymnNumber)
+  if (number == null) notFound()
 
   const hymn = hymns[number - 1]
   if (hymn == null) notFound()
