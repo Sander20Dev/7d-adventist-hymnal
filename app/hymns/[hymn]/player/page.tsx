@@ -1,18 +1,56 @@
 import { prepareLyrics } from '@/app/lib/hymn/player/lyrics'
 import { hymns } from '@/app/lib/hymns'
+import { Props } from '@/app/lib/nx'
 import { numberParser } from '@/app/lib/parsers/number'
 import { getThumbnail } from '@/app/lib/thumbnail'
 import { TextColor } from '@/app/lib/types'
 import LyricsScreen from '@/app/ui/hymn/player/lyrics-screen'
 import clsx from 'clsx'
+import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+
+type HymnProps = Props<'hymn'>
+
+export async function generateMetadata({
+  params: { hymn: rawHymnNumber },
+}: HymnProps): Promise<Metadata> {
+  if (typeof rawHymnNumber !== 'string') notFound()
+  const number = numberParser(rawHymnNumber)
+  if (number == null) return {}
+
+  const hymn = hymns[number - 1]
+  if (hymn == null) return {}
+
+  const thumbnail = getThumbnail(number)!
+
+  return {
+    title:
+      'Himno ' +
+      number +
+      ' - ' +
+      hymn.title +
+      ' - Reproductor - Himnario Adventista',
+    openGraph: {
+      title:
+        'Himno ' +
+        number +
+        ' - ' +
+        hymn.title +
+        ' - Reproductor - Himnario Adventista',
+      type: 'music.song',
+      images: '/images/full-images/' + thumbnail.src + '.webp',
+      audio:
+        'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
+        hymn.number +
+        '.mp3',
+    },
+    icons: '/icons/' + thumbnail.src + '.webp',
+  }
+}
 
 export default function HymnPage({
   params: { hymn: rawHymnNumber },
-}: {
-  params: { hymn: string | string[] }
-  searchParams: {}
-}) {
+}: HymnProps) {
   if (typeof rawHymnNumber !== 'string') notFound()
 
   const number = numberParser(rawHymnNumber)

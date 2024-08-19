@@ -182,7 +182,7 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   window.onmousemove = handleVisible
 
   const handleMobilePlay = mobile ? handlePlay : handleFullscreen
-  const handleMobileVisible = mobile ? handleToggleVisible : undefined
+  const handleMobileVisible = mobile ? handleToggleVisible : handlePlay
 
   return {
     audio,
