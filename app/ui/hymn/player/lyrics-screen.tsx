@@ -156,9 +156,10 @@ export default function LyricsScreen({
                 type='range'
                 step={1}
                 min={0}
-                max={audio.current.duration}
+                max={audio.current?.duration}
                 value={time}
                 onChange={(ev) =>
+                  audio.current &&
                   (audio.current.currentTime = +ev.target.value)
                 }
                 className='w-full'
@@ -209,9 +210,9 @@ export default function LyricsScreen({
               <section>
                 <span className='text-nowrap'>
                   {getMinTime(time)} /{' '}
-                  {isNaN(audio.current.duration)
+                  {isNaN(audio.current?.duration ?? NaN)
                     ? '--:--'
-                    : getMinTime(audio.current.duration)}
+                    : getMinTime(audio.current?.duration ?? 0)}
                 </span>
                 <Button
                   label='Pantalla completa'

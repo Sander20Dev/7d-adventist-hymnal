@@ -9,13 +9,7 @@ const numbers = Array(10)
 
 export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   const [index, setIndex] = useState(-1)
-  const audio = useRef(
-    new window.Audio(
-      'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
-        hymn.number +
-        '.mp3'
-    )
-  )
+  const audio = useRef<HTMLAudioElement | null>(null)
 
   const [played, setPlayed] = useState(false)
   const [muted, setMuted] = useState(getMutedStorage)
@@ -35,10 +29,16 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   }, [])
 
   useEffect(() => {
-    const isPlayed = () => setPlayed(!audio.current.paused)
+    audio.current = new window.Audio(
+      'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
+        hymn.number +
+        '.mp3'
+    )
+
+    const isPlayed = () => setPlayed(!audio.current!.paused)
     audio.current.addEventListener('play', isPlayed)
     audio.current.addEventListener('pause', isPlayed)
-    const getTime = () => setTime(audio.current.currentTime)
+    const getTime = () => setTime(audio.current!.currentTime)
     audio.current.addEventListener('timeupdate', getTime)
 
     audio.current.addEventListener('loadeddata', () => setLoaded(true))
@@ -51,11 +51,11 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   }, [])
 
   useEffect(() => {
-    audio.current.muted = muted
+    audio.current!.muted = muted
     setMutedStorage(muted)
   }, [muted])
   useEffect(() => {
-    audio.current.volume = volume / 100
+    audio.current!.volume = volume / 100
     setVolumeStorage(volume)
   }, [volume])
   useEffect(() => {
@@ -71,7 +71,9 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
 
   const refreshIndex = (index: number) => {
     if (hymn.steps == null) return
-    audio.current.currentTime = hymn.steps[index]
+    if (audio.current) {
+      audio.current.currentTime = hymn.steps[index]
+    }
   }
 
   const handlePrev = () => {
@@ -89,6 +91,7 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
 
   const handlePlay = () => {
     handleVisible()
+    if (audio.current == null) return
     if (audio.current.paused) {
       audio.current.play()
     } else {
@@ -140,6 +143,7 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
       handleFullscreen()
     }
     if (numbers.includes(ev.key)) {
+      if (audio.current == null) return
       const num = +ev.key
       audio.current.currentTime = audio.current.duration * num * 0.1
     }
@@ -156,7 +160,7 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
 
     setVisible(true)
 
-    if (!audio.current.paused) {
+    if (audio.current && audio.current.paused) {
       timer.current = window.setTimeout(
         () => {
           setVisible(false)
