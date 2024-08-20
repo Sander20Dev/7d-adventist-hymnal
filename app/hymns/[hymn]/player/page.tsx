@@ -23,28 +23,42 @@ export async function generateMetadata({
 
   const thumbnail = getThumbnail(number)!
 
+  const title =
+    'Himno ' +
+    number +
+    ' - ' +
+    hymn.title +
+    ' - Reproductor - Himnario Adventista'
+
   return {
-    title:
-      'Himno ' +
-      number +
-      ' - ' +
-      hymn.title +
-      ' - Reproductor - Himnario Adventista',
+    metadataBase: new URL('https://7d-adventist-hymnal.vercel.app'),
+    title,
     openGraph: {
-      title:
-        'Himno ' +
-        number +
-        ' - ' +
-        hymn.title +
-        ' - Reproductor - Himnario Adventista',
-      type: 'music.song',
-      images: '/images/full-images/' + thumbnail.src + '.webp',
+      title,
+      url:
+        'https://7d-adventist-hymnal.vercel.app/hymns/' +
+        hymn.number +
+        '/player',
+      type: 'website',
+      images:
+        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
+        thumbnail.src +
+        '.webp',
       audio:
         'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
         hymn.number +
         '.mp3',
     },
-    icons: '/icons/' + thumbnail.src + '.webp',
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Himno 1 - Cantad alegres al Señor - Himnario Adventista',
+      images:
+        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
+        thumbnail.src +
+        '.webp',
+    },
+    icons:
+      'https://7d-adventist-hymnal.vercel.app/icons/' + thumbnail.src + '.webp',
   }
 }
 
