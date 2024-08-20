@@ -1,5 +1,6 @@
 import { getMinTime } from '@/app/lib/hymn/time'
-import { Hymn } from '@/app/lib/types'
+import { addHistoryOfHymnsStorage } from '@/app/lib/storage/history-of-hymns'
+import { Hymn, TrackType } from '@/app/lib/types'
 import {
   IconPlayerPause,
   IconPlayerPlay,
@@ -10,54 +11,69 @@ import {
 } from '@tabler/icons-react'
 import { useEffect, useRef, useState } from 'react'
 
-// https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/{track | sung}/hymn-1.mp3
 export default function Player({
   hymn,
   type,
 }: {
   hymn: Hymn
-  type?: 'track' | 'sung'
+  type?: TrackType
 }) {
   const [play, setPlay] = useState(false)
   const [volume, setVolume] = useState(100)
   const [mute, setMute] = useState(false)
   const [progress, setProgress] = useState(0)
 
-  const vocal = useRef(new Audio())
-  const instrumental = useRef(new Audio())
+  const vocal = useRef<HTMLAudioElement | null>(null)
+  const instrumental = useRef<HTMLAudioElement | null>(null)
 
   const audio = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
     if (type === 'track') {
-      instrumental.current.src =
-        'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/track/hymn-' +
-        hymn.number +
-        '.mp3'
-      vocal.current.ontimeupdate = null
+      if (instrumental.current == null) {
+        instrumental.current = new Audio(
+          'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/track/hymn-' +
+            hymn.number +
+            '.mp3'
+        )
+      }
+      if (vocal.current) {
+        vocal.current.ontimeupdate = null
+        vocal.current.pause()
+      }
       audio.current = instrumental.current
-      vocal.current.pause()
     }
     if (type === 'sung') {
-      vocal.current.src =
-        'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
-        hymn.number +
-        '.mp3'
-      instrumental.current.ontimeupdate = null
+      if (vocal.current == null) {
+        vocal.current = new Audio(
+          'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
+            hymn.number +
+            '.mp3'
+        )
+      }
+      if (instrumental.current) {
+        instrumental.current.ontimeupdate = null
+        instrumental.current.pause()
+      }
       audio.current = vocal.current
-      instrumental.current.pause()
     }
     if (type != null) {
+      addHistoryOfHymnsStorage(hymn.number)
+
       audio.current!.play().then(() => setPlay(true))
       audio.current!.ontimeupdate = () =>
         setProgress(audio.current?.currentTime ?? 0)
     }
     if (type == null) {
       audio.current = null
-      instrumental.current.pause()
-      vocal.current.pause()
-      instrumental.current.ontimeupdate = null
-      vocal.current.ontimeupdate = null
+      if (instrumental.current) {
+        instrumental.current.pause()
+        instrumental.current.ontimeupdate = null
+      }
+      if (vocal.current) {
+        vocal.current.pause()
+        vocal.current.ontimeupdate = null
+      }
     }
   }, [type])
 

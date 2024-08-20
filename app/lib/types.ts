@@ -52,5 +52,10 @@ export enum ThumbnailIcon {
 export enum Storage {
   Volume = 'player.volume',
   Muted = 'player.mute',
-  LastHymns = 'player.last_hymns',
+  HistoryOfHymns = 'player.history-of-hymns',
+}
+
+export enum TrackType {
+  VOCAL = 'sung',
+  INSTRUMENTAL = 'track',
 }

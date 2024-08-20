@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Hymn, Lyric } from '../../types'
 import { getMutedStorage, setMutedStorage } from '../../storage/muted'
 import { getVolumeStorage, setVolumeStorage } from '../../storage/volume'
+import { addHistoryOfHymnsStorage } from '../../storage/history-of-hymns'
 
 const numbers = Array(10)
   .fill(0)
@@ -48,6 +49,8 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     })
 
     audio.current.load()
+
+    addHistoryOfHymnsStorage(hymn.number)
   }, [])
 
   useEffect(() => {

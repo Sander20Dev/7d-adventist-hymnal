@@ -5,27 +5,26 @@ import {
   IconArrowBadgeRightFilled,
 } from '@tabler/icons-react'
 import HymnCard from './hymn-card'
-import { HymnSearch } from './hymn-search'
-import { useContext, useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import clsx from 'clsx'
+import { Hymn } from '@/app/lib/types'
 
-export default function HymnsCatalog() {
-  const { searched } = useContext(HymnSearch)
+export default function HymnsCatalog({ hymns }: { hymns: Hymn[] }) {
   const [page, setPage] = useState(0)
 
   useEffect(() => {
-    if (page * 45 > searched.length) {
-      setPage(Math.ceil(searched.length / 45) - 1)
+    if (page * 45 > hymns.length) {
+      setPage(Math.ceil(hymns.length / 45) - 1)
     }
-  }, [searched])
+  }, [hymns])
   const maxPage = useMemo(() => {
-    return Math.ceil(searched.length / 45) - 1
-  }, [searched])
+    return Math.ceil(hymns.length / 45) - 1
+  }, [hymns])
 
   return (
     <>
       <article className='flex gap-4 p-4 flex-wrap justify-center'>
-        {searched.slice(page * 45, (page + 1) * 45).map((hymn) => (
+        {hymns.slice(page * 45, (page + 1) * 45).map((hymn) => (
           <HymnCard key={'hymn-' + hymn.number} {...hymn} />
         ))}
       </article>

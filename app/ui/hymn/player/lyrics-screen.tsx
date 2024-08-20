@@ -20,7 +20,7 @@ import Back from '../back'
 import ThumbnailIcons from '../../icons'
 import { useAudio } from '@/app/lib/hymn/player/audio'
 import { GeneralProvider } from './provider'
-import { useContext, useEffect, useRef, useState } from 'react'
+import { useContext, useRef, useState } from 'react'
 
 export default function LyricsScreen({
   lyrics,

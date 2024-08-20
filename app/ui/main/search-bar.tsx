@@ -1,13 +1,17 @@
 'use client'
 
-import { useContext, useEffect, useRef, useState } from 'react'
-import { HymnSearch } from './hymn-search'
-import { hymns } from '@/app/lib/hymns'
+import { useEffect, useRef, useState } from 'react'
 import { localize, searchText } from '@/app/lib/localize'
+import { Hymn } from '@/app/lib/types'
 
-export default function SearchBar() {
+export default function SearchBar({
+  hymns,
+  setSearched,
+}: {
+  hymns: Hymn[]
+  setSearched(value: Hymn[]): void
+}) {
   const [search, setSearch] = useState('')
-  const { setSearched } = useContext(HymnSearch)
   const timer = useRef<number | null>(null)
 
   useEffect(() => {
