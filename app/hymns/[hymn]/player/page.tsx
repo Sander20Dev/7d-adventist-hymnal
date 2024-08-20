@@ -51,7 +51,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Himno 1 - Cantad alegres al Señor - Himnario Adventista',
+      title,
       images:
         'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
         thumbnail.src +

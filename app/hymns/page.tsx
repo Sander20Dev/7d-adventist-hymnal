@@ -1,6 +1,17 @@
 import { IconSearch } from '@tabler/icons-react'
 import Link from 'next/link'
 import HistorySearch from '../ui/hymn/main/history-search'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://7d-adventist-hymnal.vercel.app'),
+  title: 'Himnario Adventista - Historial',
+  openGraph: {
+    title: 'Himnario Adventista - Historial',
+    images:
+      'https://7d-adventist-hymnal.vercel.app/images/full-images/thumbnail-21.webp',
+  },
+}
 
 export default function HistoryPage() {
   return (
