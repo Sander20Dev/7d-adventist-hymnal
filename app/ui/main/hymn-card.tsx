@@ -7,7 +7,7 @@ export default function HymnCard(hymn: Hymn) {
   const thumbnail = getThumbnail(hymn.number)!
 
   return (
-    <Link href={'/hymns/' + hymn.number} className='animate-fade-in'>
+    <Link href={'/hymns/' + hymn.number} className='animate-fade-in-up'>
       <div className='min-w-52 max-w-60 bg-white border border-gray-200 rounded-lg shadow transition hover:scale-105'>
         <picture>
           <source

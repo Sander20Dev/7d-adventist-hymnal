@@ -1,6 +1,6 @@
 'use client'
 
-import { Hymn } from '@/app/lib/types'
+import { Hymn, TrackType } from '@/app/lib/types'
 import IconButton from '../utils/icon-button'
 import {
   IconMusic,
@@ -13,23 +13,31 @@ import Player from './player'
 import clsx from 'clsx'
 
 export default function Footer({ hymn }: { hymn: Hymn }) {
-  const [type, setType] = useState<'track' | 'sung'>()
+  const [type, setType] = useState<TrackType>()
 
   return (
     <>
       <footer className='flex justify-center gap-4 p-4'>
         <IconButton
           className={clsx({
-            'bg-gray-400 hover:bg-gray-500': type === 'track',
+            'bg-gray-400 hover:bg-gray-500': type === TrackType.INSTRUMENTAL,
           })}
-          onClick={() => setType(type === 'track' ? undefined : 'track')}>
+          onClick={() =>
+            setType(
+              type === TrackType.INSTRUMENTAL
+                ? undefined
+                : TrackType.INSTRUMENTAL
+            )
+          }>
           <IconMusic />
         </IconButton>
         <IconButton
           className={clsx({
-            'bg-gray-400 hover:bg-gray-500': type === 'sung',
+            'bg-gray-400 hover:bg-gray-500': type === TrackType.VOCAL,
           })}
-          onClick={() => setType(type === 'sung' ? undefined : 'sung')}>
+          onClick={() =>
+            setType(type === TrackType.VOCAL ? undefined : TrackType.VOCAL)
+          }>
           <IconUsersGroup />
         </IconButton>
         <Link
