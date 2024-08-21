@@ -114,7 +114,7 @@ export default function LyricsScreen({
                 onClick={() => {
                   const sure = window.confirm('¿Estas seguro(a)?')
                   if (sure) {
-                    fetch('/api', {
+                    fetch('/api/request-hymn', {
                       headers: {
                         'content-type': 'application/json',
                       },
