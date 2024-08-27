@@ -7069,6 +7069,7 @@
   {
     "number": 169,
     "title": "Cuando suene la trompeta",
+    "steps": [0, 30.7, 52.4, 77.5, 99.6, 131.7, 152.6, 179.1],
     "lyrics": [
       {
         "type": "stanza",
@@ -9803,7 +9804,7 @@
   {
     "number": 231,
     "title": "Todo en el altar",
-    
+
     "lyrics": [
       {
         "type": "stanza",

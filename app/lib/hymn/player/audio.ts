@@ -3,6 +3,7 @@ import { Hymn, Lyric } from '../../types'
 import { getMutedStorage, setMutedStorage } from '../../storage/muted'
 import { getVolumeStorage, setVolumeStorage } from '../../storage/volume'
 import { addHistoryOfHymnsStorage } from '../../storage/history-of-hymns'
+import { AudioController } from '@/app/ui/hymn/player/provider'
 
 const numbers = Array(10)
   .fill(0)
@@ -13,8 +14,8 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   const audio = useRef<HTMLAudioElement | null>(null)
 
   const [played, setPlayed] = useState(false)
-  const [muted, setMuted] = useState(getMutedStorage)
-  const [volume, setVolume] = useState(getVolumeStorage)
+  const [muted, setMuted] = useState(false)
+  const [volume, setVolume] = useState(100)
   const [time, setTime] = useState(0)
   const [fullscreen, setFullscreen] = useState(false)
   const [loaded, setLoaded] = useState(false)
@@ -30,11 +31,25 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
   }, [])
 
   useEffect(() => {
-    audio.current = new window.Audio(
-      'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
+    setMuted(getMutedStorage)
+    setVolume(getVolumeStorage)
+
+    const audioPlayer = document.querySelector<HTMLAudioElement>('audio#audio')
+    if (audioPlayer) {
+      audio.current = audioPlayer
+    } else {
+      const audioPlayer = document.createElement('audio')
+      audioPlayer.id = 'audio'
+      audioPlayer.hidden = true
+      audioPlayer.controls = false
+      audioPlayer.src =
+        'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
         hymn.number +
         '.mp3'
-    )
+      audio.current = audioPlayer
+
+      document.body.appendChild(audioPlayer)
+    }
 
     const isPlayed = () => setPlayed(!audio.current!.paused)
     audio.current.addEventListener('play', isPlayed)
@@ -119,42 +134,6 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     }
   }
 
-  window.onkeydown = (ev) => {
-    if (ev.key === 'ArrowLeft') {
-      handlePrev()
-    }
-    if (ev.key === 'ArrowRight') {
-      handleNext()
-    }
-    if (ev.key === ' ') {
-      handlePlay()
-    }
-    if (ev.key === 'ArrowUp') {
-      if (volume < 100) {
-        setVolume(Math.min(volume + 10, 100))
-      }
-    }
-    if (ev.key === 'ArrowDown') {
-      if (volume > 1) {
-        setVolume(Math.max(volume - 10, 0))
-      }
-    }
-    if (ev.key.toLowerCase() === 'm') {
-      handleMute()
-    }
-    if (ev.key.toLowerCase() === 'f') {
-      handleFullscreen()
-    }
-    if (numbers.includes(ev.key)) {
-      if (audio.current == null) return
-      const num = +ev.key
-      audio.current.currentTime = audio.current.duration * num * 0.1
-    }
-    if (ev.key === '.') {
-      handleVisible()
-    }
-  }
-
   const handleVisible = () => {
     if (timer.current != null) {
       window.clearTimeout(timer.current)
@@ -186,10 +165,96 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     }
   }
 
-  window.onmousemove = handleVisible
+  useEffect(() => {
+    window.onkeydown = (ev) => {
+      if (ev.key === 'ArrowLeft') {
+        handlePrev()
+      }
+      if (ev.key === 'ArrowRight') {
+        handleNext()
+      }
+      if (ev.key === ' ') {
+        handlePlay()
+      }
+      if (ev.key === 'ArrowUp') {
+        if (volume < 100) {
+          setVolume(Math.min(volume + 10, 100))
+        }
+      }
+      if (ev.key === 'ArrowDown') {
+        if (volume > 1) {
+          setVolume(Math.max(volume - 10, 0))
+        }
+      }
+      if (ev.key.toLowerCase() === 'm') {
+        handleMute()
+      }
+      if (ev.key.toLowerCase() === 'f') {
+        handleFullscreen()
+      }
+      if (numbers.includes(ev.key)) {
+        if (audio.current == null) return
+        const num = +ev.key
+        audio.current.currentTime = audio.current.duration * num * 0.1
+      }
+      if (ev.key === '.') {
+        handleVisible()
+      }
+    }
+    window.onmousemove = handleVisible
+  }, [
+    handleFullscreen,
+    handleMute,
+    handleNext,
+    handlePlay,
+    handlePrev,
+    handleVisible,
+    volume,
+  ])
 
   const handleMobilePlay = mobile ? handlePlay : handleFullscreen
   const handleMobileVisible = mobile ? handleToggleVisible : handlePlay
+
+  const audioCtllr: AudioController = {
+    audio: audio.current,
+    played: {
+      current: played,
+      set(val: boolean) {
+        if (val) {
+          audio.current?.play()
+        } else {
+          audio.current?.pause()
+        }
+      },
+    },
+    volume: {
+      current: volume,
+      set(val: number) {
+        setVolume(val)
+      },
+    },
+    muted: {
+      current: muted,
+      set(val: boolean) {
+        setMuted(val)
+      },
+    },
+    time: {
+      current: time,
+      set(val: number) {
+        if (audio.current) {
+          audio.current.currentTime = val
+        }
+      },
+    },
+    index: {
+      current: index,
+      set(val: number) {
+        refreshIndex(val + 1)
+        setIndex(val)
+      },
+    },
+  }
 
   return {
     audio,
@@ -214,5 +279,6 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     handleVolume,
 
     mobile,
+    audioCtllr,
   }
 }

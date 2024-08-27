@@ -41,7 +41,7 @@ export async function generateMetadata({
         '/player',
       type: 'website',
       images:
-        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
+        'https://7d-adventist-hymnal.vercel.apphttps://7d-adventist-hymnal.vercel.app/images/full-images/' +
         thumbnail.src +
         '.webp',
       audio:
@@ -53,7 +53,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       images:
-        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
+        'https://7d-adventist-hymnal.vercel.apphttps://7d-adventist-hymnal.vercel.app/images/full-images/' +
         thumbnail.src +
         '.webp',
     },
@@ -96,7 +96,7 @@ export default function HymnPage({
         }
       )}
       style={{
-        backgroundImage: `url(/images/full-images/${thumbnail.src}.webp)`,
+        backgroundImage: `url(https://7d-adventist-hymnal.vercel.app/images/full-images/${thumbnail.src}.webp)`,
       }}>
       <LyricsScreen
         lyrics={prepareLyrics(hymn.lyrics, hymn.doubleChorus ?? false)}
