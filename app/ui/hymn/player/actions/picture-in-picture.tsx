@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from './button'
 import {
   IconPictureInPictureOff,
@@ -6,7 +6,6 @@ import {
 } from '@tabler/icons-react'
 import { createRoot } from 'react-dom/client'
 import PipApp from './pip/app'
-import { AudioControllerCtx } from '../provider'
 import { Hymn, Lyric } from '@/app/lib/types'
 import clsx from 'clsx'
 
@@ -94,7 +93,7 @@ export default function PictureInPicture({
   return (
     <>
       <Button
-        label='Pantalla completa'
+        label='Imagen en Imagen'
         onClick={handlePP}
         className={clsx('ml-2', { 'scale-110': isPP })}>
         {isPP ? <IconPictureInPictureOff /> : <IconPictureInPictureOn />}

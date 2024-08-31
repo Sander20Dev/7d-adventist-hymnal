@@ -1,5 +1,5 @@
 import { useAudio } from '@/app/lib/hymn/player/audio'
-import { AudioControllerCtx, type AudioController } from '../../provider'
+import { AudioControllerCtx } from '../../provider'
 import { Hymn, Lyric, TextColor } from '@/app/lib/types'
 import LyricsScreenS from './lyrics-screen-s'
 import { getThumbnail } from '@/app/lib/thumbnail'
@@ -15,7 +15,7 @@ export default function PipApp({
   hymn: Hymn
   lyrics: Lyric[]
 }) {
-  const { audioCtllr } = useAudio(hymn, lyrics)
+  const { audioCtllr } = useAudio(hymn, lyrics, audio)
 
   const thumbnail = getThumbnail(hymn.number)!
   return (

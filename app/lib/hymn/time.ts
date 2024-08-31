@@ -1,4 +1,5 @@
-export function getMinTime(seconds: number) {
+export function getMinTime(seconds?: number) {
+  if (seconds == null) return '--:--'
   const min = Math.floor(seconds / 60)
   const sec = Math.floor(seconds) % 60
 

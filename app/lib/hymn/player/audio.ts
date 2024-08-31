@@ -9,16 +9,20 @@ const numbers = Array(10)
   .fill(0)
   .map((_, i) => i.toString())
 
-export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
+export function useAudio(
+  hymn: Hymn,
+  lyrics: Lyric[],
+  baseAudio?: HTMLAudioElement
+) {
   const [index, setIndex] = useState(-1)
-  const audio = useRef<HTMLAudioElement | null>(null)
+  const audio = useRef<HTMLAudioElement | null>(baseAudio ?? null)
 
-  const [played, setPlayed] = useState(false)
+  const [played, setPlayed] = useState(!(baseAudio?.paused ?? true))
   const [muted, setMuted] = useState(false)
   const [volume, setVolume] = useState(100)
-  const [time, setTime] = useState(0)
+  const [time, setTime] = useState(baseAudio?.currentTime ?? 0)
   const [fullscreen, setFullscreen] = useState(false)
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(baseAudio != null)
 
   const [visible, setVisible] = useState(true)
   const timer = useRef<number | null>(null)
@@ -34,21 +38,14 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     setMuted(getMutedStorage)
     setVolume(getVolumeStorage)
 
-    const audioPlayer = document.querySelector<HTMLAudioElement>('audio#audio')
-    if (audioPlayer) {
-      audio.current = audioPlayer
-    } else {
-      const audioPlayer = document.createElement('audio')
-      audioPlayer.id = 'audio'
-      audioPlayer.hidden = true
-      audioPlayer.controls = false
-      audioPlayer.src =
+    if (audio.current == null) {
+      audio.current = new Audio()
+      audio.current.src =
         'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/sung/hymn-' +
         hymn.number +
         '.mp3'
-      audio.current = audioPlayer
-
-      document.body.appendChild(audioPlayer)
+      audio.current.addEventListener('loadeddata', () => setLoaded(true))
+      audio.current.load()
     }
 
     const isPlayed = () => setPlayed(!audio.current!.paused)
@@ -57,25 +54,35 @@ export function useAudio(hymn: Hymn, lyrics: Lyric[]) {
     const getTime = () => setTime(audio.current!.currentTime)
     audio.current.addEventListener('timeupdate', getTime)
 
-    audio.current.addEventListener('loadeddata', () => setLoaded(true))
-
     document.addEventListener('fullscreenchange', () => {
       setFullscreen(document.fullscreenElement != null)
     })
 
-    audio.current.load()
-
     addHistoryOfHymnsStorage(hymn.number)
-  }, [])
+
+    return () => {
+      audio.current?.pause()
+      audio.current?.remove()
+      audio.current?.removeEventListener('play', isPlayed)
+      audio.current?.removeEventListener('pause', isPlayed)
+      audio.current?.removeEventListener('timeupdate', getTime)
+    }
+  }, [hymn.number])
 
   useEffect(() => {
-    audio.current!.muted = muted
-    setMutedStorage(muted)
+    if (audio.current) {
+      audio.current.muted = muted
+      setMutedStorage(muted)
+    }
   }, [muted])
+
   useEffect(() => {
-    audio.current!.volume = volume / 100
-    setVolumeStorage(volume)
+    if (audio.current) {
+      audio.current.volume = volume / 100
+      setVolumeStorage(volume)
+    }
   }, [volume])
+
   useEffect(() => {
     if (hymn.steps == null) return
     const step = hymn.steps.findIndex(

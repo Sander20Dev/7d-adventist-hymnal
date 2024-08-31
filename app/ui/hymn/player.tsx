@@ -29,6 +29,20 @@ export default function Player({
   const audio = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
+    return () => {
+      if (audio.current) {
+        audio.current.pause()
+        audio.current.remove()
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    if (audio.current) {
+      audio.current.currentTime = 0
+      audio.current.pause()
+    }
+
     if (type === 'track') {
       if (instrumental.current == null) {
         instrumental.current = new Audio(
@@ -106,7 +120,11 @@ export default function Player({
           className='accent-black w-full'
           type='range'
           min={0}
-          max={audio.current?.duration ?? 0}
+          max={
+            audio.current?.duration == null || isNaN(audio.current?.duration)
+              ? 0
+              : audio.current.duration
+          }
           step={1}
           onChange={(ev) =>
             audio.current && (audio.current.currentTime = +ev.target.value)

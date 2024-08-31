@@ -160,7 +160,12 @@ export default function LyricsScreen({
                   type='range'
                   step={1}
                   min={0}
-                  max={audio.current?.duration}
+                  max={
+                    audio.current?.duration == null ||
+                    isNaN(audio.current?.duration)
+                      ? 0
+                      : audio.current.duration
+                  }
                   value={time}
                   onChange={(ev) =>
                     audio.current &&
@@ -214,9 +219,11 @@ export default function LyricsScreen({
                 <section>
                   <span className='text-nowrap'>
                     {getMinTime(time)} /{' '}
-                    {isNaN(audio.current?.duration ?? NaN)
-                      ? '--:--'
-                      : getMinTime(audio.current?.duration ?? 0)}
+                    {getMinTime(
+                      isNaN(audio.current?.duration ?? NaN)
+                        ? undefined
+                        : audio.current?.duration
+                    )}
                   </span>
                   {audio.current && (
                     <PictureInPicture
