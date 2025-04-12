@@ -4,7 +4,6 @@ import { waitForKey } from '@/app/lib/hymn/player/keys'
 import { useSearch } from '@/app/lib/hymn/search'
 import { hymns } from '@/app/lib/hymns'
 import { Hymn } from '@/app/lib/types'
-import clsx from 'clsx'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -23,9 +22,14 @@ export default function SearchBarModal({
     const toogleSBKey = waitForKey({ key: 'k', ctrl: true }, () =>
       setOpen(!open)
     )
+    const closeSBKey = waitForKey(
+      { key: 'Escape' },
+      () => open && setOpen(false)
+    )
 
     const toogleSBWithKey = (ev: KeyboardEvent) => {
       toogleSBKey(ev)
+      closeSBKey(ev)
     }
     window.addEventListener('keydown', toogleSBWithKey)
     return () => {
@@ -41,7 +45,7 @@ export default function SearchBarModal({
         className='w-full h-full backdrop-blur-sm'
         onClick={() => setOpen(false)}
       />
-      <div className='absolute top-16 left-1/2 -translate-x-1/2 w-96 max-w-[calc(100vw-2rem)] max-h-[calc(100vh-2rem)] bg-gray-50 rounded-md border border-gray-200 p-4 text-center'>
+      <div className='absolute top-16 left-1/2 -translate-x-1/2 w-96 max-w-[calc(100vw-2rem)] max-h-[calc(100vh-2rem)] bg-gray-50 rounded-md border border-gray-200 p-4 text-center text-black'>
         <input
           value={search}
           onChange={(ev) => setSearch(ev.target.value)}

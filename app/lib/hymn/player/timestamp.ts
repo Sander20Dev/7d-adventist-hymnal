@@ -10,6 +10,8 @@ export function useIndex(
 ) {
   const [index, setIndex] = useState(-1)
 
+  const completedTimestamp = timestamps.filter((t) => t === 0).length === 1
+
   const goPrev = () => {
     if (index < 0) return
     activeFocus()
@@ -17,13 +19,15 @@ export function useIndex(
     refreshIndex(index)
   }
   const goNext = () => {
-    if (index + 1 > timestamps.length) return
+    if (index + 3 > timestamps.length) return
     activeFocus()
     setIndex(index + 1)
     refreshIndex(index + 2)
   }
 
   useEffect(() => {
+    if (!completedTimestamp) return
+
     const step = timestamps.findIndex(
       (t, i, arr) => t <= time && time < (arr[i + 1] ?? Infinity)
     )
@@ -49,7 +53,9 @@ export function useIndex(
   }, [index, keysBlocked])
 
   const refreshIndex = (index: number) => {
+    console.log(index, timestamps.length)
     if (audio != null) {
+      if (!completedTimestamp) return
       audio.currentTime = timestamps[index]
     }
   }

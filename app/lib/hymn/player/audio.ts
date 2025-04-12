@@ -14,7 +14,7 @@ import { useIndex } from './timestamp'
 
 export function useAudio(hymn: Hymn, lyrics: DividedLyric[], open: boolean) {
   const audio = useRef<HTMLAudioElement | null>(null)
-  const timestamps = useMemo(() => {
+  const timestamps = useMemo<number[]>(() => {
     let i = 0
     return [
       0,
@@ -22,10 +22,10 @@ export function useAudio(hymn: Hymn, lyrics: DividedLyric[], open: boolean) {
         return dLyrics.lines.map((lines) => {
           const index = i
           i += lines.length
-          return hymn.timestamps[index]
+          return hymn.timestamps[index] ?? 0
         })
       }),
-      hymn.timestamps[hymn.timestamps.length - 1],
+      hymn.timestamps[hymn.timestamps.length - 1] ?? 0,
     ]
   }, [hymn, lyrics])
 
