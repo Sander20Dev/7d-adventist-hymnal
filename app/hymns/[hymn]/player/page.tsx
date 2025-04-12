@@ -27,7 +27,7 @@ export async function generateMetadata({
     'Himno ' +
     number +
     ' - ' +
-    hymn.title +
+    hymn.name +
     ' - Reproductor - Himnario Adventista'
 
   return {

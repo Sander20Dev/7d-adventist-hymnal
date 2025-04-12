@@ -18,7 +18,7 @@ export default function SearchBar({
     timer.current = window.setTimeout(() => {
       setSearched(
         hymns.filter((hymn) => {
-          const title = localize(hymn.title)
+          const title = localize(hymn.name)
           const text = localize(search)
           return (
             searchText(title, text) || searchText(`himno ${hymn.number}`, text)

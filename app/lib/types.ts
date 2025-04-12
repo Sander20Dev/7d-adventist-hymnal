@@ -1,21 +1,27 @@
 export interface Hymn {
   number: number
-  title: string
+  name: string
+  timestamps: number[]
+  /** @deprecated Use timestamps instead */
   steps?: number[]
   lyrics: Lyric[]
-  verse?: string
-  doubleChorus?: boolean
+  verseAssociated?: string | null
+  doubleChorus: boolean
 }
 
 export interface Lyric {
-  type: LyricType
-  verses: string[]
-  index?: number
+  kind: LyricKind
+  lines: string[]
 }
 
-export enum LyricType {
+export enum LyricKind {
   Chorus = 'chorus',
-  Stanza = 'stanza',
+  Verse = 'verse',
+}
+
+export interface DividedLyric {
+  kind: LyricKind
+  lines: string[][]
 }
 
 export interface Thumbnail {

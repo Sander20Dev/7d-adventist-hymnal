@@ -23,8 +23,7 @@ export async function generateMetadata({
 
   const thumbnail = getThumbnail(number)!
 
-  const title =
-    'Himno ' + number + ' - ' + hymn.title + ' - Himnario Adventista'
+  const title = 'Himno ' + number + ' - ' + hymn.name + ' - Himnario Adventista'
 
   return {
     metadataBase: new URL('https://7d-adventist-hymnal.vercel.app'),

@@ -13,6 +13,7 @@ export default function Header() {
       <Link
         className='absolute right-2 top-2 rounded-full bg-backdrop bg-white border border-gray-200 h-10 w-10 flex justify-center items-center hover:bg-opacity-60'
         aria-label='Historial'
+        title='Historial'
         href='/hymns'>
         <IconHistory />
       </Link>

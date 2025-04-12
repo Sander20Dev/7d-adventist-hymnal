@@ -30,7 +30,7 @@ export default function Header({ hymn }: { hymn: Hymn }) {
         </h1>
       </div>
       <div className='bg-white w-fit bg-backdrop rounded-lg p-2xl'>
-        <h2 className='text-2xl md:text-4xl sm:text-3xl'>{hymn.title}</h2>
+        <h2 className='text-2xl md:text-4xl sm:text-3xl'>{hymn.name}</h2>
       </div>
     </header>
   )

@@ -1,7 +1,7 @@
 'use client'
 
 import { getMinTime } from '@/app/lib/hymn/time'
-import { Hymn, Lyric, TextColor, Thumbnail } from '@/app/lib/types'
+import { DividedLyric, Hymn, TextColor, Thumbnail } from '@/app/lib/types'
 import {
   IconExclamationCircle,
   IconMaximize,
@@ -22,14 +22,13 @@ import { useAudio } from '@/app/lib/hymn/player/audio'
 import { AudioControllerCtx, GeneralProvider } from './provider'
 import { useContext } from 'react'
 import { Button } from './actions/button'
-import PictureInPicture from './actions/picture-in-picture'
 
 export default function LyricsScreen({
   lyrics,
   hymn,
   thumbnail,
 }: {
-  lyrics: Lyric[]
+  lyrics: DividedLyric[]
   hymn: Hymn
   thumbnail: Thumbnail
 }) {
@@ -41,7 +40,7 @@ export default function LyricsScreen({
     index,
     muted,
     played,
-    visible,
+    focused,
     time,
     volume,
 
@@ -51,7 +50,7 @@ export default function LyricsScreen({
     handleNext,
     handlePlay,
     handlePrev,
-    handleMobileVisible,
+    handleMobileFocus,
 
     handleMobilePlay,
 
@@ -67,32 +66,34 @@ export default function LyricsScreen({
           <Back
             href={'/hymns/' + hymn.number}
             className={clsx('transition', {
-              '-top-full scale-0': !visible,
+              '-top-full scale-0': !focused,
             })}
           />
           <div
-            onClick={handleMobileVisible}
+            onClick={handleMobileFocus}
             onDoubleClick={handleMobilePlay}
             className='h-dvh max-h-dvh flex flex-row transition'
             style={{ transform: `translateX(-${(index + 1) * 100}vw)` }}>
             <TitleScreen hymn={hymn} />
-            {lyrics.map((lyric, i) => (
-              <Screen key={'lyric' + i}>
-                {lyric.verses.map((verse, j) => (
-                  <p
-                    key={'lyric-' + i + ':verse-' + j}
-                    className='text-xl sm:text-2xl md:text-3xl'>
-                    {verse}
-                  </p>
-                ))}
-              </Screen>
-            ))}
+            {lyrics.map((lyric, i) =>
+              lyric.lines.map((lines, j) => (
+                <Screen key={'lyric-' + i + ':verse-' + j}>
+                  {lines.map((line, k) => (
+                    <p
+                      key={'lyric-' + i + ':verse-' + j + ':' + k}
+                      className='text-xl sm:text-2xl md:text-3xl'>
+                      {line}
+                    </p>
+                  ))}
+                </Screen>
+              ))
+            )}
             <TitleScreen hymn={hymn} />
           </div>
           <div
             className={clsx('fixed bottom-0 left-0 right-0 transition-all', {
-              'h-12': !visible,
-              'h-32': visible,
+              'h-12': !focused,
+              'h-32': focused,
             })}>
             <section className='flex flex-row gap-2 m-2 h-8'>
               <div
@@ -106,41 +107,13 @@ export default function LyricsScreen({
                   }
                 )}>
                 <ThumbnailIcons icon={thumbnail.icon} />
-                {hymn.verse != null && (
+                {hymn.verseAssociated != null && (
                   <>
                     {' '}
-                    | <span>{hymn.verse}</span>
+                    | <span>{hymn.verseAssociated}</span>
                   </>
                 )}
               </div>
-              {hymn.steps == null && (
-                <div
-                  onClick={() => {
-                    const sure = window.confirm('¿Estas seguro(a)?')
-                    if (sure) {
-                      fetch('/api/request-hymn', {
-                        headers: {
-                          'content-type': 'application/json',
-                        },
-                        body: JSON.stringify({ hymnNumber: hymn.number }),
-                        method: 'POST',
-                      })
-                        .then((n) => n.json())
-                        .then((n) => console.log(n))
-                    }
-                  }}
-                  className={clsx(
-                    'w-fit p-1 bg-backdrop rounded-md h-8 border hover:bg-opacity-75 [&:hover>svg]:animate-horizontal-vibration animate-duration-fast [&:hover>svg]:animate-iteration-count-once text-nowrap whitespace-nowrap flex gap-1',
-                    {
-                      'bg-white text-red-400 border-gray-200':
-                        thumbnail.textColor === TextColor.Black,
-                      'bg-black text-red-600 border-gray-800':
-                        thumbnail.textColor === TextColor.White,
-                    }
-                  )}>
-                  <IconExclamationCircle /> <span>Pedir Marcas de Tiempo</span>
-                </div>
-              )}
             </section>
             <section
               className={clsx(
@@ -152,7 +125,7 @@ export default function LyricsScreen({
                     thumbnail.textColor === TextColor.White,
                 },
                 {
-                  'scale-y-0 translate-y-1': !visible,
+                  'scale-y-0 translate-y-1': !focused,
                 }
               )}>
               <section>
@@ -225,13 +198,6 @@ export default function LyricsScreen({
                         : audio.current?.duration
                     )}
                   </span>
-                  {audio.current && (
-                    <PictureInPicture
-                      audio={audio.current}
-                      hymn={hymn}
-                      lyrics={lyrics}
-                    />
-                  )}
                   <Button
                     label='Pantalla completa'
                     onClick={handleFullscreen}
@@ -253,7 +219,7 @@ export function TitleScreen({ hymn }: { hymn: Hymn }) {
     <Screen>
       <h1 className='flex justify-center w-fit'>
         <p className='w-fit border-r-4 pr-2 border-current'>{hymn.number}</p>
-        <p className='w-fit text-start pl-2'>{hymn.title}</p>
+        <p className='w-fit text-start pl-2'>{hymn.name}</p>
       </h1>
     </Screen>
   )
