@@ -20,8 +20,9 @@ import Back from '../back'
 import ThumbnailIcons from '../../icons'
 import { useAudio } from '@/app/lib/hymn/player/audio'
 import { AudioControllerCtx, GeneralProvider } from './provider'
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import { Button } from './actions/button'
+import SearchBarModal from './search-bar-modal'
 
 export default function LyricsScreen({
   lyrics,
@@ -32,6 +33,8 @@ export default function LyricsScreen({
   hymn: Hymn
   thumbnail: Thumbnail
 }) {
+  const [open, setOpen] = useState(false)
+
   const {
     audio,
     loaded,
@@ -56,12 +59,13 @@ export default function LyricsScreen({
 
     mobile,
     audioCtllr,
-  } = useAudio(hymn, lyrics)
+  } = useAudio(hymn, lyrics, open)
 
   return (
     <GeneralProvider.Provider
       value={{ mobile, textColor: thumbnail.textColor }}>
       <AudioControllerCtx.Provider value={audioCtllr}>
+        <SearchBarModal open={open} setOpen={setOpen} />
         <div className='h-dvh grid select-none'>
           <Back
             href={'/hymns/' + hymn.number}

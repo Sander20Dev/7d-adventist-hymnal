@@ -12,16 +12,16 @@ import {
 } from './player'
 import { useIndex } from './timestamp'
 
-export function useAudio(hymn: Hymn, lyrics: DividedLyric[]) {
+export function useAudio(hymn: Hymn, lyrics: DividedLyric[], open: boolean) {
   const audio = useRef<HTMLAudioElement | null>(null)
   const timestamps = useMemo(() => {
     let i = 0
     return [
       0,
       ...lyrics.flatMap((dLyrics) => {
-        return dLyrics.lines.map((_, j) => {
+        return dLyrics.lines.map((lines) => {
           const index = i
-          i += dLyrics.lines.length
+          i += lines.length
           return hymn.timestamps[index]
         })
       }),
@@ -59,17 +59,18 @@ export function useAudio(hymn: Hymn, lyrics: DividedLyric[]) {
 
   const { focused, activeFocus, toogleFocus } = useFocus(mobile)
 
-  const played = usePlay(activeFocus, audio.current ?? undefined)
-  const { muted, setMuted } = useMuted(activeFocus, audio.current ?? undefined)
-  const volume = useVolume(activeFocus, audio.current ?? undefined)
-  const time = useTime(activeFocus, audio.current ?? undefined)
-  const fullscreen = useFullscreen(activeFocus, audio.current ?? undefined)
+  const played = usePlay(activeFocus, audio.current, open)
+  const { muted, setMuted } = useMuted(activeFocus, audio.current, open)
+  const volume = useVolume(activeFocus, audio.current, open)
+  const time = useTime(activeFocus, audio.current, open)
+  const fullscreen = useFullscreen(activeFocus, audio.current, open)
 
   const { index, goNext, goPrev, goTo } = useIndex(
     activeFocus,
     time,
     timestamps,
-    audio.current ?? undefined
+    audio.current,
+    open
   )
 
   const handlePrev = goPrev

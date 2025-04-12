@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
+import { waitForKey } from './keys'
 
 export function useIndex(
   activeFocus: () => void,
   time: number,
   timestamps: number[],
-  audio?: HTMLAudioElement
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
 ) {
   const [index, setIndex] = useState(-1)
 
@@ -32,19 +34,19 @@ export function useIndex(
   }, [time, timestamps])
 
   useEffect(() => {
+    if (keysBlocked) return
+    const goPrevKey = waitForKey({ key: 'ArrowLeft' }, goPrev)
+    const goNextKey = waitForKey({ key: 'ArrowRight' }, goNext)
+
     const goToIndexWithKey = (ev: KeyboardEvent) => {
-      if (ev.key === 'ArrowLeft') {
-        goPrev()
-      }
-      if (ev.key === 'ArrowRight') {
-        goNext()
-      }
+      goPrevKey(ev)
+      goNextKey(ev)
     }
     window.addEventListener('keydown', goToIndexWithKey)
     return () => {
       window.removeEventListener('keydown', goToIndexWithKey)
     }
-  }, [index])
+  }, [index, keysBlocked])
 
   const refreshIndex = (index: number) => {
     if (audio != null) {

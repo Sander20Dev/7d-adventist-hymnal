@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { localize, searchText } from '@/app/lib/localize'
 import { Hymn } from '@/app/lib/types'
+import { useSearch } from '@/app/lib/hymn/search'
 
 export default function SearchBar({
   hymns,
@@ -12,27 +13,7 @@ export default function SearchBar({
   setSearched(value: Hymn[]): void
 }) {
   const [search, setSearch] = useState('')
-  const timer = useRef<number | null>(null)
-
-  useEffect(() => {
-    timer.current = window.setTimeout(() => {
-      setSearched(
-        hymns.filter((hymn) => {
-          const title = localize(hymn.name)
-          const text = localize(search)
-          return (
-            searchText(title, text) || searchText(`himno ${hymn.number}`, text)
-          )
-        })
-      )
-    }, 300)
-    return () => {
-      if (timer.current != null) {
-        window.clearTimeout(timer.current)
-        timer.current = null
-      }
-    }
-  }, [search])
+  useSearch(hymns, search, setSearched)
 
   return (
     <div className='sticky top-0 z-10 w-full h-16 p-4 bg-gray-50 bg-backdrop border-b border-gray-200'>

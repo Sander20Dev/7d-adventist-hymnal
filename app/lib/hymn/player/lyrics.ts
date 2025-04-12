@@ -10,7 +10,7 @@ export function prepareLyrics(
 }
 
 function lyricDivider(lyric: Lyric): DividedLyric {
-  const MAX_LINES = 3
+  const MAX_LINES = 4
   const lines = lyric.lines
 
   const n = lines.length

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { getMutedStorage, setMutedStorage } from '../../storage/muted'
 import { getVolumeStorage, setVolumeStorage } from '../../storage/volume'
+import { waitForKey } from './keys'
 
 export function useFocus(mobile: boolean) {
   const [focused, setFocused] = useState(true)
@@ -11,11 +12,10 @@ export function useFocus(mobile: boolean) {
       activeFocus()
     }
 
+    const activeFocusKey = waitForKey({ key: '.' }, toogleFocus)
+
     const activeFocusWithKey = (ev: KeyboardEvent) => {
-      if (ev.key === '.') {
-        ev.preventDefault()
-        toogleFocus()
-      }
+      activeFocusKey(ev)
     }
 
     window.addEventListener('keydown', activeFocusWithKey)
@@ -59,7 +59,11 @@ export function useFocus(mobile: boolean) {
   return { focused, activeFocus, toogleFocus }
 }
 
-export function usePlay(activeFocus: () => void, audio?: HTMLAudioElement) {
+export function usePlay(
+  activeFocus: () => void,
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
+) {
   const [played, setPlayed] = useState(!(audio?.paused ?? true))
 
   useEffect(() => {
@@ -77,22 +81,34 @@ export function usePlay(activeFocus: () => void, audio?: HTMLAudioElement) {
   }, [audio])
 
   useEffect(() => {
-    const tooglePlayWithKey = (ev: KeyboardEvent) => {
-      if (ev.key === ' ') {
-        ev.preventDefault()
-        audio?.play()
+    if (keysBlocked) return
+
+    const tooglePlayKey = waitForKey({ key: ' ' }, () => {
+      if (audio == null) return
+      if (audio.paused) {
+        audio.play()
+      } else {
+        audio.pause()
       }
+    })
+
+    const tooglePlayWithKey = (ev: KeyboardEvent) => {
+      tooglePlayKey(ev)
     }
     window.addEventListener('keydown', tooglePlayWithKey)
     return () => {
       window.removeEventListener('keydown', tooglePlayWithKey)
     }
-  }, [audio])
+  }, [audio, keysBlocked])
 
   return played
 }
 
-export function useMuted(activeFocus: () => void, audio?: HTMLAudioElement) {
+export function useMuted(
+  activeFocus: () => void,
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
+) {
   const [muted, setMuted] = useState(false)
 
   useEffect(() => {
@@ -110,27 +126,30 @@ export function useMuted(activeFocus: () => void, audio?: HTMLAudioElement) {
   }, [audio, muted])
 
   useEffect(() => {
+    if (keysBlocked) return
     if (audio == null) return
 
     setMuted(audio.muted)
 
+    const toogleMuteKey = waitForKey({ key: 'm' }, () => setMuted(!muted))
+
     const toogleMuteWithKey = (ev: KeyboardEvent) => {
-      if (audio == null) return
-      if (ev.key === 'm') {
-        ev.preventDefault()
-        setMuted(!muted)
-      }
+      toogleMuteKey(ev)
     }
     window.addEventListener('keydown', toogleMuteWithKey)
     return () => {
       window.removeEventListener('keydown', toogleMuteWithKey)
     }
-  }, [audio, muted])
+  }, [audio, muted, keysBlocked])
 
   return { muted, setMuted }
 }
 
-export function useVolume(activeFocus: () => void, audio?: HTMLAudioElement) {
+export function useVolume(
+  activeFocus: () => void,
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
+) {
   const [volume, setVolume] = useState(100)
 
   useEffect(() => {
@@ -147,32 +166,39 @@ export function useVolume(activeFocus: () => void, audio?: HTMLAudioElement) {
   }, [audio])
 
   useEffect(() => {
+    if (keysBlocked) return
     if (audio == null) return
 
     audio.volume = getVolumeStorage() / 100
 
+    const turnUpVolumeKey = waitForKey(
+      { key: 'ArrowUp' },
+      () => (audio.volume = Math.min(audio.volume + 0.1, 1) / 1)
+    )
+    const turnDownVolumeKey = waitForKey(
+      { key: 'ArrowDown' },
+      () => (audio.volume = Math.max(audio.volume - 0.1, 0) / 1)
+    )
+
     const chageVolumeWithKey = (ev: KeyboardEvent) => {
-      if (audio == null) return
-      if (ev.key === 'ArrowUp') {
-        ev.preventDefault()
-        audio.volume = Math.min(audio.volume + 10, 100) / 100
-      }
-      if (ev.key === 'ArrowDown') {
-        ev.preventDefault()
-        audio.volume = Math.max(audio.volume - 10, 0) / 100
-      }
+      turnUpVolumeKey(ev)
+      turnDownVolumeKey(ev)
     }
     window.addEventListener('keydown', chageVolumeWithKey)
     return () => {
       window.removeEventListener('keydown', chageVolumeWithKey)
     }
-  }, [audio])
+  }, [audio, keysBlocked])
 
   return volume
 }
 
 const numbers = Array.from({ length: 10 }, (_, i) => i.toString())
-export function useTime(activeFocus: () => void, audio?: HTMLAudioElement) {
+export function useTime(
+  activeFocus: () => void,
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
+) {
   const [time, setTime] = useState(audio?.currentTime ?? 0)
 
   useEffect(() => {
@@ -188,14 +214,34 @@ export function useTime(activeFocus: () => void, audio?: HTMLAudioElement) {
   }, [audio])
 
   useEffect(() => {
+    if (keysBlocked) return
     if (audio == null) return
 
-    const changeTimwWithKey = (ev: KeyboardEvent) => {
-      if (numbers.includes(ev.key)) {
+    const changeTimeKey = waitForKey({ key: numbers }, (ev) => {
+      if (audio == null) return
+      const num = +ev.key
+      audio.currentTime = audio.duration * num * 0.1
+    })
+
+    const moveForward10sKey = waitForKey(
+      { key: 'ArrowRight', shift: true },
+      () => {
         if (audio == null) return
-        const num = +ev.key
-        audio.currentTime = audio.duration * num * 0.1
+        audio.currentTime = Math.min(audio.currentTime + 10, audio.duration)
       }
+    )
+    const moveBackward10sKey = waitForKey(
+      { key: 'ArrowLeft', shift: true },
+      () => {
+        if (audio == null) return
+        audio.currentTime = Math.max(audio.currentTime - 10, 0)
+      }
+    )
+
+    const changeTimwWithKey = (ev: KeyboardEvent) => {
+      changeTimeKey(ev)
+      moveForward10sKey(ev)
+      moveBackward10sKey(ev)
     }
 
     window.addEventListener('keydown', changeTimwWithKey)
@@ -203,14 +249,15 @@ export function useTime(activeFocus: () => void, audio?: HTMLAudioElement) {
     return () => {
       window.removeEventListener('keydown', changeTimwWithKey)
     }
-  }, [audio])
+  }, [audio, keysBlocked])
 
   return time
 }
 
 export function useFullscreen(
   activeFocus: () => void,
-  audio?: HTMLAudioElement
+  audio: HTMLAudioElement | undefined | null,
+  keysBlocked: boolean
 ) {
   const [fullscreen, setFullscreen] = useState(false)
 
@@ -227,19 +274,19 @@ export function useFullscreen(
   }, [audio])
 
   useEffect(() => {
+    if (keysBlocked) return
     if (audio == null) return
 
+    const toogleFullscreenKey = waitForKey({ key: 'f' }, handleFullscreen)
+
     const toogleFullscreenWithKey = (ev: KeyboardEvent) => {
-      if (ev.key === 'f') {
-        ev.preventDefault()
-        handleFullscreen()
-      }
+      toogleFullscreenKey(ev)
     }
     window.addEventListener('keydown', toogleFullscreenWithKey)
     return () => {
       window.removeEventListener('keydown', toogleFullscreenWithKey)
     }
-  }, [audio])
+  }, [audio, keysBlocked])
 
   const handleFullscreen = () => {
     if (!document.fullscreenElement) {
