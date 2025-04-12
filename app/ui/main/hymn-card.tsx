@@ -48,7 +48,7 @@ export default function HymnCard(hymn: Hymn) {
           <Link
             href={'/hymns/' + hymn.number + '/player'}
             className='flex items-center justify-center px-4 py-2 gap-2 w-fit font-medium text-center text-black bg-white border border-gray-300 rounded-lg hover:bg-gray-100 outline-none focus:border-gray-500'>
-            <IconPlayerPlayFilled /> Reproducir
+            <IconPlayerPlayFilled /> Ver
           </Link>
         </div>
       </span>
