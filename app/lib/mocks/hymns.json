@@ -11763,7 +11763,6 @@
   {
     "number": 252,
     "name": "Dejo el mundo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -11811,6 +11810,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.49, 15.45, 20.16, 25.41, 30.1, 35.68, 40.64, 46.21, 51.52, 57.29,
       62.03, 67.27, 71.9, 77.38, 82.44, 87.85, 93.5, 98.97, 103.87, 108.96,
@@ -11822,7 +11822,6 @@
   {
     "number": 253,
     "name": "Tuyo soy, Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -11870,6 +11869,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.51, 17.22, 22.56, 28.43, 34.3, 39.83, 45.58, 51.61, 58.82, 64.64,
       70.36, 75.9, 81.57, 87.24, 92.95, 100.05, 106.2, 112.46, 117.86, 123.37,
@@ -11881,7 +11881,6 @@
   {
     "number": 254,
     "name": "Anhelo ser limpio",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -11927,6 +11926,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.17, 23.47, 30.08, 37.76, 46, 51.32, 60.57, 69.13, 76.13, 83.23, 91.07,
       97.85, 106.32, 115, 121.64, 129.31, 137.19, 143.54, 152.5, 161.58, 168.47,
@@ -11937,7 +11937,6 @@
   {
     "number": 255,
     "name": "Oh Cristo, te adoro",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -11976,6 +11975,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.25, 27.18, 40.23, 53.76, 67.39, 81.59, 94.33, 108.09, 121.28, 135.14,
       148.46, 161.97, 175.64, 189.43, 202.47, 215.97, 230.5
@@ -11985,7 +11985,6 @@
   {
     "number": 256,
     "name": "Jesús, yo he prometido",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12040,6 +12039,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.2, 19.64, 25.54, 31.92, 38.14, 44.09, 50.24, 56.34, 62.6, 69.22, 75.11,
       81.53, 87.6, 93.64, 99.72, 105.86, 112.68, 118.81, 124.96, 131.03, 137.42,
@@ -12051,7 +12051,6 @@
   {
     "number": 257,
     "name": "¡Oh! ven, te invito, Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12097,6 +12096,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.86, 22.47, 28.21, 34.44, 40.42, 52.78, 59.9, 65.74, 72.24, 77.59,
       90.54, 96.95, 103.18, 109.33, 115.14, 127.67, 136.13, 142.28, 148.33,
@@ -12107,7 +12107,6 @@
   {
     "number": 258,
     "name": "Tú dejaste tu trono",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12155,6 +12154,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.85, 19.55, 26.02, 32.32, 39.41, 45.73, 52.48, 59.04, 65.92, 72.67,
       79.3, 85.56, 92.33, 98.84, 105.18, 112.05, 118.99, 125.77, 132.74, 139.32,
@@ -12166,7 +12166,6 @@
   {
     "number": 259,
     "name": "Mi espíritu, alma y cuerpo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12205,6 +12204,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.14, 24.07, 28.89, 33.93, 38.88, 43.89, 49.03, 53.96, 59.85, 64.26,
       69.53, 74.59, 79.68, 84.73, 89.87, 94.92, 100.64, 105.42, 110.4, 115.52,
@@ -12215,7 +12215,6 @@
   {
     "number": 260,
     "name": "Junto a la cruz de Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12257,6 +12256,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.27, 17.93, 23.1, 29.32, 33.8, 39.05, 44.42, 50.02, 56.34, 62.43, 67.46,
       72.91, 78.3, 83.6, 88.99, 94.66, 100.31, 107, 112.12, 117.39, 123.05, 128,
@@ -12267,7 +12267,6 @@
   {
     "number": 261,
     "name": "Salvador, a ti me rindo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12315,6 +12314,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       23.11, 28.69, 35.16, 40.49, 47.06, 52.11, 58.01, 64.37, 69.96, 75.51,
       81.82, 87.44, 93.61, 99.03, 104.94, 111.43, 116.7, 122.47, 128.42, 133.99,
@@ -12326,7 +12326,6 @@
   {
     "number": 262,
     "name": "Los tesoros del mundo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12377,6 +12376,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.04, 11.23, 15.04, 19.09, 22.3, 25.85, 29.31, 33.65, 37.34, 40.97, 44.44,
       48.66, 52.74, 56.93, 60.31, 63.84, 67.32, 70.68, 74.28, 78.74, 82.48,
@@ -12388,7 +12388,6 @@
   {
     "number": 263,
     "name": "Entra en este corazón",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12427,6 +12426,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.43, 15.21, 20.15, 23.89, 29.59, 33.08, 38.01, 43.02, 48.66, 53.41,
       57.79, 62.56, 67.7, 72.04, 76.7, 81.63, 87.24, 92.09, 96.46, 100.85,
@@ -12437,7 +12437,6 @@
   {
     "number": 264,
     "name": "Un día más por Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12493,6 +12492,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       18.79, 22.89, 27.01, 29.09, 31.06, 36.14, 41.48, 45.55, 49.88, 54.7,
       59.97, 64.87, 69.23, 71.53, 73.49, 78.03, 83.33, 86.52, 91.93, 96.59,
@@ -12505,7 +12505,6 @@
   {
     "number": 265,
     "name": "La senda ancha dejaré",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12544,6 +12543,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.58, 17.49, 22.48, 28.43, 33.79, 39.26, 44.7, 50.37, 56.39, 62.64, 68,
       73.35, 79.06, 84.4, 89.37, 95.37, 100.72, 107.51, 112.48, 117.96, 124.02,
@@ -12554,7 +12554,6 @@
   {
     "number": 266,
     "name": "Vivo por Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12602,6 +12601,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       18.08, 27.77, 36.28, 45.43, 54.44, 61.98, 70.83, 78.68, 89.86, 97.94,
       106.77, 115.58, 124.9, 133.34, 141.22, 150.28, 161.54, 169.93, 179.16,
@@ -12613,7 +12613,6 @@
   {
     "number": 267,
     "name": "A la cruz de Cristo voy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12652,6 +12651,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.59, 27.69, 33.18, 38.17, 43.96, 50.88, 56.25, 61.34, 68.03, 74.38,
       79.64, 84.12, 90.98, 97.48, 102.61, 107.84, 115.1
@@ -12661,7 +12661,6 @@
   {
     "number": 268,
     "name": "Puedo oír tu voz llamando",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12700,6 +12699,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.76, 23.53, 31.61, 39.89, 47.92, 55.43, 63.23, 70.5, 79.4, 87.65, 95.3,
       102.94, 111.71, 118.67, 126.35, 133.92, 142.95, 151.5, 158.77, 166.4,
@@ -12710,7 +12710,6 @@
   {
     "number": 269,
     "name": "Prefiero a mi Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12749,6 +12748,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       19.67, 30.82, 39.89, 48.63, 58.62, 67.6, 77.19, 86.02, 95.71, 105.09,
       114.64, 123.49, 133.09, 141.35, 151.33, 160.17, 169.56, 179.37, 189.03,
@@ -12759,7 +12759,6 @@
   {
     "number": 270,
     "name": "Meditar en Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12807,6 +12806,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.75, 20.15, 26.92, 33.1, 40.16, 47.74, 51.1, 54.12, 61.01, 68.93, 75.5,
       81.88, 89.1, 96.66, 100.17, 102.89, 109.6, 117.52, 124.23, 130.57, 137.23,
@@ -12818,7 +12818,6 @@
   {
     "number": 271,
     "name": "Hoy me llama el mundo en vano",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12857,6 +12856,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.62, 16.11, 20.65, 24.64, 30.28, 34.4, 39.34, 43.65, 50.46, 54.57,
       59.26, 64.03, 68.96, 73.21, 77.75, 82.69, 88.93, 93.5, 97.39, 101.51,
@@ -12867,7 +12867,6 @@
   {
     "number": 272,
     "name": "De esclavitud",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12922,6 +12921,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.06, 16.83, 22.66, 27.94, 33.39, 38.04, 43.63, 48.88, 54.84, 60.01,
       65.7, 70.83, 76.9, 81.13, 87.44, 91.89, 99, 104.03, 109.95, 114.91,
@@ -12933,7 +12933,6 @@
   {
     "number": 273,
     "name": "Tu vida, oh Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -12972,6 +12971,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.53, 25.33, 37.31, 48.27, 60.03, 72.02, 83.55, 95.24, 106.99, 120.91,
       131.8, 143.64, 156.9, 168.28, 179.47, 191.37, 207.66
@@ -12981,7 +12981,6 @@
   {
     "number": 274,
     "name": "¿Qué te daré, Maestro?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13022,6 +13021,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       27.93, 35.03, 42.04, 48.56, 55.82, 69.32, 83.36, 90.65, 97.49, 104.2,
       110.92, 118.58, 124.88, 131.93, 138.87, 152.29, 166.39, 173.67, 180.79,
@@ -13033,7 +13033,6 @@
   {
     "number": 275,
     "name": "En humilde oración",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13049,6 +13048,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.46, 18.25, 22.48, 29.85, 36.12, 42.19, 47.83, 54.2, 63.52
     ],
@@ -13057,7 +13057,6 @@
   {
     "number": 276,
     "name": "Con nuestras mentes",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13099,6 +13098,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       7.18, 13.13, 18.5, 24.51, 30.14, 36.25, 42.09, 48.01, 54.26, 60.11, 65.97,
       72.11, 77.56, 83.74, 89.64, 95.45, 102.13, 107.97, 113.16, 119.5, 125.48,
@@ -13109,7 +13109,6 @@
   {
     "number": 277,
     "name": "Amarte más",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13147,6 +13146,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.87, 22.68, 35.08, 46.64, 58.58, 70.03, 81.83, 93.73, 105.43, 116.96,
       128.89, 140.67, 152.27, 163.36, 175.72, 187.29, 201.38
@@ -13156,7 +13156,6 @@
   {
     "number": 278,
     "name": "¿Puede el mundo ver a Jesús en mí?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13195,6 +13194,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.09, 16.55, 21.75, 27.22, 31.54, 36.74, 42.75, 47.67, 54.05, 59.02,
       64.33, 69.79, 74.62, 79.34, 84.96, 90.24, 96.64, 101.82, 106.8, 111.99,
@@ -13205,7 +13205,6 @@
   {
     "number": 279,
     "name": "Transfórmame a tu imagen",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13235,6 +13234,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.3, 18.87, 24.19, 30.2, 36.95, 42.52, 47.91, 53.5, 60.98, 66.1, 72.24,
       78.07, 83.63, 88.94, 94.36, 99.52, 108.77
@@ -13244,7 +13244,6 @@
   {
     "number": 280,
     "name": "Ser semejante a Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13278,6 +13277,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.56, 24.57, 33.42, 42.22, 46.54, 54, 62.92, 72.2, 80.41, 85.42, 92.34,
       101.33, 110.68, 119.03, 123.77, 134.03
@@ -13287,7 +13287,6 @@
   {
     "number": 281,
     "name": "He decidido seguir a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13317,6 +13316,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.71, 15.7, 21.32, 26.04, 32.12, 36.82, 42.41, 47.75, 53.49, 58.07,
       63.47, 68.89, 75.91
@@ -13326,7 +13326,6 @@
   {
     "number": 282,
     "name": "¡Brilla, Jesús!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13360,6 +13359,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.58, 16.75, 21.64, 26.15, 31.57, 41.52, 45.28, 51.32, 61.12, 65.14,
       71.2, 82.5, 89.11, 93.71, 99.2, 104.11, 114.49, 117.98, 124.19, 133.77,
@@ -13370,7 +13370,6 @@
   {
     "number": 283,
     "name": "Ven, Señor Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13382,13 +13381,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [12.29, 21.76, 33.24, 45.17, 62.48],
     "doubleChorus": false
   },
   {
     "number": 284,
     "name": "Me dice el Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13436,6 +13435,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       30.37, 36.07, 41.83, 46.65, 52.56, 58.08, 63.39, 69.4, 75.4, 81.58, 86.71,
       92.09, 98.31, 103.28, 108.72, 114.55, 120.94, 126.39, 131.73, 136.78,
@@ -13447,7 +13447,6 @@
   {
     "number": 285,
     "name": "Confío en Jesucristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13489,6 +13488,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       19.91, 25.09, 30.11, 35.15, 40.21, 45.29, 50.33, 55.41, 61.45, 66.24,
       71.07, 76.24, 81.23, 86.79, 91.42, 96.27, 101.99, 107.21, 111.95, 117.19,
@@ -13499,7 +13499,6 @@
   {
     "number": 286,
     "name": "Hay una fuente sin igual",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13554,6 +13553,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.04, 15.19, 20.76, 26.64, 31.59, 37.11, 42.24, 47.87, 53.39, 58.66,
       64.25, 69.45, 74.81, 80.24, 85.68, 91.06, 97.1, 101.92, 107.23, 112.53,
@@ -13565,7 +13565,6 @@
   {
     "number": 287,
     "name": "Rey de mi vida",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13604,6 +13603,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.28, 18.57, 24.64, 31.16, 36.97, 43.06, 50.15, 56.15, 63.07, 69.42,
       75.38, 81.92, 88.2, 93.69, 100.57, 106.87, 113.47, 120.09, 126.45, 132.61,
@@ -13614,7 +13614,6 @@
   {
     "number": 288,
     "name": "Al contemplarte, mi Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13662,6 +13661,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.95, 18.16, 24.9, 31.21, 38.16, 43.72, 50.43, 56.35, 62.97, 69.33,
       76.54, 82.29, 88.83, 94.49, 100.86, 107.64, 114.64, 119.96, 126.37,
@@ -13673,7 +13673,6 @@
   {
     "number": 289,
     "name": "¿Qué me puede dar perdón?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13712,6 +13711,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.99, 16.75, 22.26, 27.02, 32.24, 37.25, 43.05, 47.37, 53.78, 58.27,
       63.95, 68.77, 74.95, 78.8, 84.61, 89.12, 95.37, 100.15, 105.09, 110.4,
@@ -13722,7 +13722,6 @@
   {
     "number": 290,
     "name": "Fuente de la vida eterna",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13764,6 +13763,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.98, 17.34, 22.59, 27.77, 32.27, 37.99, 43.3, 48.49, 54.21, 60.33, 65.76,
       70.93, 76.11, 81.02, 86.28, 91.43, 97.14, 103.64, 108.9, 113.97, 119.22,
@@ -13774,7 +13774,6 @@
   {
     "number": 291,
     "name": "Perdido, fui a mi Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13822,6 +13821,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.31, 16.65, 22.17, 27.65, 33.33, 38.83, 44.36, 50.18, 56.22, 61.62,
       67.43, 72.71, 78.33, 84.09, 89.62, 95.21, 100.97, 106.93, 115.28, 117.96,
@@ -13833,7 +13833,6 @@
   {
     "number": 292,
     "name": "Por fe en Cristo, el Redentor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13874,6 +13873,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.17, 13.41, 17.37, 21.17, 26.66, 31.57, 35.85, 39.81, 43.68, 48.35,
       54.52, 58.38, 62.14, 66.42, 72.01, 76.25, 80.27, 83.79, 88.13, 92.36,
@@ -13885,7 +13885,6 @@
   {
     "number": 293,
     "name": "¿Quieres ser salvo de toda maldad?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13924,6 +13923,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.04, 25.75, 31.14, 35.87, 40.56, 45.46, 50.78, 55.68, 61.46, 66.64, 72,
       76.88, 81.76, 86.61, 91.68, 96.56, 102.51, 107.87, 113.14, 117.8, 122.82,
@@ -13934,7 +13934,6 @@
   {
     "number": 294,
     "name": "En Jesús por fe confío",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -13982,6 +13981,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.8, 14.34, 18, 22.76, 27.28, 31.56, 35.79, 39.9, 44.1, 48.57, 53.66,
       58.84, 62.61, 67.23, 71.52, 76.01, 79.93, 84.2, 88.4, 93.07, 98.14,
@@ -13993,7 +13993,6 @@
   {
     "number": 295,
     "name": "Las manos, Padre",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14032,6 +14031,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.14, 14.43, 19.57, 24.04, 29.55, 33.8, 39.02, 43.68, 49.22, 53.97,
       59.04, 63.73, 69.19, 72.9, 78.44, 83.12, 88.71, 92.92, 98.34, 102.82,
@@ -14042,7 +14042,6 @@
   {
     "number": 296,
     "name": "Comprado con sangre por Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14090,6 +14089,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.6, 21.6, 25.4, 29.68, 33.53, 37.79, 41.77, 47.15, 51, 55.69, 59.71,
       63.8, 67.72, 72.02, 75.75, 80.42, 85.23, 89.68, 93.82, 97.89, 101.79,
@@ -14101,7 +14101,6 @@
   {
     "number": 297,
     "name": "Salvado con sangre por Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14140,6 +14139,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.04, 14.11, 18.46, 22.72, 27.67, 32.49, 37.06, 41.19, 47.02, 51.02,
       55.52, 59.67, 63.96, 68.37, 73.17, 78.34, 83.64, 88.48, 92.77, 97.59,
@@ -14150,7 +14150,6 @@
   {
     "number": 298,
     "name": "Al Calvario, solo, Jesús ascendió",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14189,6 +14188,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       25.79, 33.46, 39.32, 45.2, 51.16, 57.09, 63.17, 69.35, 77.84, 84.51,
       90.46, 96.25, 102.58, 108.25, 114.68, 121.64, 128.73, 134.81, 141.22,
@@ -14199,7 +14199,6 @@
   {
     "number": 299,
     "name": "Hay vida en mirar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14238,6 +14237,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.36, 17.61, 24.03, 28.88, 35.87, 41.65, 47.22, 53.03, 59.35, 66.31,
       71.53, 76.46, 83.52, 89.17, 94.87, 100.75, 107.5, 113.61, 119.31, 124.12,
@@ -14248,7 +14248,6 @@
   {
     "number": 300,
     "name": "Lejos de mi Padre Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14296,6 +14295,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.97, 17.57, 23.62, 29.15, 35.24, 41.27, 46.37, 51.56, 59.45, 64.31,
       70.13, 75.43, 82.09, 86.64, 92.49, 97.61, 105.42, 110.7, 116.88, 120.76,
@@ -14307,7 +14307,6 @@
   {
     "number": 301,
     "name": "Cristo es mi amante Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14362,6 +14361,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.12, 15.98, 20.79, 26.54, 31.73, 37.17, 43.11, 49.18, 54.14, 59.56,
       64.67, 69.92, 75.85, 81.1, 86.21, 92.16, 98.3, 103.53, 108.52, 114.05,
@@ -14373,7 +14373,6 @@
   {
     "number": 302,
     "name": "Grato es contar la historia",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14437,6 +14436,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.23, 32.76, 37.78, 42.68, 47.76, 52.89, 57.93, 62.99, 68.19, 73.12,
       78.19, 82.97, 89.21, 94.6, 99.2, 104.35, 109.76, 114.95, 119.65, 124.95,
@@ -14450,7 +14450,6 @@
   {
     "number": 303,
     "name": "Sublime gracia",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14480,6 +14479,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.41, 26.77, 34.45, 45.02, 53.88, 63.95, 71.85, 81.6, 91.7, 100.38,
       108.08, 118.39, 128.88
@@ -14489,7 +14489,6 @@
   {
     "number": 304,
     "name": "Mi Redentor, el Rey de gloria",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14539,6 +14538,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.06, 22.42, 28.58, 34.88, 41.42, 47.93, 54.38, 60.6, 67.12, 73.42,
       80.18, 89.48, 95.82, 102.18, 108.52, 115.14, 121.33, 127.69, 133.8,
@@ -14551,7 +14551,6 @@
   {
     "number": 305,
     "name": "Maravillosa su gracia es",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14588,6 +14587,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.76, 19.37, 26.29, 32.7, 39.77, 52.8, 66.58, 72.29, 79.48, 85.46, 92.72,
       106.06, 119.6, 125.84, 132.56, 138.63, 146.13, 158.97, 175.3
@@ -14597,7 +14597,6 @@
   {
     "number": 306,
     "name": "Llegó Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14645,6 +14644,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.64, 20.04, 26.15, 32.55, 38.73, 44.74, 50.68, 56.73, 63.79, 70.49,
       76.12, 82.68, 89.14, 95.22, 101.13, 107.42, 113.63, 120.42, 126.95,
@@ -14656,7 +14656,6 @@
   {
     "number": 307,
     "name": "Roca de la eternidad",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14692,6 +14691,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.64, 13.29, 17.86, 22.39, 27.01, 31.39, 37.17, 40.86, 45.48, 49.59,
       54.61, 58.93, 64.8, 68.87, 73.71, 78.17, 83.01, 87.32, 95.38
@@ -14701,7 +14701,6 @@
   {
     "number": 308,
     "name": "Dios descendió",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14752,6 +14751,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.99, 15.96, 20.51, 25.44, 30.34, 35.71, 40.58, 45.02, 50.51, 58.99,
       69.91, 80.9, 90.25, 96.81, 101.33, 106.41, 111.17, 116.41, 121.48, 125.51,
@@ -14763,7 +14763,6 @@
   {
     "number": 309,
     "name": "La voz de Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14805,6 +14804,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.63, 21.8, 29.54, 36.78, 44.09, 51.41, 58.65, 65.68, 73.28, 81.24,
       88.34, 95.65, 102.75, 110.53, 117.44, 125.18, 132.43, 140.92, 146.81,
@@ -14815,7 +14815,6 @@
   {
     "number": 310,
     "name": "Cristo, centro de mi vida",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14854,6 +14853,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.19, 14.4, 18.51, 22.89, 27.95, 31.2, 35.41, 39.74, 45.81, 50.6, 55.19,
       58.77, 64.17, 67.37, 71.44, 75.62, 81.41, 86.66, 90.75, 95.07, 99.99,
@@ -14864,7 +14864,6 @@
   {
     "number": 311,
     "name": "Cuando junte Jesús las naciones",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14903,6 +14902,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       19.37, 24.53, 29.45, 34.82, 39.78, 44.72, 49.79, 54.95, 60.2, 65.47,
       70.41, 75.47, 80.52, 85.59, 90.55, 95.82, 100.89, 105.76, 110.91, 115.89,
@@ -14913,7 +14913,6 @@
   {
     "number": 312,
     "name": "Día grande viene",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -14955,6 +14954,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.97, 13.98, 18.02, 21.26, 23.54, 28.4, 33.4, 38.46, 40.73, 48.07, 53.84,
       58.28, 60.87, 63.01, 68.21, 73.18, 78.24, 80.74, 87.73, 92.75, 96.93,
@@ -14965,7 +14965,6 @@
   {
     "number": 313,
     "name": "La hora del Juicio",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15020,6 +15019,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.94, 18.64, 24.91, 30.58, 36.9, 42.32, 49.25, 54.62, 61.68, 67.69, 73.7,
       80.04, 86.05, 91.99, 97.9, 103.68, 110.53, 117.01, 122.91, 128.84, 134.94,
@@ -15031,7 +15031,6 @@
   {
     "number": 314,
     "name": "Cristo, Rey omnipotente",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15070,6 +15069,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.44, 14.52, 19.96, 24.46, 29.98, 35, 39.38, 46.05, 50.99, 55.86, 60.63,
       65.81, 70.82, 74.87, 82.08, 86.66, 91.73, 96.54, 101.4, 106.78, 111.42,
@@ -15080,7 +15080,6 @@
   {
     "number": 315,
     "name": "El Juicio empezó",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15119,6 +15118,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.56, 23.12, 29.38, 36.42, 42.46, 48.88, 55.68, 62.77, 69.89, 78.32,
       84.55, 91.61, 97.66, 104.52, 110.98, 118.14, 125.72, 133.18, 139.55,
@@ -15129,7 +15129,6 @@
   {
     "number": 316,
     "name": "Hay un mundo feliz más allá",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15168,6 +15167,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.31, 18.82, 24.99, 30.79, 36.48, 42.08, 47.67, 53.34, 59.49, 64.13,
       70.33, 75.73, 81.6, 87.16, 92.83, 98.4, 104.23, 109.23, 115.49, 121.14,
@@ -15178,7 +15178,6 @@
   {
     "number": 317,
     "name": "En el hogar do nunca habrá",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15216,6 +15215,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.1, 17.43, 23.07, 28.73, 34.47, 40.36, 45.8, 58.15, 63.66, 69.3, 75.01,
       81.1, 86.5, 92.05, 104.49, 109.9, 115.64, 121.3, 127.07, 132.74, 138.41,
@@ -15226,7 +15226,6 @@
   {
     "number": 318,
     "name": "En la mansión de mi Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15274,6 +15273,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.72, 17.03, 22.07, 27.2, 32.75, 36.68, 42.4, 47.14, 53.47, 59.54, 65.24,
       69.86, 75.4, 79.38, 85.06, 89.77, 96.02, 102.36, 107.65, 112.18, 117.7,
@@ -15285,7 +15285,6 @@
   {
     "number": 319,
     "name": "Cuando mi lucha termine al final",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15324,6 +15323,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.11, 22.86, 28.24, 34.69, 42.22, 48.44, 54.33, 61.8, 72.55, 78.46,
       84.92, 90.78, 98.62, 105.06, 111, 118.25, 128.68, 134.55, 140.17, 145.71,
@@ -15334,7 +15334,6 @@
   {
     "number": 320,
     "name": "Jamás se dice adiós allá",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15373,6 +15372,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.74, 14.33, 19.04, 23.9, 28.77, 33.5, 38.38, 43.1, 49.46, 53.79, 58.52,
       63.37, 68.12, 72.77, 78.06, 83.72, 88.93, 93.24, 98.01, 102.62, 107.53,
@@ -15383,7 +15383,6 @@
   {
     "number": 321,
     "name": "Allá sobre montes",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15424,6 +15423,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.25, 21.91, 27.48, 33.94, 40.72, 51.68, 57.23, 63.12, 68.41, 73.74,
       80.41, 86.16, 93, 98.39, 105.23, 115.88, 122.06, 127.55, 132.85, 138.28,
@@ -15435,7 +15435,6 @@
   {
     "number": 322,
     "name": "Busquemos la patria",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15474,6 +15473,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.68, 18.2, 23.69, 29.17, 36.34, 42.29, 48, 53.52, 60.89, 66.56, 72.73,
       78.14, 85.45, 91.58, 97.48, 103.41, 121.5
@@ -15483,7 +15483,6 @@
   {
     "number": 323,
     "name": "He de conocerle entonces",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15531,6 +15530,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.04, 20.67, 27.3, 33.95, 40.5, 47.64, 53.53, 60.61, 67.17, 73.52, 80.09,
       86.7, 93.34, 100.2, 106.47, 113.19, 119.8, 126.23, 133.02, 139.54, 146.21,
@@ -15542,7 +15542,6 @@
   {
     "number": 324,
     "name": "Pronto yo veré a Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15581,6 +15580,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.68, 17.31, 22.75, 28.26, 33.85, 39.31, 44.82, 50.31, 57.21, 62.8, 68.2,
       73.74, 79.4, 84.7, 90.35, 95.85, 102.54, 108.25, 113.79, 119.24, 124.89,
@@ -15591,7 +15591,6 @@
   {
     "number": 325,
     "name": "No puede el mundo ser mi hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15631,6 +15630,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.74, 17.2, 22.51, 28.57, 34.87, 39.94, 44.68, 46.15, 51.51, 57.8, 63.83,
       69.42, 75.29, 81.03, 87.21, 91.24, 92.59, 98.24, 105.22, 111.45, 116.5,
@@ -15641,7 +15641,6 @@
   {
     "number": 326,
     "name": "Un día yo he de faltar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15689,6 +15688,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.01, 17.64, 22.68, 27.84, 33.32, 38.27, 43.51, 48.72, 54.93, 60.39,
       65.66, 70.5, 76.48, 81.45, 86.88, 92.05, 98.27, 103.88, 109.15, 114.11,
@@ -15700,7 +15700,6 @@
   {
     "number": 327,
     "name": "Jerusalén, mi amado hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15750,6 +15749,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.09, 15.51, 20.3, 24.7, 29.55, 33.81, 38.43, 42.91, 47.86, 56.9, 61.81,
       67.1, 72.38, 76.85, 81.27, 85.87, 90.54, 95.33, 99.58, 104.61, 113.2,
@@ -15761,7 +15761,6 @@
   {
     "number": 328,
     "name": "¿Nos veremos junto al río?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15809,6 +15808,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       23.7, 31.72, 36.57, 40.94, 45.98, 51.21, 56.46, 60.99, 67.03, 73.46,
       79.13, 83.69, 88.52, 93.84, 98.84, 103.43, 109.56, 116, 121.54, 126.36,
@@ -15820,7 +15820,6 @@
   {
     "number": 329,
     "name": "En la célica morada",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15858,6 +15857,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.38, 14.82, 19.34, 24.46, 29.05, 34.38, 38.71, 43.92, 49.02, 53.58,
       57.99, 63.47, 69.24, 77.84, 82.28, 87.4, 92.03, 97.24, 101.74, 106.87,
@@ -15868,7 +15868,6 @@
   {
     "number": 330,
     "name": "Hay un feliz Edén",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15910,6 +15909,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.27, 24.39, 27.74, 30.92, 34.1, 37.43, 40.45, 43.82, 47.5, 51.87, 54.78,
       58.61, 61.77, 65.15, 68.36, 71.8, 75.83, 80.05, 83.25, 86.52, 89.93,
@@ -15920,7 +15920,6 @@
   {
     "number": 331,
     "name": "La mañana gloriosa",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15951,6 +15950,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.06, 19.05, 23.74, 28.84, 34.03, 39.11, 44.29, 49.3, 54.03, 60.06,
       65.33, 70.01, 74.74, 80.35, 85.05, 90.18, 95.42, 100.09, 106.34
@@ -15960,7 +15960,6 @@
   {
     "number": 332,
     "name": "En la tierra adonde iré",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -15999,6 +15998,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.02, 16.04, 21.48, 26.43, 31.66, 36.56, 41.54, 46.96, 52.45, 58.32,
       63.27, 68.48, 73.6, 77.92, 83.28, 88.6, 94.35, 99.58, 104.97, 110.35,
@@ -16009,7 +16009,6 @@
   {
     "number": 333,
     "name": "Aunque en esta vida",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16050,6 +16049,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       7.7, 15.21, 22.88, 30.47, 38.24, 45.69, 48.6, 53.28, 60.5, 63.83, 68.74,
       75.82, 83.35, 90.65, 99.04, 106.62, 109.52, 114.21, 121.8, 124.84, 129.96,
@@ -16061,7 +16061,6 @@
   {
     "number": 334,
     "name": "Cuánto anhelo llegar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16101,6 +16100,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       23.71, 31.15, 36.64, 42.37, 48.5, 54.06, 59.51, 62.71, 65.78, 75.24,
       80.96, 87.02, 92.49, 98.49, 104.2, 109.85, 112.55, 115.6, 125.73, 130.8,
@@ -16111,7 +16111,6 @@
   {
     "number": 335,
     "name": "Mi hogar celestial",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16150,6 +16149,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       25.58, 33.05, 40.29, 45.94, 52.82, 60.2, 66.6, 72.69, 79.8, 86.33, 92.87,
       99.44, 105.94, 113.07, 119.36, 125.37, 132.61, 139.47, 145.79, 151.68,
@@ -16160,7 +16160,6 @@
   {
     "number": 336,
     "name": "Del bello país he leído",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16211,6 +16210,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.14, 16.82, 22.68, 27.65, 33.38, 38.41, 44.01, 49.29, 54.78, 59.76,
       65.5, 70.43, 76.92, 82.73, 88.37, 93.47, 98.84, 104.09, 109.64, 114.47,
@@ -16222,7 +16222,6 @@
   {
     "number": 337,
     "name": "Nunca más adiós",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16267,6 +16266,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.45, 22.4, 29.8, 36.52, 43.96, 50.16, 56.58, 63.4, 71.25, 75.03, 78.11,
       81.44, 85.23, 91.82, 100.4, 108.36, 115.2, 121.99, 129.59, 136.06, 142.12,
@@ -16279,7 +16279,6 @@
   {
     "number": 338,
     "name": "Las riberas de dicha inmortal",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16318,6 +16317,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.67, 25.5, 30.44, 35.72, 41, 46.17, 51.25, 56.42, 62.53, 68.07, 73.18,
       78.44, 83.64, 88.78, 93.88, 98.67, 105.11, 110.75, 115.92, 121.08, 126.12,
@@ -16328,7 +16328,6 @@
   {
     "number": 339,
     "name": "A veces oigo un himno",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16379,6 +16378,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       26.74, 31.7, 35.28, 39.48, 43.66, 47.55, 52.25, 56.2, 61.18, 65.21, 68.87,
       73.96, 79.46, 84.06, 88.29, 92.34, 96.76, 101.03, 105.41, 109.65, 113.92,
@@ -16390,7 +16390,6 @@
   {
     "number": 340,
     "name": "¡Oh, qué música divina!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16420,6 +16419,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.74, 17.39, 25.94, 34.73, 44.53, 53.26, 62.21, 70.86, 80.47, 89.81,
       98.69, 107.65, 128.28
@@ -16429,7 +16429,6 @@
   {
     "number": 341,
     "name": "Más cerca del hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16459,6 +16458,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.02, 21.04, 27.43, 32.99, 39.19, 45.18, 51.14, 58.2, 67.81, 72.75,
       79.65, 84.08, 90.4, 95.32, 101.98, 108.05, 120.26
@@ -16468,7 +16468,6 @@
   {
     "number": 342,
     "name": "Después del río",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16506,6 +16505,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.16, 27.51, 34.99, 43.13, 50.98, 60.48, 68.17, 75.55, 84.04, 92.71,
       99.85, 108.72, 117.92, 129.5, 136.65, 144.64, 152.54, 161.38, 169.56,
@@ -16516,7 +16516,6 @@
   {
     "number": 343,
     "name": "Quiero llegar a ser parte del Cielo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16551,6 +16550,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.09, 24.32, 34.41, 41.64, 51.26, 62.47, 74.05, 80.91, 87.82, 103.83,
       111.98, 123.92, 134.08, 142.95, 152.12, 161.8, 172.91, 185.88
@@ -16560,7 +16560,6 @@
   {
     "number": 344,
     "name": "Entonad un himno",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16608,6 +16607,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.79, 19.13, 24.88, 30.56, 36.31, 42.1, 47.67, 55.11, 60.86, 67.62,
       73.29, 78.88, 84.64, 90.43, 96.65, 103.31, 110.04, 116.1, 121.88, 127.5,
@@ -16619,7 +16619,6 @@
   {
     "number": 345,
     "name": "Canta, y tus penas se irán",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16649,6 +16648,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.53, 15.08, 19.09, 23.34, 28.73, 34.03, 37.84, 42.41, 47.68, 53.03,
       56.95, 61.28, 68.34
@@ -16658,7 +16658,6 @@
   {
     "number": 346,
     "name": "¡Feliz el día!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16699,6 +16698,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.89, 16.63, 21.95, 26.76, 32.19, 37.46, 42.51, 47.43, 52.66, 58.07,
       63.83, 70.04, 75.41, 80.09, 85.99, 91.11, 95.82, 101.3, 106.67, 111.56,
@@ -16710,7 +16710,6 @@
   {
     "number": 347,
     "name": "Con gozo canto al Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16759,6 +16758,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.3, 17.95, 23.6, 29.22, 35.13, 40.56, 43.31, 46.21, 51.95, 58.52, 64.19,
       69.85, 75.4, 81.2, 86.96, 89.7, 92.53, 98.15, 104.75, 110.43, 116.13,
@@ -16770,7 +16770,6 @@
   {
     "number": 348,
     "name": "Dicha grande",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16825,6 +16824,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.83, 15.87, 21.21, 25.58, 30.75, 35.31, 40.17, 44.66, 50.37, 55.21,
       60.07, 64.54, 69.76, 73.59, 78.54, 83.34, 89.34, 93.61, 98.82, 103.63,
@@ -16836,7 +16836,6 @@
   {
     "number": 349,
     "name": "Gran gozo hay en mi alma hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16884,6 +16883,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.07, 16.05, 21.12, 26.12, 31, 36.12, 41.11, 46.03, 52.43, 57.24, 62.72,
       67.73, 72.72, 77.88, 82.81, 87.66, 94.21, 99.33, 104.38, 109.32, 114.36,
@@ -16895,7 +16895,6 @@
   {
     "number": 350,
     "name": "Andando en la luz de Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16943,6 +16942,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       24.95, 27.8, 30.28, 32.56, 35.59, 39.98, 45.39, 50.45, 56.66, 60.2, 62.91,
       65.33, 68.07, 72.76, 78.12, 83.22, 89.31, 93.27, 95.07, 97.58, 100.63,
@@ -16954,7 +16954,6 @@
   {
     "number": 351,
     "name": "Yo tengo gozo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -16984,6 +16983,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.23, 13.54, 17.97, 22.59, 27.13, 31.98, 35.94, 40.88, 45.05, 49.84,
       53.89, 58.59, 64.55
@@ -16993,7 +16993,6 @@
   {
     "number": 352,
     "name": "Gozaos, Cristo es Rey",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17044,6 +17043,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.16, 16.78, 22.3, 27.01, 33.24, 38.83, 43.36, 50.37, 55.2, 61.3, 64.68,
       72.43, 77.74, 81.74, 89.21, 94.61, 100.21, 104.71, 111.05, 115.87, 120.59,
@@ -17054,7 +17054,6 @@
   {
     "number": 353,
     "name": "Suenan melodías en mi ser",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17093,6 +17092,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       7.41, 14.3, 19.14, 24.13, 28.76, 34.2, 39.1, 43.66, 48.47, 52.86, 57.59,
       62.15, 67.53, 72.53, 77.16, 81.74, 87.12, 91.6, 95.69, 100.39, 105.22,
@@ -17103,7 +17103,6 @@
   {
     "number": 354,
     "name": "Voy caminando",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17133,6 +17132,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.5, 15.74, 19.57, 24.43, 29.31, 33.3, 36.97, 41.57, 47.19, 51.66, 55.91,
       60.41, 68.05
@@ -17142,7 +17142,6 @@
   {
     "number": 355,
     "name": "Yo voy feliz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17181,6 +17180,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.72, 22.8, 27.29, 31.62, 36.8, 40.79, 45.44, 49.44, 55.62, 59.23, 63.79,
       67.93, 73.04, 77.12, 82.17, 86.09, 92.31, 95.74, 100.49, 104.91, 109.48,
@@ -17191,7 +17191,6 @@
   {
     "number": 356,
     "name": "Gozo es conocer a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17230,6 +17229,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8, 11.81, 15.49, 19.38, 23.73, 27.48, 31.42, 35.55, 39.61, 43.45, 47.06,
       50.96, 55.55, 59.89, 63.4, 67.59, 73.04
@@ -17239,7 +17239,6 @@
   {
     "number": 357,
     "name": "Jesús, tú eres mi alegría",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17281,6 +17280,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.29, 25.96, 33.53, 40.54, 48.22, 55.71, 62.86, 70.17, 78.35, 87.93,
       96.04, 103.53, 111.13, 118.18, 125.72, 133.31, 141.14, 147.43, 155.4,
@@ -17291,7 +17291,6 @@
   {
     "number": 358,
     "name": "En el seno de mi alma",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17339,6 +17338,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.46, 21.77, 28.86, 35.94, 43.32, 50.49, 57.42, 64.65, 72.18, 79.33,
       85.86, 93.02, 100.61, 107.72, 114.51, 121.42, 128.46, 135.45, 141.86,
@@ -17350,7 +17350,6 @@
   {
     "number": 359,
     "name": "Regocijaos siempre",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17366,6 +17365,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.72, 13.74, 16.04, 19.13, 21.76, 24.14, 27.35, 29.96, 34.66
     ],
@@ -17374,7 +17374,6 @@
   {
     "number": 360,
     "name": "En Jesucristo, mártir de paz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17413,6 +17412,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.04, 21.09, 27.91, 34.73, 41.43, 48.07, 54.32, 60.99, 68.03, 75.83,
       82.21, 88.95, 95.46, 102.05, 108.28, 115.06, 122.32, 129.74, 135.4, 142,
@@ -17423,7 +17423,6 @@
   {
     "number": 361,
     "name": "Percibe mi alma un son",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17471,6 +17470,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.13, 15.79, 21.56, 27.06, 32.92, 38.27, 42.83, 47.95, 54.19, 59.66,
       65.02, 70.16, 75.83, 81.67, 86.23, 91.33, 97.36, 103.22, 108.68, 113.56,
@@ -17482,7 +17482,6 @@
   {
     "number": 362,
     "name": "Con sin igual amor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17521,6 +17520,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       18.25, 25.09, 31.03, 37.79, 43.76, 50.31, 56.54, 63.12, 69.77, 75.95,
       82.6, 89.34, 94.69, 101.14, 107.81, 114.45, 121.18, 127.04, 133.09, 139.6,
@@ -17531,7 +17531,6 @@
   {
     "number": 363,
     "name": "Hay un canto nuevo en mi ser",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17579,6 +17578,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.24, 15.55, 19.53, 25.46, 30.59, 35.68, 40.71, 46.13, 51.14, 56.08,
       61.41, 66.22, 71.09, 76.08, 81.49, 86.93, 91.66, 96.59, 101.21, 106.83,
@@ -17590,7 +17590,6 @@
   {
     "number": 364,
     "name": "Jesús da paz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17610,6 +17609,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.36, 16.65, 23.06, 35.21, 40.94, 46.63, 59.3, 65.46, 70.71, 83.86,
       90.32, 95.52, 109.52
@@ -17619,7 +17619,6 @@
   {
     "number": 365,
     "name": "Elevemos al Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17649,6 +17648,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.9, 25, 35.87, 46.09, 58.1, 69.73, 80.47, 91.26, 103.68, 114.42, 125.21,
       135.4, 149.9
@@ -17658,7 +17658,6 @@
   {
     "number": 366,
     "name": "En Cristo hallo amigo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17700,6 +17699,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.88, 21.58, 26.72, 32.28, 37.33, 43.45, 48.95, 54.17, 60.48, 66.42,
       72.13, 77.65, 82.95, 88.41, 94.04, 99.43, 105.23, 118.89, 124.3, 129.91,
@@ -17710,7 +17710,6 @@
   {
     "number": 367,
     "name": "Gracias, Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17722,13 +17721,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [6.96, 14.37, 21.12, 27.81, 37.37],
     "doubleChorus": false
   },
   {
     "number": 368,
     "name": "Padre amado",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "chorus",
@@ -17763,6 +17762,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.85, 21.97, 25.82, 33.31, 41.22, 49.21, 57.27, 60.92, 65.15, 72.52,
       76.87, 83.53, 88.18, 91.48, 99.27, 106.63, 114.69, 122.55, 126.49, 130.25,
@@ -17773,7 +17773,6 @@
   {
     "number": 369,
     "name": "Gratitud y alabanza",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17784,13 +17783,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [10.1, 16.53, 21.82, 29.31],
     "doubleChorus": false
   },
   {
     "number": 370,
     "name": "Por la excelsa majestad",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17837,6 +17836,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.38, 16.38, 21.5, 26.41, 31.78, 36.59, 42.17, 48.09, 53.25, 58.09,
       63.34, 67.86, 74.06, 79.6, 84.86, 89.6, 94.88, 99.86, 105.78, 111.31,
@@ -17847,7 +17847,6 @@
   {
     "number": 371,
     "name": "Jesús te ama",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17875,6 +17874,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.59, 20.7, 27.29, 33.81, 40.77, 53.63, 67.91, 74.76, 81.57, 88.62,
       94.54, 107.13, 123.67
@@ -17884,7 +17884,6 @@
   {
     "number": 372,
     "name": "¿Cómo agradecer?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17922,6 +17921,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       7.53, 16.7, 25.05, 30, 38.91, 43.97, 51.2, 55.22, 59.23, 66.13, 73.14,
       79.89, 86.87, 93.83, 100.78, 107.93, 115.04, 121.7, 128.14, 134.38,
@@ -17932,7 +17932,6 @@
   {
     "number": 373,
     "name": "Mi Redentor es Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -17980,6 +17979,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.19, 22.59, 27.51, 32.63, 37.37, 42.44, 47.14, 52.07, 57.75, 63.12,
       68.19, 73.02, 78.13, 83, 87.79, 92.87, 98.49, 103.62, 108.96, 113.61,
@@ -17991,7 +17991,6 @@
   {
     "number": 374,
     "name": "Dulce comunión",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18036,6 +18035,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.83, 14.64, 17.26, 22.68, 25.35, 27.75, 33.49, 38.31, 44.04, 49.3, 55.5,
       58.67, 61.26, 66.65, 69.01, 71.96, 77.49, 83.27, 88.03, 93.5, 99.63,
@@ -18047,7 +18047,6 @@
   {
     "number": 375,
     "name": "Sed puros y santos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18077,6 +18076,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.33, 19.54, 28.81, 39.07, 48.83, 58.9, 68.99, 78.79, 88.74, 98.47,
       108.56, 118.14, 131.08
@@ -18086,7 +18086,6 @@
   {
     "number": 376,
     "name": "Dulce oración",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18128,6 +18127,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.86, 21.35, 27.9, 34.15, 40.99, 46.88, 53.95, 60.76, 69.2, 75.51, 82.79,
       89.62, 96.51, 102.6, 110.06, 117, 125.66, 132.79, 139.71, 146.71, 153.88,
@@ -18138,7 +18138,6 @@
   {
     "number": 377,
     "name": "A los pies de Jesucristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18180,6 +18179,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.43, 20.23, 27.08, 33.54, 40.45, 46.84, 53.58, 60, 66.4, 73.45, 79.92,
       86.46, 93.11, 99.7, 106.3, 112.9, 119.58, 126.31, 132.95, 139.5, 146.04,
@@ -18190,7 +18190,6 @@
   {
     "number": 378,
     "name": "¡Oh, qué amigo nos es Cristo!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18232,6 +18231,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.72, 18.57, 25.15, 32.04, 38.48, 44.74, 50.98, 57.6, 64.09, 70.32,
       76.51, 83.17, 89.62, 96.04, 102.18, 108.91, 115.64, 121.77, 128.11,
@@ -18242,7 +18242,6 @@
   {
     "number": 379,
     "name": "Habla, Señor, a mi alma",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18297,6 +18296,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.86, 22.09, 26.26, 30.78, 35.09, 39.42, 43.12, 48.03, 52.31, 57.23,
       60.75, 65.09, 69.15, 73.37, 77.8, 82.04, 87.18, 91.21, 95.46, 99.7,
@@ -18310,7 +18310,6 @@
   {
     "number": 380,
     "name": "Ando con Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18349,6 +18348,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.29, 31.3, 36.26, 41.8, 47.89, 52.72, 58.49, 63.86, 71.9, 79.23, 84.12,
       89.79, 95.79, 101.02, 106.16, 111.71, 119.62, 126.6, 132.06, 137.82,
@@ -18359,7 +18359,6 @@
   {
     "number": 381,
     "name": "De mañana veo su faz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18371,13 +18370,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [14.45, 20.02, 27.93, 34.46, 44.85],
     "doubleChorus": false
   },
   {
     "number": 382,
     "name": "A solas al huerto yo voy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18416,6 +18415,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.72, 20.05, 26.4, 32.19, 38.69, 45.21, 49.79, 56.61, 63.02, 68.39,
       73.99, 79.91, 86.07, 92.91, 98.67, 104.67, 112.72, 118.78, 124.76, 131.16,
@@ -18426,7 +18426,6 @@
   {
     "number": 383,
     "name": "Habla a tu Dios de mañana",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18456,6 +18455,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.54, 15.83, 21.06, 25.8, 31.23, 36.95, 42.26, 47.24, 52.66, 57.92, 63.43,
       68.12, 75.52
@@ -18465,7 +18465,6 @@
   {
     "number": 384,
     "name": "El jardín de oración",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18513,6 +18512,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       24.27, 28.96, 36.72, 43.67, 50.97, 58.45, 64.12, 72.02, 78.79, 85.1,
       92.44, 99.77, 106.56, 113.61, 119.39, 127.37, 134.24, 140.74, 147.84,
@@ -18524,7 +18524,6 @@
   {
     "number": 385,
     "name": "Hablando con Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18536,13 +18535,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [10.91, 15.91, 21.39, 26.87, 34.09],
     "doubleChorus": false
   },
   {
     "number": 386,
     "name": "Hay un lugar de paz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18562,6 +18561,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       27.42, 33.83, 38.9, 49.47, 56.14, 62.8, 72.61, 78.57, 83.57, 92.32,
       100.79, 108.77, 122.92
@@ -18571,7 +18571,6 @@
   {
     "number": 387,
     "name": "Aparte del mundo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18610,6 +18609,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.12, 23.09, 30.47, 37.9, 46.08, 53.89, 61.82, 69.14, 77.96, 85.88,
       93.75, 101.2, 110.06, 117.78, 125.91, 133.97, 145.87
@@ -18619,7 +18619,6 @@
   {
     "number": 388,
     "name": "Debo decir a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18658,6 +18657,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.31, 19.63, 25.9, 32.41, 39.56, 45.43, 52.04, 58.78, 65.49, 72.19,
       78.57, 85.49, 92.28, 98.28, 104.89, 111.31, 118.61, 124.49, 131.19,
@@ -18668,7 +18668,6 @@
   {
     "number": 389,
     "name": "Conversar con Jesucristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18684,13 +18683,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [12.7, 20.55, 25.94, 32.5, 38.83, 44.68, 51.19, 57.52, 66.12],
     "doubleChorus": false
   },
   {
     "number": 390,
     "name": "Soy yo, Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18708,6 +18707,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.4, 16.45, 21.29, 27.02, 31.75, 33.94, 36.83, 40.97, 43.63, 46.81, 54.59
     ],
@@ -18716,7 +18716,6 @@
   {
     "number": 391,
     "name": "¿Le importará a Jesús?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18764,6 +18763,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.54, 17.31, 24.17, 30.04, 36.4, 39.49, 48.55, 54.38, 61.25, 67.26,
       73.62, 79.26, 85.61, 88.24, 97.22, 103.27, 109.74, 116.67, 122.64, 128.87,
@@ -18775,7 +18775,6 @@
   {
     "number": 392,
     "name": "Hay quien vela mis pisadas",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18826,6 +18825,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.5, 16.1, 21.41, 27.11, 32.09, 37.44, 42.74, 48.02, 53.71, 58.7, 64.05,
       69.37, 74.85, 80.22, 85.22, 90.96, 96.75, 101.97, 107.15, 112.38, 118.25,
@@ -18837,7 +18837,6 @@
   {
     "number": 393,
     "name": "Mi fe contempla a ti",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18876,6 +18875,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.04, 16, 21.09, 26.71, 31.05, 36.32, 40.82, 48.06, 52.39, 57.92, 63.26,
       67.96, 73.61, 78.84, 85.05, 91.15, 97.13, 101.43, 106.31, 111.36, 117.25,
@@ -18886,7 +18886,6 @@
   {
     "number": 394,
     "name": "¡Cuán firme cimiento!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18929,6 +18928,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.29, 19.8, 29.11, 37.77, 46.87, 56.26, 65.08, 73.92, 82.64, 91.85,
       101.45, 109.95, 118.8, 127.92, 137, 146.2, 154.85, 163.5, 173.01, 181.53,
@@ -18939,7 +18939,6 @@
   {
     "number": 395,
     "name": "¡Oh, cuán dulce es fiar en Cristo!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -18978,6 +18977,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.36, 17.88, 23.52, 29.46, 35.42, 41.15, 46.77, 52.71, 59.09, 65.65,
       71.62, 77.36, 83.33, 88.99, 94.77, 100.85, 107.13, 113.53, 119.42, 124.94,
@@ -18988,7 +18988,6 @@
   {
     "number": 396,
     "name": "¡Oh qué Salvador!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19037,6 +19036,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.92, 17.96, 23.16, 29.03, 34, 38.74, 45.3, 51.38, 56.3, 62.71, 69.19,
       74.88, 80.87, 85.9, 90.18, 96.77, 102.79, 107.87, 114.33, 120.92, 126.61,
@@ -19048,7 +19048,6 @@
   {
     "number": 397,
     "name": "Oh buen Señor, velada está",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19087,6 +19086,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.69, 22.63, 28.96, 35.6, 42.34, 50.36, 56.76, 63.1, 70.93, 78.84, 84.26,
       90.95, 98.16, 105.53, 112.09, 118.71, 127.71
@@ -19096,7 +19096,6 @@
   {
     "number": 398,
     "name": "Cuando sopla airada la tempestad",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19135,6 +19134,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.66, 17.77, 23.67, 29.19, 35.88, 40.98, 46.81, 52.26, 58.73, 64.6,
       70.53, 76.39, 82.85, 87.81, 93.76, 99.22, 105.9, 111.44, 117.16, 123.24,
@@ -19145,7 +19145,6 @@
   {
     "number": 399,
     "name": "En estos tiempos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19188,6 +19187,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.72, 27.97, 33.56, 38.74, 45.65, 48.77, 51.86, 54.66, 57.28, 63.57,
       70.49, 76.36, 81.91, 87.47, 94.68, 97.4, 100.06, 103.23, 106.01, 111.75,
@@ -19199,7 +19199,6 @@
   {
     "number": 400,
     "name": "Castillo fuerte es nuestro Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19258,6 +19257,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.23, 18.47, 26.68, 34.15, 42.37, 48.02, 53.78, 60.04, 66.08, 74.13,
       81.02, 89, 96.56, 103.8, 110.16, 115.37, 122.17, 128.59, 135.9, 143.33,
@@ -19269,7 +19269,6 @@
   {
     "number": 401,
     "name": "Eterna Roca es mi Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19308,6 +19307,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.47, 18.49, 24.09, 29.71, 35.06, 41.08, 46.39, 52.53, 58.85, 65.38,
       70.86, 76.4, 81.87, 87.59, 93.18, 99.34, 106.05, 112.13, 117.5, 123.28,
@@ -19318,7 +19318,6 @@
   {
     "number": 402,
     "name": "¡Oh!, salvo en la Roca",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19365,6 +19364,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.61, 25.44, 34.42, 42.86, 52.68, 60.98, 65.34, 71.13, 79.23, 87.82,
       96.5, 106.22, 115, 119.51, 125.28, 134.02, 143.28, 152.12, 162.22, 171.21,
@@ -19375,7 +19375,6 @@
   {
     "number": 403,
     "name": "Cuando en la lucha",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19414,6 +19413,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       15.21, 22.14, 30.39, 37.55, 45.82, 53.11, 60.57, 67.93, 76.89, 84.63,
       92.41, 100.27, 108.32, 115.38, 123.4, 131.02, 140.39, 147.38, 154.98,
@@ -19424,7 +19424,6 @@
   {
     "number": 404,
     "name": "A cualquiera parte",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19472,6 +19471,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       6.42, 12.58, 18.57, 24.09, 30.64, 33.43, 36.78, 39.37, 43.1, 49.21, 55.39,
       61.33, 67.53, 70.42, 73.5, 75.81, 80.23, 86.28, 92.44, 98.25, 104.23,
@@ -19483,7 +19483,6 @@
   {
     "number": 405,
     "name": "Sé quién es Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19509,6 +19508,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.01, 20.59, 26.65, 33.65, 40.41, 46.89, 53.8, 60.31, 66.62, 73.42,
       80.15, 86.87, 94.84
@@ -19518,7 +19518,6 @@
   {
     "number": 406,
     "name": "Jesús es mi luz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19566,6 +19565,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.3, 17.59, 23.62, 28.76, 35.02, 40.29, 45.79, 51.26, 58.41, 64.24,
       69.77, 74.86, 80.84, 86.14, 92, 97.17, 103.96, 109.4, 115.42, 120.89,
@@ -19577,7 +19577,6 @@
   {
     "number": 407,
     "name": "Muy cerca de mi Redentor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19616,6 +19615,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       22.97, 28.92, 34.54, 40.59, 46.22, 51.67, 57.47, 63.61, 69.64, 74.98,
       80.95, 86.72, 92.19, 96.9, 103.66, 109.69, 116.18, 121.26, 127.13, 132.88,
@@ -19626,7 +19626,6 @@
   {
     "number": 408,
     "name": "Cristo me ayuda por él a vivir",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19674,6 +19673,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.02, 28.5, 36.34, 43.1, 51.44, 58.18, 66.44, 73.92, 81.78, 89.1, 97.19,
       104.63, 112.3, 119.44, 126.18, 134.68, 142.98, 150.75, 158.24, 165.76,
@@ -19685,7 +19685,6 @@
   {
     "number": 409,
     "name": "Si mi débil fe flaqueare",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19733,6 +19732,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.04, 26.36, 29.93, 35.4, 41.15, 45.18, 50.11, 56.45, 61.19, 66.87,
       70.81, 76.51, 82.58, 86.44, 91.81, 97.17, 103.05, 108.21, 112.45, 117.78,
@@ -19744,7 +19744,6 @@
   {
     "number": 410,
     "name": "Cuando te quiero",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19792,6 +19791,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.74, 23.01, 30.08, 36.35, 42.87, 47.5, 51.64, 56.57, 61.32, 67.57,
       74.52, 80.96, 86.85, 92.22, 95.98, 100.51, 106.2, 112.45, 119.45, 125.72,
@@ -19803,7 +19803,6 @@
   {
     "number": 411,
     "name": "Bajo sus alas",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19842,6 +19841,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.64, 27.65, 34.89, 43.37, 51.9, 58.94, 66.75, 74.4, 84.64, 92.54,
       100.22, 107.96, 116.11, 123.5, 131.01, 138.87, 148.65, 157.01, 164.89,
@@ -19852,7 +19852,6 @@
   {
     "number": 412,
     "name": "Todas las promesas",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19891,6 +19890,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       8.67, 12.89, 17.09, 21.45, 26.12, 30.71, 35.13, 40.1, 44.78, 49.32, 53.51,
       57.71, 61.96, 66.73, 71.03, 75.77, 80.77, 85.06, 89.46, 93.52, 98.25,
@@ -19901,7 +19901,6 @@
   {
     "number": 413,
     "name": "Si la carga es pesada",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -19940,6 +19939,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       18.51, 26.09, 31.25, 37.91, 43.61, 49.48, 55.49, 61.35, 66.72, 72.47,
       78.02, 84.14, 89.85, 95.68, 101.44, 107.42, 113.56, 121.87, 127.72,
@@ -19950,7 +19950,6 @@
   {
     "number": 414,
     "name": "¡Oh, buen Maestro, despierta!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20006,6 +20005,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.47, 23.3, 27.54, 31.3, 35.72, 39.92, 43.82, 47.91, 52.36, 56.68, 64.36,
       68.46, 72.59, 78.69, 83.12, 87.07, 91.56, 96.38, 101.15, 105.5, 109.55,
@@ -20019,7 +20019,6 @@
   {
     "number": 415,
     "name": "Salvo en los tiernos brazos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20070,6 +20069,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.14, 14.83, 19.37, 24.41, 29.18, 34.52, 39.43, 44.04, 49.53, 54.89,
       59.75, 64.83, 69.68, 75.11, 79.87, 85.28, 89.54, 95.04, 99.55, 104.28,
@@ -20081,7 +20081,6 @@
   {
     "number": 416,
     "name": "¡Oh!, tenga yo la ardiente fe",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20128,6 +20127,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       7.51, 15.72, 20.1, 25.11, 27.25, 31.99, 39.91, 45.59, 51.45, 55.82, 58.12,
       62.96, 70.61, 77.91, 82.12, 86.68, 88.89, 93.67, 101.63, 108.68, 113.12,
@@ -20138,7 +20138,6 @@
   {
     "number": 417,
     "name": "Dame la fe de mi Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20185,6 +20184,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16, 23.65, 30.65, 36.49, 44.28, 50.44, 58.71, 65.52, 72.55, 78.88, 86.04,
       92.23, 101.04, 108.07, 114.25, 120.28, 127.1, 132.69, 141, 147.66, 154.42,
@@ -20195,7 +20195,6 @@
   {
     "number": 418,
     "name": "Padre, yo vengo a ti",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20246,6 +20245,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       5.57, 11.19, 16.21, 21.64, 26.78, 32.05, 37.24, 42.84, 48.12, 53.83,
       58.73, 64.6, 70.5, 77.9, 83.03, 88.07, 93.91, 98.54, 104.2, 109.14, 115.6,
@@ -20257,7 +20257,6 @@
   {
     "number": 419,
     "name": "Por la justicia de Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20296,6 +20295,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       10.53, 15.92, 20.31, 25.46, 29.28, 33.63, 38.26, 44.8, 49.44, 53.77,
       57.96, 62.58, 67.2, 71.71, 78.03, 82.56, 87.02, 91.58, 96.19, 100.58,
@@ -20306,7 +20306,6 @@
   {
     "number": 420,
     "name": "Nunca desmayes",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20354,6 +20353,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.35, 18.28, 22.98, 27.37, 32.02, 37.5, 42.73, 48.5, 53.94, 59.18, 63.83,
       68.34, 73.15, 78.34, 83.28, 89.07, 94.35, 99.63, 104.32, 108.34, 112.91,
@@ -20365,7 +20365,6 @@
   {
     "number": 421,
     "name": "Cariñoso Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20407,6 +20406,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.64, 14.62, 20.52, 24.6, 30.67, 36.74, 42.67, 46.99, 53.94, 57.78, 64.24,
       67.65, 74.23, 79.85, 85.51, 89.89, 97.31, 100.52, 106.91, 110.55, 117.01,
@@ -20417,7 +20417,6 @@
   {
     "number": 422,
     "name": "Nada puede ya faltarme",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20472,6 +20471,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.3, 17.27, 22.17, 26.91, 32.3, 36.73, 41.85, 46.34, 52.45, 57.38, 62.03,
       66.81, 71.93, 76.43, 81.25, 86.03, 92.25, 97.3, 101.85, 106.62, 111.82,
@@ -20483,7 +20483,6 @@
   {
     "number": 423,
     "name": "Pertenezco a mi Rey",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20522,6 +20521,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.32, 25.17, 31.88, 41.67, 48.88, 57.78, 66.09, 74.25, 82.49, 91.49,
       99.6, 107.94, 115.77, 124.13, 132.13, 140.78, 149.14, 157.89, 165.74,
@@ -20532,7 +20532,6 @@
   {
     "number": 424,
     "name": "¿Cómo podré estar triste?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20589,6 +20588,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.47, 24.17, 29.04, 34.31, 39.54, 44.54, 49.89, 55.01, 60.36, 65.46,
       71.89, 76.83, 81.47, 86.3, 92.43, 97.73, 103.68, 108.9, 113.62, 119.04,
@@ -20601,7 +20601,6 @@
   {
     "number": 425,
     "name": "Día en día",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20643,6 +20642,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.31, 21.78, 28.03, 34.11, 40.65, 47.14, 53.03, 59.5, 67.13, 75.53,
       81.79, 88.37, 94.31, 100.32, 106.22, 113.03, 121.7, 128.9, 135.17, 141.48,
@@ -20653,7 +20653,6 @@
   {
     "number": 426,
     "name": "Tengo paz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20687,6 +20686,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.96, 34.02, 42.37, 53, 62.33, 72.18, 83.73, 95.04, 105.08, 113.75,
       122.47, 133.76, 144.27, 156.39, 164.69, 174.19, 184.29, 195.6, 213.24
@@ -20696,7 +20696,6 @@
   {
     "number": 427,
     "name": "Lleva todo tu pesar a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20735,6 +20734,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.38, 21.17, 26.73, 31.59, 37.44, 42.59, 47.91, 52.61, 59.52, 64.95,
       70.62, 75.4, 81.78, 86.66, 91.19, 97.11, 103.75, 109.43, 115.26, 120.52,
@@ -20745,7 +20745,6 @@
   {
     "number": 428,
     "name": "Su oveja soy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20763,6 +20762,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       12.54, 17.17, 19.63, 26.2, 28.65, 33.34, 38.38, 44.1, 50.63, 56.07, 65.69
     ],
@@ -20771,7 +20771,6 @@
   {
     "number": 429,
     "name": "Él puede",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20787,6 +20786,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.55, 16.97, 21.87, 27.11, 32.16, 37.72, 43.28, 48.29, 55.93
     ],
@@ -20795,7 +20795,6 @@
   {
     "number": 430,
     "name": "Solo no estoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20825,6 +20824,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.18, 20.67, 27.31, 34.02, 41.16, 48.14, 54.79, 61.38, 68.98, 76.74,
       82.7, 89.96, 96.65, 103.63, 110.51, 117.26, 128.4
@@ -20834,7 +20834,6 @@
   {
     "number": 431,
     "name": "A él mis problemas le doy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20853,6 +20852,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       23.09, 31.63, 37.85, 43.35, 52.14, 62.66, 71.57, 77.19, 82.83, 92.14,
       102.16, 115.87
@@ -20862,7 +20862,6 @@
   {
     "number": 432,
     "name": "Como el ciervo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20901,6 +20900,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       26.32, 34.23, 41.02, 47.08, 53.43, 59.61, 67.67, 73.15, 80.51, 86.73,
       93.41, 98.96, 105.98, 112.29, 120.34, 126.21, 133.35, 138.77, 146.2,
@@ -20911,7 +20911,6 @@
   {
     "number": 433,
     "name": "Conmigo marcha un ángel",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -20957,6 +20956,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       13.7, 22.55, 28.7, 34.84, 42.1, 48.55, 54.64, 60.84, 67.83, 74.17, 79.98,
       86.45, 92.27, 99.09, 105.12, 111.43, 119.08, 126.43, 132.37, 138.37,
@@ -20968,7 +20968,6 @@
   {
     "number": 434,
     "name": "Jesús es mi vida",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21008,6 +21007,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.36, 27.64, 32.86, 37.48, 42.81, 47.35, 52.03, 56.39, 62.99, 73.23,
       82.65, 88.52, 92.46, 96.36, 102.62, 108.73, 113.61, 118.31, 123.19,
@@ -21019,7 +21019,6 @@
   {
     "number": 435,
     "name": "Dios sabe, Dios oye, Dios ve",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21053,6 +21052,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       17.35, 25.06, 33.42, 40.5, 47.86, 55.36, 63.17, 70.36, 77.7, 84.37, 92.2,
       100.97, 109.14, 117.72, 124.96, 132.13, 139.55, 146.66, 153.56, 160.68,
@@ -21063,7 +21063,6 @@
   {
     "number": 436,
     "name": "El vive hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21093,6 +21092,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.17, 21.93, 33.04, 44.24, 55.12, 66.27, 77.34, 88.29, 99.55, 110.09,
       121.43, 132.32, 143.54, 154.39, 165.49, 176.61, 190.52
@@ -21102,7 +21102,6 @@
   {
     "number": 437,
     "name": "Tu presencia, Padre amado,  da consuelo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21115,13 +21114,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [10.71, 21.6, 32.81, 38.46, 43.66, 57.17],
     "doubleChorus": false
   },
   {
     "number": 438,
     "name": "Mira hacia Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21164,6 +21163,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       14.42, 21.01, 27.05, 33.12, 39.85, 42.31, 46.62, 48.62, 52.67, 54.99,
       58.66, 61.08, 65.31, 71.54, 77.84, 84.02, 91.7, 94.01, 97.84, 99.84,
@@ -21175,7 +21175,6 @@
   {
     "number": 439,
     "name": "¡Oh!, quién pudiera andar con Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21205,6 +21204,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.68, 25.64, 33.2, 41.97, 49.74, 58.01, 65.12, 74.06, 82.2, 90.59, 98.52,
       107.09, 116.53
@@ -21214,7 +21214,6 @@
   {
     "number": 440,
     "name": "Quiero, Jesús, contigo andar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21253,6 +21252,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       16.48, 24.12, 31.47, 37.94, 46.77, 53.19, 60.75, 67.5, 76.04, 83.14,
       90.75, 98.04, 106.25, 112.75, 120.34, 127.07, 139.01
@@ -21262,7 +21262,6 @@
   {
     "number": 441,
     "name": "Jesús, te necesito",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21304,6 +21303,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       47.54, 56.12, 61.31, 67.16, 73.16, 78.62, 84.25, 89.98, 96.53, 102.98,
       108.38, 114.13, 119.93, 125.73, 131.4, 137.18, 143.55, 149.35, 154.85,
@@ -21314,7 +21314,6 @@
   {
     "number": 442,
     "name": "¡Oh! ¡Maestro y Salvador!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21357,6 +21356,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       20.26, 25.11, 30.34, 35.09, 40.41, 46.64, 52.09, 57.16, 62.27, 67.32,
       73.56, 79.14, 84.11, 89.12, 93.71, 100.34, 105.86, 110.96, 116.16, 121.11,
@@ -21367,7 +21367,6 @@
   {
     "number": 443,
     "name": "Hay un lugar do quiero estar, cerca de ti",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21409,6 +21408,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       21.81, 32.7, 38.23, 44.5, 50.16, 56.34, 61.64, 67.86, 74.15, 80.63, 86.35,
       92.77, 98.15, 104.61, 109.59, 115.77, 122.09, 128.71, 134.16, 140.52,
@@ -21419,7 +21419,6 @@
   {
     "number": 444,
     "name": "No me pases",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21467,6 +21466,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       9.73, 15.46, 20.1, 24.56, 30.11, 34.99, 39.34, 44.09, 49.46, 53.75, 58.56,
       63.35, 68.39, 72.95, 78.09, 82.62, 87.82, 92.49, 96.93, 101.68, 106.43,
@@ -21478,7 +21478,6 @@
   {
     "number": 445,
     "name": "Más de Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21526,6 +21525,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [
       11.25, 17.18, 22.39, 27.08, 33.38, 38.13, 42.8, 47.49, 54.17, 58.19,
       63.01, 67.85, 74.54, 78.99, 83.68, 88.24, 94.67, 99.75, 104.54, 109.49,
@@ -21537,7 +21537,6 @@
   {
     "number": 446,
     "name": "Más cerca, oh Dios, de ti",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21576,13 +21575,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      28.57, 41.51, 53.16, 65.85, 78.17, 88.41, 100.39, 113.24, 125.66, 138.92,
+      150.65, 162.89, 177.87, 188.88, 200.35, 211.75, 231.13
+    ],
     "doubleChorus": false
   },
   {
     "number": 447,
     "name": "Más santidad dame",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21612,13 +21614,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      9.21, 18.51, 27.31, 35.6, 44.01, 53.64, 62.35, 70.71, 80.31, 88.81, 97.55,
+      105.95, 117.32
+    ],
     "doubleChorus": false
   },
   {
     "number": 448,
     "name": "Salvador, mi bien eterno",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21660,13 +21665,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      27.48, 34.15, 39.8, 44.99, 50.78, 56.09, 61.63, 67.38, 73.45, 79.23,
+      84.87, 90.17, 95.92, 101.13, 107.27, 112.69, 118.73, 124.29, 129.96,
+      135.5, 141.2, 146.81, 152.06, 157.74, 168.25
+    ],
     "doubleChorus": false
   },
   {
     "number": 449,
     "name": "Cristo, mi piloto sé",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21708,13 +21717,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      11.35, 16.69, 22.65, 27.1, 32.41, 37.74, 42.9, 48.12, 54.11, 60.46, 65.65,
+      70.82, 75.95, 81.28, 86.33, 91.56, 98.45, 103.74, 109.07, 114.25, 119.52,
+      124.91, 129.92, 135.03, 142.51
+    ],
     "doubleChorus": false
   },
   {
     "number": 450,
     "name": "¡Oh Jesús, Pastor divino!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21765,13 +21778,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      39.66, 44.97, 49.63, 55.04, 59.8, 65.31, 70.38, 75.86, 81.12, 86.21,
+      91.29, 96.22, 101.37, 106.36, 111.93, 118.74, 122.92, 127.79, 132.73,
+      137.96, 143.04, 148.64, 158.32, 163.36, 168.5, 173.81, 179.15, 184.48,
+      192.03
+    ],
     "doubleChorus": false
   },
   {
     "number": 451,
     "name": "Cerca, más cerca",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21814,13 +21832,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      23.21, 36.87, 48.7, 60.15, 71.08, 84.07, 95.99, 107.52, 118.4, 129.93,
+      142.58, 154.68, 165.96, 176.94, 188.15, 202.52, 213.24, 224.5, 235.64,
+      246.89, 269.49
+    ],
     "doubleChorus": false
   },
   {
     "number": 452,
     "name": "Contigo quiero andar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21856,13 +21878,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      20.25, 28.79, 35.39, 41.31, 48.63, 54.9, 63.55, 70.07, 76.71, 83.34,
+      90.42, 96.79, 105.35, 111.33, 118.3, 124.55, 131.83, 138.41, 151.84
+    ],
     "doubleChorus": false
   },
   {
     "number": 453,
     "name": "Cómo ser cual Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21901,13 +21926,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      13.28, 20.6, 27.15, 32.8, 39.53, 44.62, 50.98, 56.71, 64.65, 69.91, 76.4,
+      82.28, 89.47, 93.68, 99.84, 106.2, 113.83, 120.12, 126.7, 132.36, 139,
+      144.28, 150.03, 155.99, 168.46
+    ],
     "doubleChorus": false
   },
   {
     "number": 454,
     "name": "Yo quisiera andar con Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21946,13 +21975,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      13.71, 19.91, 26.44, 32.66, 39.33, 45.62, 52.11, 58.49, 64.9, 72.52,
+      79.02, 85.27, 91.77, 98.06, 104.49, 110.91, 118.91, 124.83, 131.25,
+      137.77, 144.1, 150.45, 156.89, 163.29, 173.25
+    ],
     "doubleChorus": false
   },
   {
     "number": 455,
     "name": "Mi mano ten",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -21982,13 +22015,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      18.18, 27.83, 36.45, 45.04, 54.52, 63.34, 72.16, 80.68, 90.34, 99.18,
+      108.48, 116.73, 128.87
+    ],
     "doubleChorus": false
   },
   {
     "number": 456,
     "name": "Como la mujer de junto al pozo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22027,13 +22063,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      11.08, 16.64, 22.94, 28.51, 33.54, 38.76, 43.98, 49.77, 55, 61.52, 66.49,
+      71.49, 76.91, 81.64, 86.77, 92.05, 98.18, 103.95, 109.01, 114.01, 118.95,
+      124.15, 128.88, 133.89, 142.8
+    ],
     "doubleChorus": false
   },
   {
     "number": 457,
     "name": "More en mí la belleza del Salvador",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22045,13 +22085,13 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [8.42, 17.08, 25.64, 34.64, 44.33],
     "doubleChorus": false
   },
   {
     "number": 458,
     "name": "Orad por mí",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22090,13 +22130,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      15.52, 22.16, 30.14, 37.35, 45.31, 52.53, 60.3, 67.37, 76.52, 86.48,
+      93.68, 100.79, 108.29, 115.11, 123.18, 130.15, 138.4, 149.07, 156.7,
+      163.82, 171.64, 178.74, 186.14, 193.34, 211.18
+    ],
     "doubleChorus": false
   },
   {
     "number": 459,
     "name": "Háblame más de Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22135,13 +22179,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      12.72, 18.97, 25.04, 30.93, 37.24, 42.98, 49.51, 54.63, 61.85, 67.9, 73.9,
+      79.92, 86.13, 91.92, 98.08, 103.73, 110.72, 116.68, 122.9, 128.9, 134.95,
+      140.77, 147.06, 153, 162.23
+    ],
     "doubleChorus": false
   },
   {
     "number": 460,
     "name": "Quiero estar cerca de Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22180,13 +22228,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      16.18, 25.78, 32.97, 40.33, 47.84, 55.04, 62.2, 69.85, 77.23, 84.56,
+      91.29, 98.89, 106.53, 113.73, 121.04, 128.42, 136.26, 143.35, 150.37,
+      157.71, 165.47, 172.88, 180.19, 187.1, 196.68
+    ],
     "doubleChorus": false
   },
   {
     "number": 461,
     "name": "A tu lado anhelo estar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22225,13 +22277,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      27.07, 33.68, 39.93, 45.73, 52.26, 58.23, 64.61, 70.07, 76.92, 83.03,
+      89.28, 94.59, 101.44, 107.27, 113.49, 119.03, 126, 131.82, 138.29, 143.43,
+      150.49, 156.71, 162.76, 168.17, 178.09
+    ],
     "doubleChorus": false
   },
   {
     "number": 462,
     "name": "Dame a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22259,13 +22315,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      28.77, 38.87, 45.93, 52.95, 58.18, 74.23, 90.72, 97.63, 105.43, 112.08,
+      119.22, 134.54, 152.2
+    ],
     "doubleChorus": false
   },
   {
     "number": 463,
     "name": "Mi oración",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22286,13 +22345,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      17.62, 21.62, 25.8, 30.39, 34.89, 39.81, 42.17, 46.29, 53.07, 58.03,
+      62.19, 66.53, 69.39, 80.92
+    ],
     "doubleChorus": false
   },
   {
     "number": 464,
     "name": "Ven, inspíranos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22322,13 +22384,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      15.41, 22.82, 31.83, 38.28, 46.36, 53.78, 60.82, 68.21, 76.45, 83.64,
+      91.79, 98.91, 106.29, 113.15, 120.02, 127.11, 138.13
+    ],
     "doubleChorus": false
   },
   {
     "number": 465,
     "name": "Ven junto a mí",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22358,13 +22423,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      23.83, 35.32, 47.79, 58.6, 71.35, 82.62, 94.67, 107.34, 118.37, 131.4,
+      142.62, 154.72, 168.8
+    ],
     "doubleChorus": false
   },
   {
     "number": 466,
     "name": "Guíame, ¡oh Salvador!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22403,13 +22471,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      22.68, 29.68, 35.17, 40.47, 46.91, 52.61, 58.37, 63.3, 69.84, 76.01,
+      81.74, 87.11, 93, 98.17, 104.54, 109.21, 115.83, 122.83, 128.53, 133.77,
+      139.84, 145.25, 150.59, 156.31, 165.39
+    ],
     "doubleChorus": false
   },
   {
     "number": 467,
     "name": "¡Siempre el Salvador conmigo!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22457,13 +22529,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      19.13, 24.72, 27.8, 32.04, 36.05, 40.31, 45.83, 50.96, 56.77, 60.66,
+      64.48, 68.11, 72.32, 76.91, 81.98, 87.26, 93.06, 97.31, 100.9, 104.64,
+      108.51, 113.01, 118.03, 123.44, 128.89, 133.39, 137, 140.91, 145, 149.56,
+      154.44, 159.49, 167.62
+    ],
     "doubleChorus": false
   },
   {
     "number": 468,
     "name": "Paso a paso Dios me guía",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22504,13 +22581,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      8.38, 13.45, 17.15, 21.39, 25.7, 29.85, 34, 38.3, 42.76, 46.74, 51.49,
+      55.88, 59.98, 64.45, 68.71, 72.98, 76.66, 80.98, 85.19, 89.64, 94.87,
+      98.44, 102.79, 106.76, 111.32, 115.08, 119.17, 123.37, 127.67, 131.96,
+      140.78
+    ],
     "doubleChorus": false
   },
   {
     "number": 469,
     "name": "Jesús me guía",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22558,13 +22640,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      27.2, 35.11, 41.26, 47.42, 54.63, 60.73, 67.31, 72.84, 80.83, 87.6, 93.97,
+      99.77, 107.23, 113.33, 119.9, 125.38, 133.67, 142.08, 147.97, 153.9,
+      161.55, 167.38, 173.64, 179.67, 188.39, 195.8, 202.02, 208.15, 215.29,
+      221.27, 227.49, 233.56, 246.27
+    ],
     "doubleChorus": false
   },
   {
     "number": 470,
     "name": "Guíame, Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22578,13 +22665,13 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [13.48, 19.65, 25.56, 37.82, 43.72, 49.57, 63.74],
     "doubleChorus": false
   },
   {
     "number": 471,
     "name": "Condúceme, Maestro",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22614,13 +22701,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      14.4, 24.18, 34.57, 44.66, 54.96, 66.3, 76.26, 86.41, 96.85, 107.8,
+      117.83, 127.87, 141.07
+    ],
     "doubleChorus": false
   },
   {
     "number": 472,
     "name": "Jesús, mi guía es",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22650,13 +22740,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      21.88, 28.01, 33.04, 38.23, 42.03, 46.89, 52.05, 56.07, 65.37, 72.04,
+      76.64, 81.28, 85.62, 90.05, 95.1, 99.9, 107.67, 115.15
+    ],
     "doubleChorus": false
   },
   {
     "number": 473,
     "name": "Háblame, y hablaré",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22686,13 +22779,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      10.76, 17.15, 22.62, 27.93, 34.38, 39.9, 45.19, 50.48, 57.24, 62.46,
+      67.95, 73.15, 81.24
+    ],
     "doubleChorus": false
   },
   {
     "number": 474,
     "name": "¿Qué me importan?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22734,13 +22830,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      26.45, 33.29, 39.48, 46.53, 52.82, 59.82, 66.53, 73.09, 80.21, 87.18,
+      93.36, 99.97, 106.41, 113.37, 119.54, 126.89, 133.7, 140.66, 147.26,
+      153.99, 160.56, 167.47, 174.11, 180.65, 188.83
+    ],
     "doubleChorus": false
   },
   {
     "number": 475,
     "name": "El camino es escabroso",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22789,13 +22889,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      18.86, 24.31, 26.98, 30.56, 33.65, 36.91, 40.11, 47.28, 54.35, 57.52,
+      60.82, 67.39, 76.4, 80, 83.2, 86.22, 89.76, 92.77, 95.48, 102.55, 108.95,
+      112.16, 115.66, 121.76, 130.2, 134.29, 137.28, 140.5, 143.52, 146.54,
+      149.4, 156.33, 163.19, 166.61, 169.09, 175.32, 186.27
+    ],
     "doubleChorus": false
   },
   {
     "number": 476,
     "name": "¿Muy lejos el hogar está?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22837,13 +22942,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      22.47, 29.06, 34.88, 40.48, 46.09, 51.68, 57.21, 62.89, 69.17, 75.49,
+      81.01, 86.59, 92.57, 97.92, 103.13, 108.98, 114.65, 120.69, 126.38,
+      131.86, 137.8, 142.85, 148.6, 154.3, 162.52
+    ],
     "doubleChorus": false
   },
   {
     "number": 477,
     "name": "Los que aman al Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22888,13 +22997,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      11.63, 16.06, 20.45, 24.9, 29.39, 33.86, 38.39, 42.85, 47.23, 51.37,
+      56.46, 61.08, 65.52, 69.87, 74.27, 78.72, 83.39, 87.6, 92.11, 96.17,
+      101.76, 106.01, 110.48, 114.6, 119.2, 123.62, 128.26, 132.56, 136.97,
+      141.27, 148.73
+    ],
     "doubleChorus": false
   },
   {
     "number": 478,
     "name": "Sé fiel siempre, hermano",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22937,13 +23051,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      10.49, 15.64, 21.07, 26.07, 31.38, 36.39, 41.79, 47, 52.67, 57.8, 63,
+      68.16, 73.66, 78.64, 83.78, 88.96, 94.9, 99.85, 105.07, 110.2, 115.5,
+      120.86, 125.91, 128.47, 131.3, 138.44
+    ],
     "doubleChorus": false
   },
   {
     "number": 479,
     "name": "De la mano, Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -22964,13 +23082,15 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      24.2, 36.53, 47.02, 59.16, 70.52, 82.48, 92.86, 105.45, 117.32
+    ],
     "doubleChorus": false
   },
   {
     "number": 480,
     "name": "Digno eres, oh Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23015,13 +23135,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      14.46, 17.85, 21.23, 27.83, 30.81, 34.47, 41.02, 47.69, 54.51, 60.76,
+      68.48, 71.75, 75.28, 82.07, 85.21, 88.45, 95.57, 101.82, 108.49, 115.07,
+      122.99, 126.29, 129.84, 136.55, 140.13, 143.17, 149.87, 156.56, 163.52,
+      169.61, 179.38
+    ],
     "doubleChorus": false
   },
   {
     "number": 481,
     "name": "Voy al Cielo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23058,13 +23183,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      19.28, 24.25, 30.62, 36.59, 42.65, 48.55, 54.91, 61.22, 67.26, 73.13,
+      79.51, 85.37, 91.47, 98.41, 104.1, 110.07, 116.19, 122.3, 129.61
+    ],
     "doubleChorus": false
   },
   {
     "number": 482,
     "name": "Quiero cantar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23094,13 +23222,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      15.78, 23.26, 32.05, 39.9, 48.03, 55.96, 64.07, 72.24, 80.51, 90.05,
+      98.19, 105.94, 114.15, 122.52, 130.05, 138.35, 149.01
+    ],
     "doubleChorus": false
   },
   {
     "number": 483,
     "name": "Cuando al Cielo lleguemos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23139,13 +23270,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      9.89, 15.25, 19.47, 24.63, 28.85, 33.87, 38.37, 43.42, 48.3, 53.61, 58.17,
+      62.99, 67.43, 72.19, 76.84, 81.88, 86.88, 91.89, 96.4, 101.42, 105.94,
+      110.7, 115.27, 120.23, 127.7
+    ],
     "doubleChorus": false
   },
   {
     "number": 484,
     "name": "Busca al Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23187,13 +23322,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      19.77, 26.67, 31.47, 37.28, 42.27, 47.77, 53.74, 58.81, 64.22, 69.41,
+      74.21, 79.97, 85, 90.25, 96.52, 101.25, 106.98, 112.18, 117.53, 123,
+      127.77, 133.11, 138.88, 144.15, 151.31
+    ],
     "doubleChorus": false
   },
   {
     "number": 485,
     "name": "Unidos en verdad",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23223,13 +23362,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      13.7, 19.44, 26.52, 33.2, 40.06, 46.58, 53.21, 60.11, 67.48, 73.84, 80.13,
+      87.09, 93.49, 100.5, 106.84, 113.56, 120.99
+    ],
     "doubleChorus": false
   },
   {
     "number": 486,
     "name": "En los pasos de Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23245,13 +23387,15 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      9.29, 19.08, 29.77, 39.23, 49.76, 59.47, 69.64, 79.43, 94.76
+    ],
     "doubleChorus": false
   },
   {
     "number": 487,
     "name": "Cristo, eres justo Rey",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23287,13 +23431,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      20.65, 27.51, 33.19, 44.5, 50.46, 55.79, 64.99, 71.43, 77.17, 88.24,
+      94.09, 99.56, 108.8, 115.42, 120.84, 132.22, 138.09, 143.2, 155.07
+    ],
     "doubleChorus": false
   },
   {
     "number": 488,
     "name": "Al andar con Jesús",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23349,13 +23496,19 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      15.62, 19.61, 23.84, 30.37, 33.68, 37.61, 44.59, 48, 51.98, 55.79, 60.44,
+      64.59, 68.46, 74.99, 78.61, 82.5, 89.49, 92.74, 96.67, 100.52, 105.29,
+      109.44, 113.25, 119.68, 122.7, 127.06, 133.88, 137.44, 141.28, 145.16,
+      150.33, 153.85, 157.81, 164.36, 167.53, 171.64, 178.34, 182.02, 185.93,
+      189.86, 195.71
+    ],
     "doubleChorus": false
   },
   {
     "number": 489,
     "name": "Solo anhelo, Cristo amado",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23397,13 +23550,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      10.35, 15.54, 20.23, 24.72, 29.57, 34.21, 39.26, 43.77, 48.86, 53.98,
+      59.18, 63.77, 68.63, 73.04, 78.02, 82.14, 88.04, 93.14, 98.01, 102.32,
+      107.45, 111.58, 116.71, 121.27, 130.31
+    ],
     "doubleChorus": false
   },
   {
     "number": 490,
     "name": "Mejor que los sacrificios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23436,13 +23593,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      16.14, 25.91, 34.22, 42.32, 51.83, 59.91, 69.03, 77.92, 85.94, 94.53,
+      104.39, 112.7, 122.3, 130.92, 140, 148, 157.78, 166.19, 177.61
+    ],
     "doubleChorus": false
   },
   {
     "number": 491,
     "name": "Levántate, cristiano",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23472,13 +23632,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      25.75, 34.93, 42.75, 50.34, 59.8, 67.52, 75.48, 82.9, 92.76, 100.17,
+      108.01, 115.79, 126.71
+    ],
     "doubleChorus": false
   },
   {
     "number": 492,
     "name": "¡Trabajad! ¡Trabajad!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23517,13 +23680,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      24.85, 30.15, 36.51, 42.08, 49.64, 55.62, 61.63, 67.63, 74.22, 80.4,
+      86.44, 92.54, 100.26, 105.81, 111.81, 117.84, 124.79, 130.59, 136.62,
+      142.57, 150.27, 155.9, 162.23, 168.11, 175.81
+    ],
     "doubleChorus": false
   },
   {
     "number": 493,
     "name": "Hoy quiero trabajar contigo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23553,13 +23720,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      9.9, 20.49, 29.32, 38.49, 47.92, 57.73, 66.63, 75.93, 85.55, 95.1, 104.23,
+      113.34, 125.61
+    ],
     "doubleChorus": false
   },
   {
     "number": 494,
     "name": "Cerca un alma agobiada está",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23607,13 +23777,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      15.05, 20.54, 24.96, 29.51, 34.5, 38.84, 43.09, 49.19, 54.16, 58.31,
+      62.45, 67.4, 72.02, 76.03, 80.26, 86.31, 91.3, 95.39, 99.52, 104.21,
+      108.91, 113.42, 117.54, 123.33, 128.33, 132.41, 137.16, 141.37, 145.66,
+      150.13, 154.5, 160.31, 169.71
+    ],
     "doubleChorus": false
   },
   {
     "number": 495,
     "name": "Mi deber",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23649,13 +23824,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      28.27, 38.19, 46.02, 53.06, 57.01, 61.78, 70.26, 77.15, 83.99, 91.63,
+      95.49, 98.81, 107.61, 113.94, 121.52, 128.44, 133.07, 136.51, 147.53
+    ],
     "doubleChorus": false
   },
   {
     "number": 496,
     "name": "Sus manos somos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23685,13 +23863,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      22.98, 29.17, 34.53, 39.08, 46.17, 51.89, 57.38, 63.3, 68.91, 74.54,
+      79.89, 85.51, 92.2, 97.42, 103.06, 108.8, 116.57
+    ],
     "doubleChorus": false
   },
   {
     "number": 497,
     "name": "Manos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23731,13 +23912,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      23.44, 27.31, 30.85, 34.1, 37.74, 41.38, 45.83, 52.28, 55.11, 58.97,
+      61.45, 65.88, 68.7, 72.62, 75.9, 80.99, 87.16, 90.55, 94.1, 97.83, 101.09,
+      105.91, 112.44, 115.01, 119, 122.16, 126.26, 128.85, 132.73, 135.65,
+      142.85
+    ],
     "doubleChorus": false
   },
   {
     "number": 498,
     "name": "Puedes demostrar con tus manos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23762,13 +23948,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      12.66, 17.77, 22.09, 26.36, 30.09, 34.59, 38.74, 46.26, 51.98, 57.7,
+      63.43, 68.06, 70.69, 75.9, 79.99, 83.56, 88.12, 100.24
+    ],
     "doubleChorus": false
   },
   {
     "number": 499,
     "name": "Jesús anduvo por aquí",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23798,13 +23987,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      7.76, 13.21, 17.41, 21.54, 26.27, 31.28, 35.65, 40.38, 45.95, 49.98,
+      54.09, 58.42, 65.4
+    ],
     "doubleChorus": false
   },
   {
     "number": 500,
     "name": "Hazme tu siervo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23817,13 +24009,13 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [7.59, 16.29, 24.24, 31.98, 39.57, 51.74],
     "doubleChorus": false
   },
   {
     "number": 501,
     "name": "Mi vida al servicio de Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23839,13 +24031,15 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      16.8, 21.79, 25.88, 30.01, 34.37, 38.31, 41.94, 44.18, 50.66
+    ],
     "doubleChorus": false
   },
   {
     "number": 502,
     "name": "Brilla en el sitio donde estés",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23884,13 +24078,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      10.32, 15.92, 20.88, 25.93, 31.86, 36.52, 41.71, 46.67, 52.44, 57.77,
+      62.84, 67.98, 73.66, 78.38, 83.3, 88.56, 94.05, 99.4, 104.48, 109.93,
+      115.13, 119.93, 125.07, 130.36, 136.91
+    ],
     "doubleChorus": false
   },
   {
     "number": 503,
     "name": "Oh Dios, que deseas la vida",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23929,13 +24127,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      7.83, 16.35, 23.49, 32.31, 39.6, 48.29, 54.76, 64.33, 72.72, 80.31, 87.69,
+      96.56, 104.38, 112.49, 119.52, 128.32, 139.8
+    ],
     "doubleChorus": false
   },
   {
     "number": 504,
     "name": "Señor de todos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -23983,13 +24184,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      12.82, 19.21, 25.55, 31.22, 38.09, 44.62, 51.23, 56.45, 63.64, 69.94,
+      76.33, 81.9, 89.15, 95.78, 102.07, 107.73, 114.77, 121.52, 127.69, 133.37,
+      142.58
+    ],
     "doubleChorus": false
   },
   {
     "number": 505,
     "name": "Hijo del reino",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24028,13 +24233,16 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      13.67, 20.01, 25.94, 31.73, 38.68, 44.45, 50.22, 55.96, 63.07, 68.88,
+      74.65, 80.41, 87.72, 93.92, 99.2, 104.88, 115.57
+    ],
     "doubleChorus": false
   },
   {
     "number": 506,
     "name": "¡De pie, de pie, cristianos!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24089,13 +24297,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      20.65, 25.14, 29.66, 35.1, 40.35, 45.27, 50.42, 55.41, 61.17, 66.18,
+      71.15, 76.23, 81.38, 86.32, 91.56, 96.53, 101.93, 107.32, 112.38, 117.33,
+      122.44, 127.48, 132.63, 137.52, 142.94, 148.41, 153.3, 158.45, 163.48,
+      168.58, 173.61, 178.53, 187.17
+    ],
     "doubleChorus": false
   },
   {
     "number": 507,
     "name": "Tentado, no cedas",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24134,13 +24347,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      8.05, 17.93, 27.42, 36.14, 45.54, 49.7, 53.99, 58.61, 63.49, 74.82, 81.81,
+      90.8, 99.86, 104.82, 109.03, 113.73, 118.68, 127.78, 136.42, 145.74,
+      155.2, 159.4, 163.74, 168.29, 175.27
+    ],
     "doubleChorus": false
   },
   {
     "number": 508,
     "name": "Contendamos siempre por nuestra fe",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24179,13 +24396,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      24.75, 38.17, 43.48, 48.79, 54.27, 59.57, 64.86, 71.71, 77.63, 84.76,
+      90.23, 95.16, 100.71, 106.79, 111.54, 117.31, 124.27, 129.97, 135.47,
+      140.81, 146.02, 151.2, 156.92, 162.99, 173.5
+    ],
     "doubleChorus": false
   },
   {
     "number": 509,
     "name": "¡Firmes! ¡Fuertes!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24224,13 +24445,17 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      12.18, 18.08, 23.92, 29.12, 35.13, 40.18, 45.72, 51.35, 57.4, 63.47,
+      69.17, 74.4, 80.24, 85.39, 91.03, 96.58, 102.82, 109.15, 114.7, 120.12,
+      125.75, 131.02, 136.6, 142.32, 149.76
+    ],
     "doubleChorus": false
   },
   {
     "number": 510,
     "name": "¿Quién está por Cristo?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24278,13 +24503,18 @@
         ]
       }
     ],
-    "timestamps": [],
+    "verseAssociated": null,
+    "timestamps": [
+      17.29, 26.69, 35.41, 44.39, 53.44, 57.49, 61.65, 66.47, 71.97, 79.79,
+      88.95, 97.54, 106.79, 110.81, 115.46, 119.76, 125.01, 133.69, 142.43,
+      150.98, 160.28, 164.23, 168.61, 173.28, 179.03, 187.33, 195.83, 205.43,
+      213.95, 217.76, 221.52, 226.53, 234.42
+    ],
     "doubleChorus": false
   },
   {
     "number": 511,
     "name": "Marcharé en la divina luz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24332,13 +24562,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 512,
     "name": "Nunca estéis desanimados",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24379,13 +24609,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 513,
     "name": "Honra al hombre de valor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24424,13 +24654,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 514,
     "name": "¡Despertad, despertad, oh cristianos!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24485,13 +24715,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 515,
     "name": "Despliegue el cristiano su santa bandera",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24530,13 +24760,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 516,
     "name": "¡Firmes y adelante!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24582,13 +24812,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 517,
     "name": "De pie, oh grey de Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24627,13 +24857,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 518,
     "name": "Jesús está buscando voluntarios hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24681,13 +24911,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 519,
     "name": "Despierta, hermano, sin demorar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24717,13 +24947,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 520,
     "name": "¡Adelante! Manda el Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24762,13 +24992,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 521,
     "name": "Al Cristo ved",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24819,13 +25049,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 522,
     "name": "Suenen las palabras",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24864,13 +25094,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 523,
     "name": "Los sabios dan su ciencia",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24900,13 +25130,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 524,
     "name": "Traían en silencio presentes al Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24957,13 +25187,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 525,
     "name": "Con gratitud, llegamos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -24993,13 +25223,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 526,
     "name": "Oh, mi patria, te prometo hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25036,13 +25266,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 527,
     "name": "Señor Jehová, omnipotente Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25072,13 +25302,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 528,
     "name": "Por montañas, muy cansado",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25133,13 +25363,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 529,
     "name": "Iglesia de Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25181,13 +25411,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 530,
     "name": "Somos un pequeño pueblo muy feliz",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25218,13 +25448,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 531,
     "name": "La familia de Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25245,13 +25475,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 532,
     "name": "Sagrado es el amor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25290,13 +25520,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 533,
     "name": "Cuán bueno y agradable",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25311,13 +25541,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 534,
     "name": "En tu nombre comenzamos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25356,13 +25586,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 535,
     "name": "Las faenas terminadas",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25398,13 +25628,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 536,
     "name": "En sombras de la tarde",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25434,13 +25664,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 537,
     "name": "Sábado santo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25483,13 +25713,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 538,
     "name": "Hoy es día de reposo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25531,13 +25761,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 539,
     "name": "¡Oh, día delicioso!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25579,13 +25809,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 540,
     "name": "Ya asoma el sol brillante",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25624,13 +25854,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 541,
     "name": "Señor, reposamos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25663,13 +25893,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 542,
     "name": "Amo tu sábado",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25707,13 +25937,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 543,
     "name": "No te olvides nunca del día del Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25750,13 +25980,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 544,
     "name": "Hoy el sábado glorioso",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25786,13 +26016,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 545,
     "name": "Santo día",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25831,13 +26061,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 546,
     "name": "Santo sábado, bendito",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25871,13 +26101,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 547,
     "name": "Sábado es",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25896,13 +26126,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 548,
     "name": "Mi corazón se llena de alegría",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25932,13 +26162,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 549,
     "name": "Ya el fin se acerca",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -25977,13 +26207,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 550,
     "name": "Día santo del Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26025,13 +26255,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 551,
     "name": "Embajador soy de mi Rey",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26070,13 +26300,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 552,
     "name": "¡Oh!, cuánto necesita",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26115,13 +26345,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 553,
     "name": "¿Os pusisteis a arar?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26159,13 +26389,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 554,
     "name": "Con Cristo avanza hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26204,13 +26434,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 555,
     "name": "Hoy gozoso medito",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26250,13 +26480,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 556,
     "name": "Yo quiero siempre brillar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26271,13 +26501,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 557,
     "name": "¿Qué estás haciendo por Cristo?",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26316,13 +26546,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 558,
     "name": "Ama a tus prójimos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26370,13 +26600,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 559,
     "name": "No te dé temor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26424,13 +26654,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 560,
     "name": "Cristo está buscando obreros",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26478,13 +26708,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 561,
     "name": "Oigo del Señor la voz llamando",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26532,13 +26762,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 562,
     "name": "Esparcid la luz de Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26577,13 +26807,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 563,
     "name": "Escuchad, Jesús nos dice",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26625,13 +26855,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 564,
     "name": "Pronto la noche viene",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26686,13 +26916,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 565,
     "name": "¡Ve, ve oh Sion!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26738,13 +26968,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 566,
     "name": "Centinelas del Maestro",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26783,13 +27013,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 567,
     "name": "Si en valles de peligros",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26858,13 +27088,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 568,
     "name": "Hay lugar en la amplia viña",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26919,13 +27149,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 569,
     "name": "Id y predicad el evangelio",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -26969,13 +27199,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 570,
     "name": "Voluntario del Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27018,13 +27248,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 571,
     "name": "La historia de Cristo contemos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27066,13 +27296,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 572,
     "name": "Pescadores de hombres",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27114,13 +27344,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 573,
     "name": "Te envío a ti",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27161,13 +27391,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 574,
     "name": "Testimonio",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27209,13 +27439,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 575,
     "name": "Tocad trompeta ya",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27262,13 +27492,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 576,
     "name": "Proclamo hoy que soy cristiano",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27305,13 +27535,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 577,
     "name": "Yo quiero trabajar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27353,13 +27583,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 578,
     "name": "El pueblo que conoce a su Dios",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27391,13 +27621,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 579,
     "name": "La fuente veo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27445,13 +27675,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 580,
     "name": "Las aguas del bautismo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27493,13 +27723,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 581,
     "name": "El Pan de vida soy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27529,13 +27759,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 582,
     "name": "Hoy venimos cual hermanos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27574,13 +27804,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 583,
     "name": "La Cena de la Comunión",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27619,13 +27849,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 584,
     "name": "Amémonos, hermanos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27667,13 +27897,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 585,
     "name": "De rodillas partimos hoy el pan",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27705,13 +27935,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 586,
     "name": "En memoria de mí",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27741,13 +27971,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 587,
     "name": "Te dedicamos, oh Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27777,13 +28007,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 588,
     "name": "Ven, alma que lloras",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27813,13 +28043,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 589,
     "name": "Perfecto amor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27849,13 +28079,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 590,
     "name": "Guía a ti, Señor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27891,13 +28121,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 591,
     "name": "Todo es bello en el hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27943,13 +28173,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 592,
     "name": "Si Dios está, ¡feliz hogar!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -27979,13 +28209,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 593,
     "name": "Hogar de mis recuerdos",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28051,13 +28281,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 594,
     "name": "Señor, gracias por mi hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28087,13 +28317,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 595,
     "name": "Feliz hogar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28123,13 +28353,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 596,
     "name": "Edificamos familias",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28168,13 +28398,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 597,
     "name": "Oración por un niño",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28203,13 +28433,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 598,
     "name": "Cristo, yo te seguiré",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28246,13 +28476,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 599,
     "name": "En este bello día",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28300,13 +28530,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 600,
     "name": "Cuando venga Jesucristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28354,13 +28584,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 601,
     "name": "Cuando leo en la Biblia",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28407,13 +28637,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 602,
     "name": "Es el amor divino",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28456,13 +28686,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 603,
     "name": "Yo temprano busco a Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28501,13 +28731,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 604,
     "name": "Bellas las manitas son",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28555,13 +28785,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 605,
     "name": "Jesús tiene tiempo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28582,13 +28812,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 606,
     "name": "Llama Jesús, el Buen Pastor",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28627,13 +28857,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 607,
     "name": "Nítido rayo por Cristo",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28681,13 +28911,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 608,
     "name": "Corazones siempre alegres",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28735,13 +28965,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 609,
     "name": "¡Oh jóvenes, venid!",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28809,13 +29039,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 610,
     "name": "Escuchamos tu llamada",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28864,13 +29094,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 611,
     "name": "Oh, juventud del Rey",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28891,13 +29121,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 612,
     "name": "Jesús te necesita hoy",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28927,13 +29157,13 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   },
   {
     "number": 613,
     "name": "Hoy nos toca trabajar",
-    "verseAssociated": null,
     "lyrics": [
       {
         "kind": "verse",
@@ -28985,6 +29215,7 @@
         ]
       }
     ],
+    "verseAssociated": null,
     "timestamps": [],
     "doubleChorus": false
   }

@@ -3,9 +3,7 @@ import { hymns } from '@/app/lib/hymns'
 import { Props } from '@/app/lib/nx'
 import { numberParser } from '@/app/lib/parsers/number'
 import { getThumbnail } from '@/app/lib/thumbnail'
-import { TextColor } from '@/app/lib/types'
-import LyricsScreen from '@/app/ui/hymn/player/lyrics-screen'
-import clsx from 'clsx'
+import HymnPlayerPage from '@/app/ui/hymn/player/hymn-player-page'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
@@ -75,34 +73,10 @@ export default function HymnPage({
 
   const thumbnail = getThumbnail(hymn.number)!
   return (
-    <main
-      className={clsx(
-        'bg-gray-50 h-dvh overflow-hidden bg-no-repeat bg-cover',
-        {
-          'bg-center':
-            thumbnail.orientation.x === 0 && thumbnail.orientation.y === 0,
-          'bg-left-top':
-            thumbnail.orientation.x < 0 && thumbnail.orientation.y < 0,
-          'bg-right-top':
-            thumbnail.orientation.x > 0 && thumbnail.orientation.y < 0,
-          'bg-left-bottom':
-            thumbnail.orientation.x < 0 && thumbnail.orientation.y > 0,
-          'bg-right-bottom':
-            thumbnail.orientation.x > 0 && thumbnail.orientation.y > 0,
-          'text-white [&_input]:accent-white':
-            thumbnail.textColor === TextColor.White,
-          'text-black [&_input]:accent-black':
-            thumbnail.textColor === TextColor.Black,
-        }
-      )}
-      style={{
-        backgroundImage: `url(https://7d-adventist-hymnal.vercel.app/images/full-images/${thumbnail.src}.webp)`,
-      }}>
-      <LyricsScreen
-        lyrics={prepareLyrics(hymn.lyrics, hymn.doubleChorus ?? false)}
-        hymn={hymn}
-        thumbnail={thumbnail}
-      />
-    </main>
+    <HymnPlayerPage
+      hymn={hymn}
+      thumbnail={thumbnail}
+      preparedLyrics={prepareLyrics(hymn.lyrics, hymn.doubleChorus ?? false)}
+    />
   )
 }
