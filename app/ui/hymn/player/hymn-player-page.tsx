@@ -3,7 +3,7 @@
 import { DividedLyric, Hymn, TextColor, Thumbnail } from '@/app/lib/types'
 import clsx from 'clsx'
 import LyricsScreen from './lyrics-screen'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { destroyAudio, getAudio } from '@/app/lib/hymn/player/get-audio'
 import LoadingPlayer from './loading-player'
 
@@ -18,21 +18,37 @@ export default function HymnPlayerPage({
   thumbnail,
   preparedLyrics,
 }: HymnPlayerPageProps) {
-  const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {
-    getAudio(hymn.number).then((a) => {
-      setAudio(a)
+    let cancelled = false
+    let loadedAudio: HTMLAudioElement | null = null
+
+    setIsLoaded(false)
+
+    getAudio(hymn.number).then((audio) => {
+      if (cancelled) {
+        destroyAudio(audio)
+      } else {
+        loadedAudio = audio
+        audioRef.current = audio
+        setIsLoaded(true)
+      }
     })
 
     return () => {
-      if (audio == null) return
-      destroyAudio(audio)
-      setAudio(null)
+      cancelled = true
+      if (loadedAudio) {
+        loadedAudio.pause()
+        destroyAudio(loadedAudio)
+      }
+      audioRef.current = null
     }
   }, [hymn.number])
 
-  if (audio == null) return <LoadingPlayer thumbnail={thumbnail} />
+  if (!isLoaded || audioRef.current == null)
+    return <LoadingPlayer thumbnail={thumbnail} />
 
   return (
     <main
@@ -62,7 +78,7 @@ export default function HymnPlayerPage({
         lyrics={preparedLyrics}
         hymn={hymn}
         thumbnail={thumbnail}
-        audio={audio}
+        audio={audioRef.current}
       />
     </main>
   )

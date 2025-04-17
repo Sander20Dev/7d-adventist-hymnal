@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { Hymn, DividedLyric } from '../../types'
-import { useFocus, useTime } from './player'
+import { useFocus } from './player'
 import { useIndex } from './timestamp'
 
 export function useAudio(
@@ -33,11 +33,8 @@ export function useAudio(
 
   const { focused, activeFocus, toogleFocus } = useFocus(mobile)
 
-  const time = useTime(activeFocus, audio, open)
-
   const { index, goNext, goPrev } = useIndex(
     activeFocus,
-    time,
     timestamps,
     audio,
     open

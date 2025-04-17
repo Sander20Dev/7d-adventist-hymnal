@@ -117,7 +117,7 @@ export default function LyricsScreen({
             <section>
               <TimeRng
                 audio={audio}
-                keysBlocked={!mobile}
+                keysBlocked={open}
                 activeFocus={activeFocus}
               />
             </section>
@@ -125,29 +125,29 @@ export default function LyricsScreen({
               <section>
                 <PrevBtn
                   goPrev={goPrev}
-                  keysBlocked={!mobile}
+                  keysBlocked={open}
                   activeFocus={activeFocus}
                 />
                 <PlayBtn
                   audio={audio}
-                  keysBlocked={!mobile}
+                  keysBlocked={open}
                   activeFocus={activeFocus}
                 />
                 <NextBtn
                   goNext={goNext}
-                  keysBlocked={!mobile}
+                  keysBlocked={open}
                   activeFocus={activeFocus}
                 />
                 {!mobile && (
                   <>
                     <MuteBtn
                       audio={audio}
-                      keysBlocked={!mobile}
+                      keysBlocked={open}
                       activeFocus={activeFocus}
                     />
                     <VolumeRng
                       audio={audio}
-                      keysBlocked={!mobile}
+                      keysBlocked={open}
                       activeFocus={activeFocus}
                     />
                   </>
@@ -155,10 +155,7 @@ export default function LyricsScreen({
               </section>
               <section>
                 <PosDurSpan audio={audio} />
-                <FullscreenBtn
-                  keysBlocked={!mobile}
-                  activeFocus={activeFocus}
-                />
+                <FullscreenBtn keysBlocked={open} activeFocus={activeFocus} />
               </section>
             </section>
           </section>

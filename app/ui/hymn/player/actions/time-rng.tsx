@@ -20,7 +20,6 @@ export default function TimeRng({
     if (audio == null) return
     const updateTime = () => {
       setTime(audio.currentTime)
-      activeFocus()
     }
     audio.addEventListener('timeupdate', updateTime)
     return () => {
@@ -36,6 +35,7 @@ export default function TimeRng({
       if (audio == null) return
       const num = +ev.key
       audio.currentTime = audio.duration * num * 0.1
+      activeFocus()
     })
 
     const moveForward10sKey = waitForKey(
@@ -43,6 +43,7 @@ export default function TimeRng({
       () => {
         if (audio == null) return
         audio.currentTime = Math.min(audio.currentTime + 10, audio.duration)
+        activeFocus()
       }
     )
     const moveBackward10sKey = waitForKey(
@@ -50,6 +51,7 @@ export default function TimeRng({
       () => {
         if (audio == null) return
         audio.currentTime = Math.max(audio.currentTime - 10, 0)
+        activeFocus()
       }
     )
 
@@ -73,7 +75,10 @@ export default function TimeRng({
       min={0}
       max={window.isNaN(audio.duration) ? 0 : audio.duration}
       value={time}
-      onChange={(ev) => (audio.currentTime = +ev.target.value)}
+      onChange={(ev) => {
+        activeFocus()
+        audio.currentTime = +ev.target.value
+      }}
       className='w-full'
     />
   )

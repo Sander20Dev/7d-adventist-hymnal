@@ -50,9 +50,10 @@ export default function VolumeRng({
     }
   }, [audio, keysBlocked])
 
-  const handleVolume = () => {
+  const handleVolume = (ev: React.ChangeEvent<HTMLInputElement>) => {
     activeFocus()
-    audio.volume = getVolumeStorage() / 100
+    const num = +ev.target.value
+    audio.volume = num / 100
   }
 
   return (

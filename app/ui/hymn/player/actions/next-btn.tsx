@@ -28,7 +28,7 @@ export default function NextBtn({
     return () => {
       window.removeEventListener('keydown', tooglePlayWithKey)
     }
-  }, [keysBlocked])
+  }, [keysBlocked, goNext])
 
   const handleNext = () => {
     activeFocus()

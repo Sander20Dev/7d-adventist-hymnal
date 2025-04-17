@@ -4,6 +4,9 @@ import clsx from 'clsx'
 export default function LoadingPlayer({ thumbnail }: { thumbnail: Thumbnail }) {
   return (
     <div
+      style={{
+        backgroundImage: `url(https://7d-adventist-hymnal.vercel.app/images/full-images/${thumbnail.src}.webp)`,
+      }}
       className={clsx(
         'h-dvh overflow-hidden bg-no-repeat bg-cover',
         {
@@ -25,8 +28,14 @@ export default function LoadingPlayer({ thumbnail }: { thumbnail: Thumbnail }) {
         'flex justify-center items-center'
       )}>
       <div
-        className='rounded-full w-16 h-16 animate-spin border-4 border-current border-t-transparent'
-        style={{ color: thumbnail.textColor }}></div>
+        className={clsx('p-4 rounded-full bg-backdrop', {
+          'bg-white': thumbnail.textColor === TextColor.Black,
+          'bg-black': thumbnail.textColor === TextColor.White,
+        })}>
+        <div
+          className='rounded-full w-16 h-16 animate-spin-clockwise animate-iteration-count-infinite border-8 border-current border-t-transparent'
+          style={{ color: thumbnail.textColor }}></div>
+      </div>
     </div>
   )
 }

@@ -28,7 +28,7 @@ export default function PrevBtn({
     return () => {
       window.removeEventListener('keydown', tooglePlayWithKey)
     }
-  }, [keysBlocked])
+  }, [keysBlocked, goPrev])
 
   const handlePrev = () => {
     activeFocus()

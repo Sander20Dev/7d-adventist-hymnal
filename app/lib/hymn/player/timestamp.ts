@@ -3,9 +3,8 @@ import { waitForKey } from './keys'
 
 export function useIndex(
   activeFocus: () => void,
-  time: number,
   timestamps: number[],
-  audio: HTMLAudioElement | undefined | null,
+  audio: HTMLAudioElement,
   keysBlocked: boolean
 ) {
   const [index, setIndex] = useState(-1)
@@ -19,7 +18,8 @@ export function useIndex(
     refreshIndex(index)
   }
   const goNext = () => {
-    if (index + 3 > timestamps.length) return
+    console.log(index, index + 2)
+    if (index + 2 > timestamps.length - 1) return
     activeFocus()
     setIndex(index + 1)
     refreshIndex(index + 2)
@@ -29,35 +29,19 @@ export function useIndex(
     if (!completedTimestamp) return
 
     const step = timestamps.findIndex(
-      (t, i, arr) => t <= time && time < (arr[i + 1] ?? Infinity)
+      (t, i, arr) =>
+        t <= audio.currentTime && audio.currentTime < (arr[i + 1] ?? Infinity)
     )
 
     if (step < 0) return
 
     setIndex(step - 1)
-  }, [time, timestamps])
-
-  useEffect(() => {
-    if (keysBlocked) return
-    const goPrevKey = waitForKey({ key: 'ArrowLeft' }, goPrev)
-    const goNextKey = waitForKey({ key: 'ArrowRight' }, goNext)
-
-    const goToIndexWithKey = (ev: KeyboardEvent) => {
-      goPrevKey(ev)
-      goNextKey(ev)
-    }
-    window.addEventListener('keydown', goToIndexWithKey)
-    return () => {
-      window.removeEventListener('keydown', goToIndexWithKey)
-    }
-  }, [index, keysBlocked])
+  }, [timestamps])
 
   const refreshIndex = (index: number) => {
     console.log(index, timestamps.length)
-    if (audio != null) {
-      if (!completedTimestamp) return
-      audio.currentTime = timestamps[index]
-    }
+    if (!completedTimestamp) return
+    audio.currentTime = timestamps[index]
   }
 
   const goTo = (index: number) => {
