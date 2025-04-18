@@ -1,15 +1,11 @@
 import { useEffect, useState } from 'react'
-import { waitForKey } from './keys'
 
 export function useIndex(
   activeFocus: () => void,
   timestamps: number[],
-  audio: HTMLAudioElement,
-  keysBlocked: boolean
+  audio: HTMLAudioElement
 ) {
   const [index, setIndex] = useState(-1)
-
-  const completedTimestamp = timestamps.filter((t) => t === 0).length === 1
 
   const goPrev = () => {
     if (index < 0) return
@@ -26,21 +22,27 @@ export function useIndex(
   }
 
   useEffect(() => {
-    if (!completedTimestamp) return
+    const refreshingIndexWhenSeeking = () => {
+      const step = timestamps.findIndex(
+        (t, i, arr) =>
+          t <= audio.currentTime && audio.currentTime < (arr[i + 1] ?? Infinity)
+      )
 
-    const step = timestamps.findIndex(
-      (t, i, arr) =>
-        t <= audio.currentTime && audio.currentTime < (arr[i + 1] ?? Infinity)
-    )
+      if (step < 0) return
+      if (step - 1 === index) return
 
-    if (step < 0) return
+      setIndex(step - 1)
+    }
 
-    setIndex(step - 1)
-  }, [timestamps])
+    audio.addEventListener('timeupdate', refreshingIndexWhenSeeking)
+
+    return () => {
+      audio.removeEventListener('timeupdate', refreshingIndexWhenSeeking)
+    }
+  }, [index])
 
   const refreshIndex = (index: number) => {
     console.log(index, timestamps.length)
-    if (!completedTimestamp) return
     audio.currentTime = timestamps[index]
   }
 

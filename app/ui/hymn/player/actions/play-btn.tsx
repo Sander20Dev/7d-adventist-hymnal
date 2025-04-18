@@ -14,10 +14,9 @@ export default function PlayBtn({
   keysBlocked,
   activeFocus,
 }: PlayBtnProps) {
-  const [played, setPlayed] = useState(!(audio?.paused ?? true))
+  const [played, setPlayed] = useState(!(audio.paused ?? true))
 
   useEffect(() => {
-    if (audio == null) return
     const updatePlayed = () => {
       setPlayed(!audio.paused)
       activeFocus()
@@ -28,13 +27,12 @@ export default function PlayBtn({
       audio.removeEventListener('play', updatePlayed)
       audio.removeEventListener('pause', updatePlayed)
     }
-  }, [audio])
+  }, [])
 
   useEffect(() => {
     if (keysBlocked) return
 
     const tooglePlayKey = waitForKey({ key: ' ' }, () => {
-      if (audio == null) return
       if (audio.paused) {
         audio.play()
       } else {
@@ -49,10 +47,9 @@ export default function PlayBtn({
     return () => {
       window.removeEventListener('keydown', tooglePlayWithKey)
     }
-  }, [audio, keysBlocked])
+  }, [keysBlocked])
 
   const handlePlay = () => {
-    activeFocus()
     if (audio.paused) {
       audio.play()
     } else {

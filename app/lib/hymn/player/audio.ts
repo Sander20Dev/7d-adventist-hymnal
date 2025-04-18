@@ -6,8 +6,7 @@ import { useIndex } from './timestamp'
 export function useAudio(
   audio: HTMLAudioElement,
   hymn: Hymn,
-  lyrics: DividedLyric[],
-  open: boolean
+  lyrics: DividedLyric[]
 ) {
   const timestamps = useMemo<number[]>(() => {
     let i = 0
@@ -22,23 +21,11 @@ export function useAudio(
       }),
       hymn.timestamps[hymn.timestamps.length - 1] ?? 0,
     ]
-  }, [hymn, lyrics])
-
-  const mobile = useMemo(() => {
-    if ((navigator as any)?.userAgentData) {
-      return (navigator as any).userAgentData.mobile as boolean
-    }
-    return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) as boolean
   }, [])
 
-  const { focused, activeFocus, toogleFocus } = useFocus(mobile)
+  const { focused, activeFocus, toogleFocus } = useFocus()
 
-  const { index, goNext, goPrev } = useIndex(
-    activeFocus,
-    timestamps,
-    audio,
-    open
-  )
+  const { index, goNext, goPrev } = useIndex(activeFocus, timestamps, audio)
 
   const handlePlay = () => {
     activeFocus()
@@ -58,16 +45,12 @@ export function useAudio(
     }
   }
 
-  const handleMobilePlay = mobile ? handlePlay : handleFullscreen
-  const handleMobileFocus = mobile ? toogleFocus : handlePlay
-
   return {
     index,
     focused,
     activeFocus,
-    handleMobileFocus,
-    handleMobilePlay,
-    mobile,
+    handleFullscreen,
+    handlePlay,
     goPrev,
     goNext,
   }

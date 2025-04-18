@@ -2,10 +2,11 @@
 
 import { DividedLyric, Hymn, TextColor, Thumbnail } from '@/app/lib/types'
 import clsx from 'clsx'
-import LyricsScreen from './lyrics-screen'
+import LyricsScreen from './screens/lyrics-screen'
 import { useEffect, useRef, useState } from 'react'
 import { destroyAudio, getAudio } from '@/app/lib/hymn/player/get-audio'
-import LoadingPlayer from './loading-player'
+import LoadingPlayer from './screens/loading-player'
+import { getThumbnailUrl } from '@/app/lib/thumbnail'
 
 interface HymnPlayerPageProps {
   hymn: Hymn
@@ -72,7 +73,10 @@ export default function HymnPlayerPage({
         }
       )}
       style={{
-        backgroundImage: `url(https://7d-adventist-hymnal.vercel.app/images/full-images/${thumbnail.src}.webp)`,
+        backgroundImage: `url(${getThumbnailUrl(
+          thumbnail.src,
+          'full-images'
+        )})`,
       }}>
       <LyricsScreen
         lyrics={preparedLyrics}

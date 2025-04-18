@@ -9,15 +9,16 @@ export default function PosDurSpan({ audio }: PosDurSpanProps) {
   const [pos, setPos] = useState(audio.currentTime)
 
   useEffect(() => {
-    if (audio == null) return
     const updatePos = () => {
-      setPos(audio.currentTime)
+      if (Math.floor(audio.currentTime) === pos) return
+
+      setPos(Math.floor(audio.currentTime))
     }
     audio.addEventListener('timeupdate', updatePos)
     return () => {
       audio.removeEventListener('timeupdate', updatePos)
     }
-  }, [audio])
+  }, [pos])
 
   return (
     <span className='text-nowrap'>

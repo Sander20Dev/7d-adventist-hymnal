@@ -14,25 +14,24 @@ export default function TimeRng({
   keysBlocked,
   activeFocus,
 }: TimeRngProps) {
-  const [time, setTime] = useState(audio?.currentTime ?? 0)
+  const [time, setTime] = useState(audio.currentTime ?? 0)
 
   useEffect(() => {
-    if (audio == null) return
     const updateTime = () => {
-      setTime(audio.currentTime)
+      if (Math.floor(audio.currentTime) === time) return
+
+      setTime(Math.floor(audio.currentTime))
     }
     audio.addEventListener('timeupdate', updateTime)
     return () => {
       audio.removeEventListener('timeupdate', updateTime)
     }
-  }, [audio])
+  }, [time])
 
   useEffect(() => {
     if (keysBlocked) return
-    if (audio == null) return
 
     const changeTimeKey = waitForKey({ key: numbers }, (ev) => {
-      if (audio == null) return
       const num = +ev.key
       audio.currentTime = audio.duration * num * 0.1
       activeFocus()
@@ -41,7 +40,6 @@ export default function TimeRng({
     const moveForward10sKey = waitForKey(
       { key: 'ArrowRight', shift: true },
       () => {
-        if (audio == null) return
         audio.currentTime = Math.min(audio.currentTime + 10, audio.duration)
         activeFocus()
       }
@@ -49,7 +47,6 @@ export default function TimeRng({
     const moveBackward10sKey = waitForKey(
       { key: 'ArrowLeft', shift: true },
       () => {
-        if (audio == null) return
         audio.currentTime = Math.max(audio.currentTime - 10, 0)
         activeFocus()
       }
@@ -66,7 +63,7 @@ export default function TimeRng({
     return () => {
       window.removeEventListener('keydown', changeTimwWithKey)
     }
-  }, [audio, keysBlocked])
+  }, [keysBlocked])
 
   return (
     <input

@@ -48,7 +48,7 @@ export default function VolumeRng({
     return () => {
       window.removeEventListener('keydown', chageVolumeWithKey)
     }
-  }, [audio, keysBlocked])
+  }, [keysBlocked])
 
   const handleVolume = (ev: React.ChangeEvent<HTMLInputElement>) => {
     activeFocus()
@@ -64,7 +64,7 @@ export default function VolumeRng({
       max={100}
       onChange={handleVolume}
       value={volume}
-      className='w-full max-w-32'
+      className='w-full max-w-32 max-sm:hidden'
     />
   )
 }

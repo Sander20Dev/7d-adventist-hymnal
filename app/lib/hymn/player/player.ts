@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { waitForKey } from './keys'
 
-export function useFocus(mobile: boolean) {
+export function useFocus() {
   const [focused, setFocused] = useState(true)
   const timer = useRef<number | null>(null)
 
@@ -33,12 +33,9 @@ export function useFocus(mobile: boolean) {
 
     setFocused(true)
 
-    timer.current = window.setTimeout(
-      () => {
-        setFocused(false)
-      },
-      mobile ? 5000 : 2000
-    )
+    timer.current = window.setTimeout(() => {
+      setFocused(false)
+    }, 5000)
   }
 
   const toogleFocus = () => {

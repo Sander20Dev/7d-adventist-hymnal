@@ -1,3 +1,4 @@
+import { getThumbnailUrl } from '@/app/lib/thumbnail'
 import { TextColor, Thumbnail } from '@/app/lib/types'
 import clsx from 'clsx'
 
@@ -5,7 +6,10 @@ export default function LoadingPlayer({ thumbnail }: { thumbnail: Thumbnail }) {
   return (
     <div
       style={{
-        backgroundImage: `url(https://7d-adventist-hymnal.vercel.app/images/full-images/${thumbnail.src}.webp)`,
+        backgroundImage: `url(${getThumbnailUrl(
+          thumbnail.src,
+          'full-images'
+        )})`,
       }}
       className={clsx(
         'h-dvh overflow-hidden bg-no-repeat bg-cover',

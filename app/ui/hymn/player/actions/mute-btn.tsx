@@ -37,12 +37,10 @@ export default function MuteBtn({
     audio.muted = muted
     setMutedStorage(muted)
     activeFocus()
-  }, [audio, muted])
+  }, [muted])
 
   useEffect(() => {
     if (keysBlocked) return
-
-    setMuted(audio.muted)
 
     const toogleMuteKey = waitForKey({ key: 'm' }, () => setMuted(!muted))
 
@@ -53,7 +51,7 @@ export default function MuteBtn({
     return () => {
       window.removeEventListener('keydown', toogleMuteWithKey)
     }
-  }, [audio, muted, keysBlocked])
+  }, [muted, keysBlocked])
 
   const handleMute = () => {
     activeFocus()
@@ -61,7 +59,7 @@ export default function MuteBtn({
   }
 
   return (
-    <Button onClick={handleMute} label='Silenciar' className='ml-2'>
+    <Button onClick={handleMute} label='Silenciar' className='ml-2' noMobile>
       {muted ? (
         <IconVolumeOff />
       ) : volume > 50 ? (
