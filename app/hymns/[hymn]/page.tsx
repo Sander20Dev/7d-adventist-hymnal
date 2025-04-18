@@ -2,6 +2,7 @@ import { hymns } from '@/app/lib/hymns'
 import { Props } from '@/app/lib/nx'
 import { numberParser } from '@/app/lib/parsers/number'
 import { getThumbnail } from '@/app/lib/thumbnail'
+import { relative_url, url_page } from '@/app/lib/url'
 import Back from '@/app/ui/hymn/back'
 import Footer from '@/app/ui/hymn/footer'
 import Header from '@/app/ui/hymn/header'
@@ -26,19 +27,13 @@ export async function generateMetadata({
   const title = 'Himno ' + number + ' - ' + hymn.name + ' - Himnario Adventista'
 
   return {
-    metadataBase: new URL('https://7d-adventist-hymnal.vercel.app'),
+    metadataBase: new URL(url_page),
     title,
     openGraph: {
       title,
-      url:
-        'https://7d-adventist-hymnal.vercel.app/hymns/' +
-        hymn.number +
-        '/player',
+      url: relative_url('/hymns/' + hymn.number + '/player'),
       type: 'website',
-      images:
-        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
-        thumbnail.src +
-        '.webp',
+      images: relative_url('/images/full-images/' + thumbnail.src + '.webp'),
       audio: [
         'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/track/hymn-' +
           hymn.number +
@@ -51,13 +46,9 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title,
-      images:
-        'https://7d-adventist-hymnal.vercel.app/images/full-images/' +
-        thumbnail.src +
-        '.webp',
+      images: relative_url('/images/full-images/' + thumbnail.src + '.webp'),
     },
-    icons:
-      'https://7d-adventist-hymnal.vercel.app/icons/' + thumbnail.src + '.webp',
+    icons: relative_url('/icons/' + thumbnail.src + '.webp'),
   }
 }
 
