@@ -9,31 +9,14 @@ export default function HymnCard(hymn: Hymn) {
 
   return (
     <div className='animate-fade-in-up min-w-52 max-w-60 bg-white border border-gray-200 rounded-lg shadow'>
-      <picture>
-        <source
-          srcSet={'/images/full-images/' + thumbnail.src + '.webp'}
-          media='(min-width: 600px)'
-        />
-        <img
-          className={clsx('rounded-t-lg aspect-video object-cover', {
-            'object-center':
-              thumbnail.orientation.x === 0 && thumbnail.orientation.y === 0,
-            'object-left-top':
-              thumbnail.orientation.x < 0 && thumbnail.orientation.y < 0,
-            'object-right-top':
-              thumbnail.orientation.x > 0 && thumbnail.orientation.y < 0,
-            'object-left-bottom':
-              thumbnail.orientation.x < 0 && thumbnail.orientation.y > 0,
-            'object-right-bottom':
-              thumbnail.orientation.x > 0 && thumbnail.orientation.y > 0,
-          })}
-          src={'/images/thumbnails/' + thumbnail.src + '.webp'}
-          loading='lazy'
-          alt={thumbnail.src}
-          width={1024}
-          height={576}
-        />
-      </picture>
+      <img
+        className='rounded-t-lg'
+        src={'/images/thumbnails/' + thumbnail.src + '.webp'}
+        loading='lazy'
+        alt={thumbnail.src}
+        width={1200}
+        height={630}
+      />
       <span className='block p-4'>
         <h2 className='mb-2 text-2xl font-bold tracking-tight text-gray-900'>
           Himno {hymn.number}

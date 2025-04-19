@@ -33,7 +33,7 @@ export async function generateMetadata({
       title,
       url: relative_url('/hymns/' + hymn.number + '/player'),
       type: 'website',
-      images: relative_url('/images/full-images/' + thumbnail.src + '.webp'),
+      images: relative_url('/images/thumbnails/' + thumbnail.src + '.webp'),
       audio: [
         'https://res.cloudinary.com/dnlcoyxtq/video/upload/audios/track/hymn-' +
           hymn.number +
@@ -46,7 +46,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title,
-      images: relative_url('/images/full-images/' + thumbnail.src + '.webp'),
+      images: relative_url('/images/thumbnails/' + thumbnail.src + '.webp'),
     },
     icons: relative_url('/icons/' + thumbnail.src + '.webp'),
   }

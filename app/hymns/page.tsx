@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Himnario Adventista - Historial',
   openGraph: {
     title: 'Himnario Adventista - Historial',
-    images: relative_url('/images/full-images/thumbnail-21.webp'),
+    images: relative_url('/images/thumbnails/thumbnail-21.webp'),
   },
 }
 
