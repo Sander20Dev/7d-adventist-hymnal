@@ -31,11 +31,7 @@ export default function ScreensIndex({
             key={'lyric-' + i + ':verse-' + j}
             textColor={thumbnail.textColor}>
             {lines.map((line, k) => (
-              <p
-                key={'lyric-' + i + ':verse-' + j + ':' + k}
-                className='text-xl sm:text-2xl md:text-3xl'>
-                {line}
-              </p>
+              <p key={'lyric-' + i + ':verse-' + j + ':' + k}>{line}</p>
             ))}
           </Screen>
         ))
@@ -54,7 +50,7 @@ function TitleScreen({
 }) {
   return (
     <Screen textColor={textColor}>
-      <h1 className='flex justify-center w-fit'>
+      <h1 className='flex justify-center items-center w-fit [font-size:inherit] [line-height:inherit]'>
         <p className='w-fit border-r-4 pr-2 border-current'>{hymn.number}</p>
         <p className='w-fit text-start pl-2'>{hymn.name}</p>
       </h1>
@@ -67,7 +63,7 @@ function Screen({
   children,
 }: React.PropsWithChildren<{ textColor: TextColor }>) {
   return (
-    <section className='flex flex-col justify-center items-center w-screen h-full p-4'>
+    <section className='flex flex-col justify-center items-center w-screen h-full p-4 text-xl sm:text-3xl md:text-4xl xl:text-5xl'>
       <div
         className={clsx(
           'bg-backdrop p-xl sm:p-2xl md:p-3xl rounded-md text-center',

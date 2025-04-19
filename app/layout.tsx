@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Rosario } from 'next/font/google'
+// import { Roboto } from 'next/font/google'
 import './globals.css'
 import { url_page } from './lib/url'
 
-const rosario = Rosario({ subsets: ['latin'] })
+// const rosario = Roboto({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL(url_page),
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={rosario.className}>{children}</body>
+      <body className={'font-system'}>{children}</body>
     </html>
   )
 }
